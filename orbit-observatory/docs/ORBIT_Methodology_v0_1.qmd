@@ -1,0 +1,591 @@
+---
+title: "ORBIT: A defensible distance"
+subtitle: "Methodology proposal v0.1 | Draft for agreement"
+author: "ORBIT project"
+date: "2026-10-21"
+date-format: "D MMMM YYYY"
+lang: en
+toc: true
+toc-depth: 2
+number-sections: true
+format:
+  html:
+    theme: cosmo
+    embed-resources: true
+    toc-location: left
+    smooth-scroll: true
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrartcl
+    pdf-engine: lualatex
+    papersize: a4
+    fontsize: 11pt
+    geometry:
+      - margin=22mm
+    colorlinks: true
+    linkcolor: teal
+    urlcolor: teal
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<!-- Self-contained Quarto source. No datasets, Python/R kernels or external
+     bibliography files are required. Render with:
+     quarto render ORBIT_Methodology_v0_1.qmd --to html
+     quarto render ORBIT_Methodology_v0_1.qmd --to pdf
+     PDF output requires a LaTeX installation such as TinyTeX.
+     The referenced sources and methodology text are preserved from v0.1. -->
+
+# A defensible distance
+
+ORBIT / Methodology proposal v0.1 / 21 October 2026
+
+> Decision draft. No new country scores are asserted here. All numerical examples are synthetic. This proposal precedes corpus collection, model training, and backend changes. The existing visual design stays in place.
+
+ORBIT should show where official public statements stand on a specified policy question. Its strongest claim is deliberately precise: a planet summarizes the direction of expressed positions in a documented collection of official communication events. It does not measure a country’s private intentions, friendship, military alignment, or overall foreign policy.
+
+## The recommendation
+
+Use a **stance-first, evidence-linked scale**. Define a policy proposition; identify statements that actually take a position on it; estimate support or opposition; aggregate them with published weights; map that score linearly to the horizontal axis. Keep the proposition fixed across years so that movement has a stable meaning.
+
+For the first release, display the **United States and European Union** in the Russia–Ukraine universe. Start with one lens: recognition of Ukraine’s sovereignty over its internationally recognized territory. Other policy lenses can follow. A general “pro-Russia versus pro-Ukraine” index would hide too many different judgments.
+
+| Layer | What happens | What the reader can inspect |
+| --- | --- | --- |
+| Evidence | Official text is segmented into attributable policy claims. | Original document, context, date and exact highlighted span. |
+| Machine learning | A target-conditioned model estimates stance probabilities. | Target, probabilities, model version and review status. |
+| Measurement | Claims become event, quarter and annual summaries. | Every weight, inclusion rule and numerical contribution. |
+| Visual | The score determines the analytical position. | Distance formula, coverage and uncertainty. |
+
+## What makes the idea useful
+
+The click-through explanation should answer: **“Which evidence placed this planet here, and would it move if our assumptions changed?”** A contribution ledger and a sensitivity view can answer this exactly at the aggregation layer. The transformer itself remains a learned model whose errors must be measured.
+
+The proposed formulas are an ORBIT research design, not a method already validated by the cited papers. The literature supports its components and warns about its failure modes. Validation on this diplomatic corpus is still required.
+
+# What the literature supports
+
+A focused methodological review, not a claim of exhaustive coverage
+
+The most relevant work spans political text scaling, target-specific stance detection, aggregate estimation, calibration, and uncertainty. These traditions solve different problems. Combining them is more defensible than treating semantic similarity as a political position.
+
+| Approach / source | Useful contribution | ORBIT decision and limitation |
+| --- | --- | --- |
+| Wordscores [2] | Uses reference texts to orient a political scale. | Make orientation explicit. Reference vocabulary can mix topic, style and stance. |
+| Wordfish [3] | Estimates positions from word-frequency patterns. | Useful benchmark or exploratory tool. The learned dimension is not automatically territorial recognition. |
+| Stance detection [4] | Classifies a position toward a specified target. | Use the policy proposition as model input. Tweet benchmarks do not validate diplomatic applications. |
+| Sentence-BERT [5] | Makes semantic retrieval computationally practical. | Use embeddings to find candidates, not as the final alignment score. |
+| Text-as-data validation [1] | Requires substantive validation for each application. | Use human coding, error analysis and actor-level checks. |
+| Calibration [6] | Tests whether confidence corresponds to correctness. | Calibrate on held-out data and recheck under temporal shift. |
+| Composite indicators [7] | Makes weighting and sensitivity explicit. | Publish weights; equal weighting is still a choice. |
+| Measurement error [8] | Treats text-derived positions as uncertain. | Report event resampling and model error separately from coverage. |
+| Quantification [10,12] | Distinguishes individual labels from aggregate proportions. | Validate country-period scores, not just classifier accuracy. |
+
+## Why cosine distance is insufficient
+
+“We support sanctions” and “we reject sanctions” discuss the same subject and can be close in embedding space. A country can also quote an opponent in order to criticize it. Retrieval similarity identifies potentially relevant material; attribution and stance establish what the speaker actually endorses.
+
+A UMAP or other semantic map can be an optional exploration view. Its geometry should not supply the public policy score: dimension reduction and changing document collections can alter distances without a corresponding change in the policy proposition.
+
+# Define the question before the score
+
+Construct validity / one lens first
+
+The main unit is **actor × policy proposition × time window × source scope**. “US, 2024” alone is not a complete measurement definition. A lens is a policy question with a written codebook, temporal scope, and rules for support, opposition and non-answers.
+
+| Candidate lens | Positive direction | Negative direction / boundary |
+| --- | --- | --- |
+| Territorial recognition: default | Affirms Ukraine’s sovereignty over its internationally recognized territory; rejects legal recognition of annexation. | Endorses legal recognition of Russian annexation or denies Ukraine’s sovereignty over the relevant territory. Generic “sovereignty matters” is insufficient. |
+| Russian troop withdrawal | Calls for Russian forces to leave all internationally recognized Ukrainian territory. | Explicitly endorses continued Russian military control of that territory. A ceasefire proposal alone is not opposition. |
+| Military assistance | Supports external military assistance to Ukraine under the specified policy definition. | Opposes that assistance. Distinguish aid type, conditions and recipient. |
+| Sanctions | Supports specified restrictive measures against Russia because of its actions in Ukraine. | Opposes those measures. Distinguish adoption, maintenance and removal conditions. |
+| Responsibility: later lens | Attributes responsibility for the February 2022 full-scale invasion to the Russian state. | Explicitly rejects that attribution. This target is not applicable to pre-2022 speech. |
+
+Each entry still needs a pilot codebook. For example, a statement supporting territorial integrity while accepting temporary de facto control is not necessarily support for legal annexation. Split different propositions and preserve qualifications rather than forcing one label onto the paragraph.
+
+## Topics that do not determine direction by themselves
+
+Negotiation, peace, civilian protection, humanitarian aid, food prices, and escalation concerns can be expressed by multiple sides. Code their salience separately unless a specific policy target makes the direction identifiable. Calls for negotiations must not automatically move an actor toward Russia.
+
+## Interpret the black holes carefully
+
+For the default lens, the endpoints are **fixed policy reference positions**, visually associated with Ukraine and Russia. They are not whole-country personalities or moral scores. The dossier should name the endpoint propositions. If a lens has no defensible opposing endpoints, do not force it into this two-pole universe.
+
+# Whose voice counts?
+
+Source eligibility, event identity and comparable scope
+
+The target population is eligible official public communication, not all internet text mentioning the conflict. Before collection, publish an institution whitelist, document-type list, languages, search procedure, retrieval date and known archive gaps. Public availability does not establish completeness.
+
+| Actor / stream | Primary scope proposed for v1 | Kept separate |
+| --- | --- | --- |
+| United States | President / White House and State Department statements attributable to the executive, including authorized spokespersons and US diplomatic representatives. | Congress, campaigns, former officials, personal comments, journalism and think tanks. |
+| European Union | Adopted European Council / Council of the EU positions and statements explicitly issued on behalf of the EU by its authorized representatives. | Individual member states; European Parliament positions; Commission or officeholder comments without an explicit common-position mandate. |
+| UN General Debate | A separate, consistently defined comparison stream when a qualifying statement exists for the actor and year. | Do not silently mix one annual UN speech with a much denser press-release stream. |
+
+This EU definition measures **common official positions**, not the average opinion of EU members. The US executive and the EU’s common-position institutions are not identical constitutional units. Comparisons must carry this scope note. Additional EU institutional streams can be analyzed later, with their own labels.
+
+## Communication events, not downloaded pages
+
+One speech can appear as a transcript, press release, translation, excerpt and repost. Assign these to one event ID. Deduplicate syndicated joint statements across mirrors, preserve each actor’s explicit endorsement, and keep linked copies together in training/test splits. Repetition within one event does not purchase extra weight.
+
+A new statement on a later date is normally a new event even if it repeats a policy. Persistent repetition is meaningful evidence about public communication. Exact automated reposts without a new substantive act remain duplicates. Record this distinction so sensitivity analysis can test alternative clustering.
+
+## Time and language
+
+Use the date of delivery or issuance, not the crawl date. Preserve the original text and official English translation where available. Store language, translator provenance, publication date and retrieval date. Do not count translations as independent evidence. The UN General Debate corpus offers a useful structured starting point [9]; inspect its actual release and coverage rather than assuming it extends to 2026.
+
+# From documents to policy claims
+
+A feasible Python and NLP pipeline
+
+| Stage | Method | Required audit |
+| --- | --- | --- |
+| 1. Acquire | Download approved official documents; retain stable URLs, snapshots where permitted, and text hashes. | Archive failures, missing years, source scope and changed pages. |
+| 2. Retrieve | Combine keyword search and sentence-embedding retrieval for each lens. | Manually inspect sampled non-retrieved text to estimate missed relevant passages. |
+| 3. Attribute | Identify the actual speaker, quoted material, modality and negation. | Quotation is not endorsement; a reporter’s question is not the government’s position. |
+| 4. Segment | Extract atomic policy claims with adjacent context. | Split mixed paragraphs. Merge repeated formulations of the same claim within an event. |
+| 5. Classify | Feed proposition + claim + bounded context to a supervised stance model. | Separate support, opposition, no stance, and unresolved or mixed cases. |
+| 6. Aggregate | Apply published event and time weights to eligible stance-bearing claims. | Save complete provenance, review status, weights and contributions. |
+
+## The model is genuinely machine learning
+
+Build a TF-IDF + logistic-regression baseline, then compare a pretrained transformer fine-tuned for target-conditioned stance. Sentence embeddings can support retrieval [5]. A pretrained natural-language-inference model may help suggest labels during the pilot, but its outputs are not validated political measurements without human evaluation.
+
+Use human-coded training examples from both support and opposition. US and EU material alone may contain too few opposing examples to teach the distinction. A clearly labeled auxiliary set of official Russian and Ukrainian statements can supply contrastive training examples without adding displayed actors. Keep auxiliary-source performance separate from US/EU evaluation.
+
+## Do not let the model invent the evidence
+
+Highlights must use character offsets into stored source text. The model can select a span; it must not manufacture a quotation. Preserve surrounding sentences and the target proposition. Any generated summary is a secondary reading aid and must never substitute for the text used to score the claim.
+
+Machine learning should infer stance; the measurement layer should calculate position transparently. Python can handle acquisition, annotation, scikit-learn baselines, transformer training and API output. The existing web scene can consume versioned JSON without redesign.
+
+# Score the claim, then the event
+
+Direction is not confidence, intensity or diplomatic tone
+
+First determine whether a claim expresses an attributable position on the exact target. No stance is a separate outcome, not the middle of the political scale. Split genuinely mixed claims when possible. Unresolved attribution, scope or meaning should trigger review and remain visible in coverage statistics.
+
+For an eligible, stance-bearing claim i, let p_i be its calibrated probability of supporting the proposition. The opposing probability is 1 − p_i. The signed expected stance is:
+
+$$
+s_i=(+1)p_i+(-1)(1-p_i)=2p_i-1
+$$
+
+| Example | Score | Meaning |
+| --- | --- | --- |
+| p_i = 0.90 | s_i = +0.80 | The model assigns more probability to support than opposition. |
+| p_i = 0.50 | s_i = 0.00 | The direction is uncertain. This does not establish a neutral policy. |
+| No attributable stance | No score | Exclude from the stance denominator; retain its retrieval and salience record. |
+
+A multiclass system can implement a relevance/attribution gate followed by a binary stance head. Do not mechanically renormalize negligible support and opposition probabilities from an irrelevant passage. Gate and abstention thresholds must be chosen on validation data and published.
+
+## Calibrate before averaging
+
+Raw neural confidence is often unreliable; held-out temperature scaling is a practical candidate [6]. Compare calibration methods on a dedicated split using Brier score, log loss and reliability plots. Calibration measured in one period is not guaranteed in another. A probability of 0.9 is not “90% political support” or “90% certainty about the country.”
+
+## Give each event one budget
+
+If event e contains m_e distinct eligible claims for the same lens, average them. A long speech does not receive more total weight than a short eligible event. Repeated wording of one claim is collapsed first.
+
+$$
+s_e=\frac{1}{m_e}\sum_{i\in e}s_i
+$$
+
+This is the event’s average expressed direction, not a measure of rhetorical intensity. A strongly worded sentence and a restrained sentence can endorse the same proposition. Do not add a sentiment-strength multiplier. For a manually adjudicated score, store the human label and provenance explicitly instead of disguising it as a model probability.
+
+# Weights that readers can reconstruct
+
+Equal events within quarters; equal quarters within a complete year
+
+The default annual estimand is the average quarterly direction of eligible official communication events. It is not the stance of an average word, webpage, or randomly selected calendar day. This distinction determines the weighting scheme.
+
+Here $Q$ is the number of covered quarters, $n_q$ is the number of eligible events in quarter $q$, and $m_e$ is the number of distinct eligible claims in event $e$.
+
+$$
+\begin{aligned}
+a_e&=\frac{1}{Qn_q},\qquad e\in q\\
+S_q&=\frac{1}{n_q}\sum_{e\in q}s_e\\
+S_{\mathrm{year}}&=\frac{1}{Q}\sum_{q=1}^{Q}S_q=\sum_e a_e s_e\\
+c_i&=\frac{a_e}{m_e}s_i,\qquad i\in e
+\end{aligned}
+$$
+
+Every covered quarter receives the same budget. Events share their quarter’s budget, and distinct claims share their event’s budget. Claim contributions sum exactly to the displayed score. Publish this ledger so a reader can reproduce the result with a spreadsheet.
+
+| Weight choice | Default | Reason and trade-off |
+| --- | --- | --- |
+| Official status | Eligibility rule, not a numerical prestige multiplier. | “President = 3, minister = 2” is arbitrary. Compare authority strata separately. |
+| Document length | No extra event weight. | Prevents long speeches and repeated passages from dominating. |
+| Calendar coverage | Equal quarter budgets. | Limits a news-heavy quarter’s dominance, but gives sparse quarters more weight per event. |
+| Model confidence | Already enters through p_i. | Multiplying again by confidence would change the estimand and favor easy language. |
+| Recency | None within an annual estimate. | An annual average is not a latest-position estimate. Offer a separately labeled rolling window later. |
+| GDP / military power | None. | Those measure actor capacity, not expressed policy direction. |
+
+## Why not weight by the number of documents?
+
+Suppose quarterly means are 0.7, 0.3, −0.3 and 0.5, with 8, 2, 2 and 2 events. Pooling all events yields 0.471; equal-quarter weighting yields 0.300. Neither is mathematically wrong: they answer different questions. ORBIT should declare the latter as its default and show the former as a sensitivity result.
+
+These weights are proposed design choices, not values discovered by a transformer or mandated by the literature. The composite-indicator literature supports making such choices and their consequences inspectable [7].
+
+# Turn stance into distance
+
+A linear scale with a stable interpretation
+
+For one lens, place the negative reference at −1 and the positive reference at +1. Let S be the aggregate stance in [−1, +1]. The analytical position is x = S. Normalize distances by the full distance between the reference points:
+
+$$
+\begin{aligned}
+d_U&=\frac{1-S}{2}\\
+d_R&=\frac{1+S}{2}\\
+d_U+d_R&=1
+\end{aligned}
+$$
+
+Here U denotes the positive territorial-recognition reference and R the negative reference. A score of +0.60 gives d_U = 0.20 and d_R = 0.80: the point is one fifth of the axis length from the positive reference. This is a distance on the declared policy scale, not a probability of alliance.
+
+## How the 3D scene should use it
+
+If the reference axis has world-space length D and is centered at zero, set the analytical horizontal coordinate to (D / 2) × S. Rendered planet size, orbit, lighting and camera perspective do not change the score. Use small perpendicular offsets for collisions; document that the quantitative distance is measured along the policy axis, not the full 3D straight line.
+
+If the existing design retains extra visual space around the black holes, label the analytical scale independently. Do not silently equate decorative screen spacing with the numeric distance. This is a later implementation contract, not a request to redesign the scene now.
+
+## Why the reference stays fixed
+
+The supplied concept brief usefully proposes issue-specific evidence and evolving narrative anchors [14]. For longitudinal measurement, however, moving both the actor and the yardstick can make apparent movement ambiguous. ORBIT’s default should therefore freeze the policy proposition and its orientation across years.
+
+An optional future “relative rhetoric” mode could compare an actor with contemporaneous Russian and Ukrainian reference corpora. It must show reference drift separately and use a distinct score name. New facts and qualifications belong in a versioned codebook; a changed proposition requires a new series or a documented bridge study.
+
+## Avoid decorative mathematics
+
+No inverse-square gravity, softmax attraction, or nonlinear animation curve is needed to estimate the score. Those would introduce extra tuning parameters and magnify distances without improving measurement. Visual motion can be smooth; the underlying scale should remain linear.
+
+# A complete numerical example
+
+Synthetic actor, synthetic evidence; no claim about US or EU policy
+
+Assume one eligible stance-bearing claim per event and two independent events in each quarter. The probabilities below are hypothetical calibrated model outputs. Every event has annual weight 1/8.
+
+| Quarter | Event | p(support) | s = 2p − 1 | Annual contribution |
+| --- | --- | --- | --- | --- |
+| Q1 | E1 | 0.90 | +0.80 | +0.100 |
+| Q1 | E2 | 0.80 | +0.60 | +0.075 |
+| Q2 | E3 | 0.70 | +0.40 | +0.050 |
+| Q2 | E4 | 0.60 | +0.20 | +0.025 |
+| Q3 | E5 | 0.40 | −0.20 | −0.025 |
+| Q3 | E6 | 0.30 | −0.40 | −0.050 |
+| Q4 | E7 | 0.80 | +0.60 | +0.075 |
+| Q4 | E8 | 0.70 | +0.40 | +0.050 |
+
+$$
+\begin{aligned}
+(S_{Q1},S_{Q2},S_{Q3},S_{Q4})&=(0.70,0.30,-0.30,0.50)\\
+S_{\mathrm{year}}&=\frac{0.70+0.30-0.30+0.50}{4}=0.30\\
+d_U&=0.35,\qquad d_R=0.65
+\end{aligned}
+$$
+
+The planet is closer to the positive territorial-recognition reference. Its underlying evidence includes opposition in Q3. “Positive annual average” must not be presented as unanimous support.
+
+## What changes the result?
+
+If E1 is mirrored on five websites, deduplication leaves the score unchanged. If E1 has ten repetitions of the same policy claim, within-event consolidation leaves the score unchanged. If it contains distinct support and opposition claims, its event average changes and both must be visible.
+
+If E6 is removed, Q3 becomes −0.20 and the annual score becomes +0.325. The influence of that removal is +0.025, because the remaining Q3 event inherits the quarter’s budget. Leave-one-event sensitivity must recompute the hierarchy; simply deleting one contribution is incorrect.
+
+> The explanation can be exact: “Your selected evidence and weights produce +0.30. The eight contributions above sum to that value.” That explains the aggregation. It does not prove that every model label is correct.
+
+# One position can hide different policies
+
+An optional multidimensional extension, after the first lens is validated
+
+Do not start with one all-purpose geopolitical score. First validate separate policy lenses. If a composite is later needed, predefine its dimensions and nonnegative weights w_k summing to one. Use a complete, consistent panel; do not silently redistribute a missing dimension’s weight.
+
+$$
+\begin{aligned}
+S&=\sum_k w_k s_k\\
+d_a&=\frac{1}{2}\sqrt{\sum_k w_k(s_k-a_k)^2}
+\end{aligned}
+$$
+
+For clearly opposed, consistently oriented dimensions, reference vectors can be U = (+1, …, +1) and R = (−1, …, −1). These are explicit policy bundles, not empirical averages of everything either country says. If a dimension does not fit these endpoints, exclude it from that composite or define a different, validated reference system.
+
+Equal weights are an understandable baseline, not an objective discovery. Avoid counting almost identical territorial-recognition and withdrawal items as independent “votes” without examining overlap. Group related items or select one representative item; publish alternatives. Learn weights only if there is an independently justified prediction target, which is a different task.
+
+$$
+H=\frac{1}{2}\sqrt{\sum_k w_k(s_k-S)^2}
+$$
+
+H measures how much the actor’s policy-specific scores differ from its own composite mean. It is not model uncertainty. An actor can have a very well-measured but internally varied policy profile.
+
+| Synthetic profile; equal weights | S | d_U | d_R | H |
+| --- | --- | --- | --- | --- |
+| A: (+0.30, +0.30, +0.30, +0.30) | 0.300 | 0.350 | 0.650 | 0.000 |
+| B: (+0.80, +0.60, −0.40, +0.20) | 0.300 | 0.418 | 0.689 | 0.229 |
+
+> A and B occupy the same horizontal composite position, but B is farther from both complete policy bundles. Its dossier should reveal that difference. A midpoint can mean a cross-cutting policy profile, not indifference.
+
+Multidimensional distances generally do not sum to one. Do not reuse the single-axis distance formula and call it full profile distance. For the first release, keep one lens active at a time and reserve this composite for an explicitly labeled advanced view.
+
+# Missing evidence is not the middle
+
+Coverage, ambiguity and disagreement need different signals
+
+| Situation | What it means | Display treatment |
+| --- | --- | --- |
+| No eligible statements | No measured position for that window and lens. | Null score; unscored state, never a centered planet labeled neutral. |
+| Support and opposition across events | Observed disagreement, change, or qualifications that need inspection. | Show the mixture and its dates alongside the average. |
+| Low-confidence classification | The model cannot confidently identify direction. | Flag model ambiguity; prioritize review. Do not label the actor neutral. |
+| Different directions across lenses | A cross-cutting policy profile. | Show separate lens scores and profile divergence. |
+| Incomplete archive or time window | The collected evidence may be unrepresentative. | Coverage warning and partial-window label; no false precision. |
+
+## Proposed publication rules
+
+An annual point should require all four quarters, with at least two eligible communication events on distinct dates in each quarter. This minimum of eight is a **provisional coverage gate**, not statistical proof of adequate precision. Display event counts and an effective event count: n_eff = 1 / sum_e(a_e²). It describes weight concentration, not guaranteed independence.
+
+If the gate fails, show a provisional window estimate or no position, depending on the evidence, with the exact covered dates. Do not fill empty years by interpolation or carrying a prior score forward. Lack of statements is not evidence that policy stayed unchanged. A 2012–2026 slider can legitimately contain unscored years.
+
+For 2026, the current year, show a data cutoff and mark the result year-to-date. Compare matching windows across years when making change claims. A completed-quarter-only mode is simplest; any partial-quarter mode needs an explicit rule. Targets about the 2022 invasion are not applicable before that event.
+
+## Abstention must not silently improve the score
+
+Report how many candidate claims remain unresolved and where they occur. Selective model abstention can bias the average. As a sensitivity calculation, fix the intended normalized weights, let unresolved weight mass be u, and let resolved claims contribute T. The unknown full score lies in [T − u, T + u] if unresolved scores may range from −1 to +1. This bound covers those known unresolved items, not documents the search never found.
+
+# Uncertainty without false reassurance
+
+Three separate questions, three separate outputs
+
+## 1. How sensitive is the estimate to observed events?
+
+Resample communication-event clusters within each quarter and recompute the complete aggregation, for example with 2,000 bootstrap replicates. Keep all claims, translations and copies of an event together. Report the 2.5th and 97.5th percentiles as a **conditional event-resampling interval**. This adapts text-measurement uncertainty principles [8] to ORBIT’s event hierarchy; it is not that paper’s original procedure.
+
+The interval describes variability under an exchangeability approximation for the observed event collection. With very few events, repeated official messaging, or dependent events, it may be unstable or artificially narrow. Report cluster counts and leave-one-event results; suppress the interval if the pilot shows it is uninformative. Eight events is not enough to promise a reliable interval.
+
+## 2. How much error comes from the model?
+
+Measure errors on independently labeled held-out events. Compare alternate trained model fits and calibrated probabilities; report how much the aggregate shifts. An advanced nested bootstrap can refit the classifier on resampled training-event clusters and resample evaluation events. If computationally infeasible, present separate model-variation and event-resampling ranges rather than an unjustified combined confidence interval.
+
+Do not obtain a complete uncertainty interval merely by drawing independent labels from each p_i. Such draws miss shared systematic errors, source selection and domain drift. Classification probabilities, bootstrap ranges and expert disagreement are related but different forms of information.
+
+## 3. What does the collection fail to observe?
+
+A large, precise-looking corpus can still systematically miss relevant sources or difficult passages. Report archive coverage, retrieval audit results, institution coverage, unresolved material and translation limitations. Neither a bootstrap nor a larger language model repairs nonrandom missingness automatically.
+
+## Quantify observed disagreement separately
+
+$$
+V_{\mathrm{events}}=\sum_e a_e(s_e-S)^2
+$$
+
+V_events describes dispersion of estimated event scores, not pure political disagreement or a standard error. Inspect whether variation reflects chronology, policy qualifications or model mistakes. Where labels are human-validated, also report the weighted shares of supporting and opposing claims. A narrow sampling range can coexist with strongly conflicting evidence.
+
+For an interval [L, U] on S, the corresponding positive-reference distance interval is [(1 − U)/2, (1 − L)/2]. Round public scores sensibly, for example to two decimals. More decimals do not create more knowledge.
+
+# Validate the measurement, not just the classifier
+
+A predeclared evaluation plan
+
+Begin with approximately 200 doubly coded claims spanning actor, year, institution, lens and difficult language. This is a codebook pilot, not a sufficient training-size guarantee. Expand toward 600–1,000 labeled claims if feasible, then use learning curves and class coverage to decide what is adequate. These are planning budgets, not literature-derived thresholds.
+
+| Validation layer | What to measure | Why it matters |
+| --- | --- | --- |
+| Human codebook | Agreement, confusion patterns and an intercoder reliability statistic; adjudicate disagreements. | A model cannot rescue a target that humans cannot apply consistently. |
+| Retrieval / attribution | Recall on a manually audited document sample; quotation and speaker errors. | Correct labels on a biased retrieved subset still give biased positions. |
+| Claim labels | Per-class precision/recall, macro-F1 and errors by lens, actor, time and source. | High overall accuracy can hide failure on rare opposition. |
+| Probabilities | Brier score, log loss and reliability plots on held-out data. | Averaging confident mistakes can shift the planet systematically. |
+| Aggregate positions | Absolute error and signed bias against human-coded event and window aggregates using identical weights. | The final product is a position estimate, not a label leaderboard. |
+| Robustness | Alternative weights, exclusions, models and definitions. | A useful finding should survive reasonable analytic choices. |
+
+## Prevent leakage and test change over time
+
+Split by complete event cluster, never random sentences. A joint statement, its translation and all mirrors must remain in the same partition even across actors. Reserve a later period as a final temporal test. Keep model tuning, probability calibration and final testing separate. With scarce labels, use grouped cross-validation for development and retain a small untouched prospective test.
+
+Oversample rare or difficult cases for training and diagnostic evaluation. Calibration and main performance estimates need representative sampling or appropriate sampling weights; a deliberately balanced test set does not estimate natural class prevalence. Report both diagnostic and representative results.
+
+Evaluate aggregate bias explicitly. Political content analysis and quantification research show why good individual classification is not sufficient for accurate proportions [10,12]. Compare calibrated probability averaging with simple baselines; consider prevalence-adjustment methods only if they improve held-out aggregate results under plausible shift assumptions.
+
+Before seeing final results, agree on a useful error tolerance. An illustrative target is aggregate mean absolute error no greater than 0.10 on the −1 to +1 scale, equivalent to 0.05 axis-distance error. This is a proposed product requirement, not a universal research standard. Report uncertainty around performance; do not declare success from a tiny test.
+
+# Stress-test every attractive conclusion
+
+A small, predeclared sensitivity grid
+
+| Change one assumption | Keep fixed | Question answered |
+| --- | --- | --- |
+| Equal-quarter versus equal-event weights | Same eligible claims and stance outputs. | Does the conclusion depend on publication volume? |
+| Remove one event / institution stream | Recompute the same hierarchy. | Does one source or communication drive the score? |
+| Strict versus broader institutional scope | Codebook and model. | Is the result about common policy or a mix of institutional voices? |
+| Human-adjudicated versus model-only labels | Same sample and weights. | How much displacement is caused by model error? |
+| Baseline versus transformer / alternate fits | Same held-out data and weights. | Is the result tied to one modeling choice? |
+| Alternative defensible codebook boundaries | Explicitly identified ambiguous cases. | Does interpretation of qualified speech drive the result? |
+| Auxiliary: fixed versus changing reference corpora | Clear labels for each estimand. | Is apparent movement caused by the actor, the reference, or both? |
+
+Publish the score range across these choices as a **sensitivity range**, not a statistical confidence interval. If reasonable assumptions reverse the direction, report that the evidence does not support a robust directional conclusion. Do not select the setting that produces the most dramatic animation.
+
+## Measure salience separately
+
+A period with one relevant stance among many official documents differs from a period dominated by the issue. Where the collection denominator is well defined, show the share of eligible collected communication events mentioning the lens. Label it corpus salience, and state the retrieval scope. It does not belong in the stance score as an extra multiplier.
+
+## External checks are useful, but not interchangeable
+
+UN voting, enacted sanctions and aid decisions can help examine whether rhetoric and behavior move together. They measure different things and should remain separate validation or comparison layers. Do not secretly mix them into the speech score. For the EU, do not invent a single common vote by averaging member-state votes without a separate methodology.
+
+## What an explanation can honestly claim
+
+Source spans and additive contributions make the measurement auditable. They do not fully explain the transformer’s internal reasoning. Interpretability research distinguishes a plausible explanation from a faithful account of a model’s behavior [11]. ORBIT should promise an inspectable evidence chain and evaluated model performance, not total transparency of a neural network.
+
+# A reproducible backend contract
+
+Enough structure for implementation after agreement
+
+| Record | Minimum fields |
+| --- | --- |
+| Document | document_id; canonical_url; publisher; institution; title; delivery_date; publication_date; retrieved_at; language; translation_of; text_hash; permitted snapshot location. |
+| Event | event_id; actor_id; source_scope_version; event_type; event_date; document_ids; duplicate_cluster_id; joint_statement_id. |
+| Claim | claim_id; event_id; lens_id; target_text; context; start/end offsets; speaker; attribution status; stance-bearing status; qualifications; unresolved reason. |
+| Prediction / review | support probability; stance score; model and calibration versions; training-data version; human label; annotator/review status; correction history. |
+| Aggregate | actor; lens; window; coverage dates; event counts by quarter; effective event count; weights; contributions; score or null; interval type; sensitivity results; limitations. |
+| Release | code commit; source manifest; corpus version; codebook version; model version; weighting version; release timestamp; data cutoff. |
+
+## Minimal configuration to version in GitHub
+
+```yaml
+universe: russia_ukraine
+actors: [USA, EU]
+primary_lens: territorial_recognition_v1
+source_scope: common_official_positions_v1
+claim_weight: equal_distinct_claims_within_event
+event_weight: equal_within_quarter
+annual_weight: equal_quarters
+full_year_gate: four_quarters_two_events_each
+missing_score: null
+reference_type: fixed_policy_propositions
+distance_type: normalized_axis_distance
+methodology_status: proposed_not_yet_validated
+```
+
+Suggested repository structure: methodology.md, codebook/, source_manifest/, annotations/, configs/, evaluation/, model_cards/ and releases/. Share documents and model artifacts only under their applicable terms; otherwise publish URLs, hashes, offsets and permissible excerpts. Do not commit credentials or claim a copyright license over source material you do not own.
+
+The dossier should expose the full source text when permitted, with genuine source-span highlights, contribution weights and a correction route. A correction creates a new version and recalculated aggregates; retain the earlier release for reproducibility. Publish limitations and validation results alongside the attractive interface.
+
+# Decisions before collection
+
+Recommended decisions and a bounded implementation sequence
+
+| Decision | Recommendation for the first release |
+| --- | --- |
+| Meaning of the planet | An estimate of expressed official stance on the selected policy proposition, not overall alignment. |
+| First lens | Territorial recognition. Validate other policy lenses separately before making a composite. |
+| Reference system | Fixed policy endpoints for comparisons over time. Contemporary rhetorical anchors are a separate future mode. |
+| Weighting | Equal distinct claims within an event; equal events within a quarter; equal quarters in a complete year. |
+| EU scope | Common EU positions and explicitly authorized statements on behalf of the EU; label other institutions separately. |
+| Missing years | Unscored or explicitly partial. No manufactured annual positions and no hidden interpolation. |
+| Trust standard | Evidence ledger, human-coded evaluation, calibration, aggregate error, coverage and sensitivity reporting. |
+
+## Build sequence after approval
+
+**1. Freeze the protocol.** Agree on the first target, actor scopes, time rules and weighting. Write a short annotation guide with positive, negative, qualified, quoted and no-stance examples. Record this as a versioned proposal before inspecting comparative scores.
+
+**2. Pilot the evidence.** Collect a small, stratified official-source sample. Double-code claims, revise unclear rules, audit retrieval and estimate how much annual coverage is realistically available. The 2012–2026 interface is a desired range, not a promise of usable evidence for every year.
+
+**3. Train and evaluate.** Build the baseline and transformer comparison, calibrate probabilities, evaluate later-period events and aggregate errors, and publish a model card. If the automated model is not adequate, clearly label any human-adjudicated pilot instead of presenting it as a validated ML system.
+
+**4. Connect the existing interface.** Serve versioned aggregates and claim-level evidence, use nulls for missing values, expose methodological settings, and verify that the planet position matches the published formula. Keep the approved visual identity.
+
+> Recommended agreement: approve the first lens, fixed endpoints, institutional scope and weighting as provisional research choices. Treat numerical publication gates and model performance as pilot questions, not promises. The first success is a reproducible measurement on a small corpus, not an impressive-looking score for every year.
+
+This proposal does not certify the prototype’s positions or claim that a model has been trained. It establishes the measurement contract before implementation.
+
+# References / foundational methods
+
+Primary research and methodological sources / accessed 21 October 2026
+
+**[1] Grimmer, J., & Stewart, B. M. (2013).** Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts. Political Analysis, 21(3), 267–297.
+
+[https://doi.org/10.1093/pan/mps028](https://doi.org/10.1093/pan/mps028)
+
+Application-specific validation and substantive interpretation.
+
+**[2] Laver, M., Benoit, K., & Garry, J. (2003).** Extracting Policy Positions from Political Texts Using Words as Data. American Political Science Review, 97(2), 311–331.
+
+[Publisher record and article](https://www.cambridge.org/core/journals/american-political-science-review/article/extracting-policy-positions-from-political-texts-using-words-as-data/4F4676E80A79E01EAAB88EF3F2D1B733)
+
+Reference-based political text scaling (Wordscores).
+
+**[3] Slapin, J. B., & Proksch, S.-O. (2008).** A Scaling Model for Estimating Time-Series Party Positions from Texts. American Journal of Political Science, 52(3), 705–722.
+
+[https://doi.org/10.1111/j.1540-5907.2008.00338.x](https://doi.org/10.1111/j.1540-5907.2008.00338.x)
+
+Unsupervised political text scaling (Wordfish).
+
+**[4] Mohammad, S. M., Kiritchenko, S., Sobhani, P., Zhu, X., & Cherry, C. (2016).** SemEval-2016 Task 6: Detecting Stance in Tweets. Proceedings of SemEval, 31–41.
+
+[https://aclanthology.org/S16-1003/](https://aclanthology.org/S16-1003/)
+
+Target-specific stance detection and its distinction from sentiment.
+
+**[5] Reimers, N., & Gurevych, I. (2019).** Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. Proceedings of EMNLP-IJCNLP.
+
+[https://aclanthology.org/D19-1410/](https://aclanthology.org/D19-1410/)
+
+Semantic embeddings for retrieval; not a validated political-position scale.
+
+**[6] Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017).** On Calibration of Modern Neural Networks. Proceedings of ICML, PMLR 70, 1321–1330.
+
+[https://proceedings.mlr.press/v70/guo17a.html](https://proceedings.mlr.press/v70/guo17a.html)
+
+Calibration and temperature scaling.
+
+**[7] OECD / European Union / European Commission Joint Research Centre (2008).** Handbook on Constructing Composite Indicators: Methodology and User Guide. OECD Publishing.
+
+[https://doi.org/10.1787/9789264043466-en](https://doi.org/10.1787/9789264043466-en)
+
+Weighting, aggregation and sensitivity in composite indicators.
+
+# References / validation and project inputs
+
+Primary research and methodological sources / accessed 21 October 2026
+
+**[8] Benoit, K., Laver, M., & Mikhaylov, S. (2009).** Treating Words as Data with Error: Uncertainty in Text Statements of Policy Positions. American Journal of Political Science.
+
+[https://doi.org/10.1111/j.1540-5907.2009.00383.x](https://doi.org/10.1111/j.1540-5907.2009.00383.x)
+
+Measurement uncertainty and resampling of coded text. Author PDF: https://kenbenoit.net/pdfs/blm2009ajps.pdf
+
+**[9] Baturo, A., Dasandi, N., & Mikhaylov, S. J. (2017).** Understanding state preferences with text as data: Introducing the UN General Debate corpus. Research & Politics.
+
+[https://doi.org/10.1177/2053168017712821](https://doi.org/10.1177/2053168017712821)
+
+Structured diplomatic text source. Check the selected dataset release and the journal correction record before use.
+
+**[10] Hopkins, D. J., & King, G. (2010).** A Method of Automated Nonparametric Content Analysis for Social Science. American Journal of Political Science, 54(1), 229–247.
+
+[https://doi.org/10.1111/j.1540-5907.2009.00428.x](https://doi.org/10.1111/j.1540-5907.2009.00428.x)
+
+Aggregate category proportions are a distinct estimation target.
+
+**[11] Jacovi, A., & Goldberg, Y. (2020).** Towards Faithfully Interpretable NLP Systems: How Should We Define and Evaluate Faithfulness? Proceedings of ACL, 4198–4205.
+
+[https://aclanthology.org/2020.acl-main.386/](https://aclanthology.org/2020.acl-main.386/)
+
+Distinguishing plausible explanations from faithful model explanations.
+
+**[12] Moreo, A., & Sebastiani, F. (2020, preprint).** Re-Assessing the “Classify and Count” Quantification Method.
+
+[https://arxiv.org/abs/2011.02552](https://arxiv.org/abs/2011.02552)
+
+Validation and optimization for aggregate quantification rather than only classification.
+
+**[13] González, P., Moreo, A., & Sebastiani, F. (2023, preprint).** Binary Quantification and Dataset Shift: An Experimental Investigation.
+
+[https://arxiv.org/abs/2310.04565](https://arxiv.org/abs/2310.04565)
+
+Different forms of distribution shift challenge quantification differently.
+
+**[14] Supplied project concept brief (undated).** Global Strategic Narrative Monitor. PDF supplied in this conversation.
+
+Project input, not peer-reviewed evidence. Retains issue-specific evidence, source traceability and uncertainty; revises moving anchors for the default longitudinal view.
+
+Research boundary: this is a focused review of methods relevant to a small, evidence-linked diplomatic stance system. Findings from parties, manifestos or tweets do not transfer automatically to speeches. Temporal and source shift require fresh evaluation [13]. The weighting hierarchy, publication gates and visual-distance contract are ORBIT proposals to be tested.

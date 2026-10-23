@@ -1,0 +1,20 @@
+"""Build the auditable first-edition dataset. Python standard library only.
+Scores are editorial labels, not model predictions. Missing years stay absent.
+"""
+import json
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+records = [
+ dict(id='us2014',actor='USA',date='2014-03-12',title='Remarks after the Obama–Yatsenyuk bilateral meeting',issuer='White House · President Barack Obama',url='https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat',quote='a violation of the territorial integrity and sovereignty of Ukraine',summary='Obama describes Russia’s incursion into Crimea as a violation of international law and Ukrainian sovereignty.',score=1),
+ dict(id='eu2014',actor='EU',date='2014-03-06',title='Extraordinary meeting on Ukraine',issuer='European Council · EU heads of state or government',url='https://www.consilium.europa.eu/en/meetings/european-council/2014/03/06/',quote="the EU leaders condemned Russia's unprovoked violation of Ukrainian sovereignty and territorial integrity",summary='The official meeting account records EU leaders’ condemnation of the violation of Ukrainian sovereignty and territorial integrity. This is a meeting summary, not a verbatim speech.',score=1),
+ dict(id='us2022',actor='USA',date='2022-02-24',title='Remarks on Russia’s attack on Ukraine',issuer='White House · President Joe Biden',url='https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/02/24/remarks-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/',quote='will support the Ukrainian people as they defend their country',summary='Biden condemns the invasion and commits support to Ukrainians defending their country. The speech also distinguishes support from deploying US forces to fight in Ukraine.',score=1),
+ dict(id='eu2022',actor='EU',date='2022-02-24',title='European Council conclusions on the invasion',issuer='European Council',url='https://www.consilium.europa.eu/en/press/press-releases/2022/02/24/european-council-conclusions-24-february-2022/',quote='fully respects Ukraine’s territorial integrity, sovereignty and independence within its internationally recognised borders',summary='The European Council demands an end to Russian military action, withdrawal of Russian forces, and respect for Ukraine’s internationally recognised borders.',score=1),
+ dict(id='eu2024',actor='EU',date='2024-12-19',title='European Council conclusions on Ukraine',issuer='European Council',url='https://www.consilium.europa.eu/en/press/press-releases/2024/12/19/european-council-conclusions-on-ukraine/',quote='reaffirms its continued support for Ukraine’s independence, sovereignty and territorial integrity within its internationally recognised borders',summary='The Council renews its support for Ukraine’s sovereignty and internationally recognised borders and addresses military, financial and diplomatic support.',score=1),
+ dict(id='us2025',actor='USA',date='2025-11-23',title='Joint statement on the United States–Ukraine meeting',issuer='White House · Joint US–Ukraine statement',url='https://www.whitehouse.gov/briefings-statements/2025/11/joint-statement-on-united-states-ukraine-meeting/',quote='any future agreement must fully uphold Ukraine’s sovereignty and deliver a sustainable and just peace',summary='The joint statement affirms Ukrainian sovereignty in the context of peace negotiations. It does not by itself resolve the question of specific borders or concessions. The displayed +1 applies to expressed sovereignty support, not every territorial policy.',score=1),
+]
+for r in records:
+ r['year']=int(r['date'][:4]);r['label']='Supports Ukrainian sovereignty';r['method']='Editorial source coding';r['retrieved']='2026-10-10'
+ p=ROOT/'data'/f"{r['id']}.txt"
+ if p.exists():r['fullText']=p.read_text()
+(ROOT/'dist'/'data.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
+print(f'Built {len(records)} official-source records. No interpolation or model probabilities.')
