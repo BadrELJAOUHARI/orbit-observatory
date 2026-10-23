@@ -1,0 +1,720 @@
+queue_version,record_type,row_id,candidate_id,selection_kind,passage_id,related_candidate_ids,event_id,document_id,actor_id,event_date,lens_id,lens_proposition,source_url,attachment_url,document_issuer,language,language_review_required,text_sha256,start,end,exact_passage,context_start,context_end,context_before,context_after,offset_unit,codebook_version,translation_aid_id,label,annotator_id,review_status,review_notes,reading_text,source_qualification,quality_flags,quarantine,mechanical_resolutions,event_role,priority,priority_reasons,existing_annotation_id,existing_label,existing_provenance,existing_review_notes,ai_suggested_label,ai_rationale,ai_review_flags,human_label,human_annotator_id,human_review_notes,human_independent,human_source_eligibility,human_text_quality,human_attribution,human_scope
+annotation-queue-1.0.0,annotation_task,R-fec4bb84841c,claim-v2-d586e1fa79cfd3175518438d1a3b53c0bbccfc8f3a7f3c2a2879fec4bb84841c,retrieved_candidate,passage-1145cae5a96cef845fd8635594608e4f11bf4f31cb9b32ae9a779e697e3e534e,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,1481,1549,"A
+war that combines the violence of weapons with the poison of lies.",1416,1654,Hit by soaring energy bills. The Kremlin is waging a hybrid war. ,"
+The Kremlin claims that Russia’s security has been threatened by ‘the West’ for years.
+That is not true!",unicode_code_point_half_open,1.0.0,,,,,,A war that combines the violence of weapons with the poison of lies.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-8418c19bc0a9,claim-v2-35eb15a5e8c1946cbfc24c771fe8146f0c24e7375b742c7c01c48418c19bc0a9,retrieved_candidate,passage-4eb0cb035a9a501ce5a988fb57bc1b2c2cc4c43410379e245865ac76648ad609,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,1802,1873,"And
+no-one, absolutely no-one, in Europe wanted a conflict with Russia.",1655,2101,"The Kremlin is attempting – in vain, I hope – to mobilise the world
+against an imaginary enemy. No-one has threatened, attacked or invaded Russia. "," What interest would
+we have in putting the security and prosperity of everyone at risk?
+The second lie is that this war seeks to prevent an alleged genocide of the Russian-
+speaking people of Ukraine and ‘denazify’ the country.",unicode_code_point_half_open,1.0.0,,,,,,"And no-one, absolutely no-one, in Europe wanted a conflict with Russia.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-d03f71113a18,claim-v2-ed01ef775cddac31ff73712f2eda30ee5bfdcf5f721fd3a62d18d03f71113a18,retrieved_candidate,passage-bd8b7e91062043ce0251af6a8e402770f24a05c7ec3a5904ae4c074881fd3e68,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,2567,2663,"The third lie is that the aggression against Ukraine is merely a ‘special operation’, not a
+war.",2276,2719,"So
+everyone, apart from the Kremlin, has failed to notice that massacres of Ukrainians are
+being perpetrated on a huge scale by other Ukrainians? And what kind of liberation
+leads to the killing to this very day of Russian-speakers and the devastation of the
+infrastructure of their cities?
+", That is blatantly untrue. This is well and truly a war.,unicode_code_point_half_open,1.0.0,,,,,,"The third lie is that the aggression against Ukraine is merely a ‘special operation’, not a war.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-fc66b6fb5662,claim-v2-f154b3e0140dc5ab3d69ca68283883013fc8cfc3b95ec8434d24fc66b6fb5662,retrieved_candidate,passage-6fe59b52f12afa111c9a06177d3c17e502369b3ce54475f359caf75faf4d9370,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,2567,3228,"The third lie is that the aggression against Ukraine is merely a ‘special operation’, not a
+war. That is blatantly untrue. This is well and truly a war. And the mobilisation
+announced a few days ago of hundreds of thousands of reservists simply proves this.
+Banning the word ‘war’ by punishing its use with up to fifteen years in prison does not
+change what it is. It merely betrays its shameful nature. This war is an unprovoked,
+illegal and unjustified aggression which aims to change internationally recognised
+borders through force, and that is not acceptable. And because we must stop the
+Kremlin’s war machine, massive economic sanctions were unavoidable.",2276,3342,"So
+everyone, apart from the Kremlin, has failed to notice that massacres of Ukrainians are
+being perpetrated on a huge scale by other Ukrainians? And what kind of liberation
+leads to the killing to this very day of Russian-speakers and the devastation of the
+infrastructure of their cities?
+","
+This brings me to the fourth lie: that the sanctions are causing food and fertiliser
+shortages. That is not true!",unicode_code_point_half_open,1.0.0,,,,,,"The third lie is that the aggression against Ukraine is merely a ‘special operation’, not a war. That is blatantly untrue. This is well and truly a war. And the mobilisation announced a few days ago of hundreds of thousands of reservists simply proves this. Banning the word ‘war’ by punishing its use with up to fifteen years in prison does not change what it is. It merely betrays its shameful nature. This war is an unprovoked, illegal and unjustified aggression which aims to change internationally recognised borders through force, and that is not acceptable. And because we must stop the Kremlin’s war machine, massive economic sanctions were unavoidable.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,annotation-76b4a9e5324621ecc6fa3370a30117e99ffdbbb5bb630003fe0bebf472eedb3e,support,AI-assisted judgments reviewed by Badr_A; non-independent annotations.,Connected sentences characterize aggression against Ukraine as unprovoked and unlawful and identify the Kremlin's war machine as responsible. Preserve the multi-sentence attribution rationale.,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-2a5ddac8aacc,claim-v2-ff2e78f20e1e8e5dab0ef384c0dfe435a32c13bf1bbadca353e52a5ddac8aacc,retrieved_candidate,passage-49f80037d19cf948e19d34619de5d1cf0b06c4a1cc30618ff1460d31da475090,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,2971,3131,"This war is an unprovoked,
+illegal and unjustified aggression which aims to change internationally recognised
+borders through force, and that is not acceptable.",2825,3324,"Banning the word ‘war’ by punishing its use with up to fifteen years in prison does not
+change what it is. It merely betrays its shameful nature. "," And because we must stop the
+Kremlin’s war machine, massive economic sanctions were unavoidable.
+This brings me to the fourth lie: that the sanctions are causing food and fertiliser
+shortages.",unicode_code_point_half_open,1.0.0,,,,,,"This war is an unprovoked, illegal and unjustified aggression which aims to change internationally recognised borders through force, and that is not acceptable.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-045f1cfa0f8e,claim-v2-70dc0128f040ccd0711ab6dd7120edc8822c53b853da436b09a6045f1cfa0f8e,retrieved_candidate,passage-49f80037d19cf948e19d34619de5d1cf0b06c4a1cc30618ff1460d31da475090,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,2971,3131,"This war is an unprovoked,
+illegal and unjustified aggression which aims to change internationally recognised
+borders through force, and that is not acceptable.",2825,3324,"Banning the word ‘war’ by punishing its use with up to fifteen years in prison does not
+change what it is. It merely betrays its shameful nature. "," And because we must stop the
+Kremlin’s war machine, massive economic sanctions were unavoidable.
+This brings me to the fourth lie: that the sanctions are causing food and fertiliser
+shortages.",unicode_code_point_half_open,1.0.0,,,,,,"This war is an unprovoked, illegal and unjustified aggression which aims to change internationally recognised borders through force, and that is not acceptable.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-718d1e5f1923,claim-v2-fc4ebee0498c0cb51165c73af1de09a457d7c0a320b13282b3d1718d1e5f1923,retrieved_candidate,passage-9c791ece81ce2aeb77073786ff2d07168a031efeedc54397f86327c9d632343a,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,sanctions,Supports specified restrictive measures against Russia because of its actions in Ukraine.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,3132,3228,"And because we must stop the
+Kremlin’s war machine, massive economic sanctions were unavoidable.",2932,3342,"It merely betrays its shameful nature. This war is an unprovoked,
+illegal and unjustified aggression which aims to change internationally recognised
+borders through force, and that is not acceptable. ","
+This brings me to the fourth lie: that the sanctions are causing food and fertiliser
+shortages. That is not true!",unicode_code_point_half_open,1.0.0,,,,,,"And because we must stop the Kremlin’s war machine, massive economic sanctions were unavoidable.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,annotation-12aaaa992bfce9734150474ed7295e66c54f57437c6a3ad3976a886fffb43ddc,support,AI-assisted judgments reviewed by Badr_A; non-independent annotations.,Explicitly endorses economic sanctions as necessary to stop the Kremlin's war machine.,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-09e33483e091,claim-v2-38f703a7c0aafb639e5b46ccc1107b86c4eccffc99b78c82833f09e33483e091,retrieved_candidate,passage-d219234b7284fdf8bf5918a15e195b1f8e9af581acbe8df041786ca44e2e9c68,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,sanctions,Supports specified restrictive measures against Russia because of its actions in Ukraine.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,3229,3324,"This brings me to the fourth lie: that the sanctions are causing food and fertiliser
+shortages.",2971,3520,"This war is an unprovoked,
+illegal and unjustified aggression which aims to change internationally recognised
+borders through force, and that is not acceptable. And because we must stop the
+Kremlin’s war machine, massive economic sanctions were unavoidable.
+"," That is not true! It was Russia which – even before war broke out –
+unilaterally decided to drastically reduce its exports of grain and fertilisers, causing price
+volatility on the global market.",unicode_code_point_half_open,1.0.0,,,,,,This brings me to the fourth lie: that the sanctions are causing food and fertiliser shortages.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-598f72648aa6,claim-v2-7919b3683e3817ff95999ceb437a94ec2d7ac58a4227b725ab0e598f72648aa6,retrieved_candidate,passage-d818b8e9be21815312d252b29d477b679fb25d737da6274c097fcc1281244577,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,3521,3635,"It was Russia which decided to place a military blockade
+on the Black Sea ports, making maritime trade impossible.",3325,4000,"That is not true! It was Russia which – even before war broke out –
+unilaterally decided to drastically reduce its exports of grain and fertilisers, causing price
+volatility on the global market. ","
+It was the European Union which opened the ‘solidarity lanes’, that have already
+allowed more than 10 million tonnes of food products to leave Ukraine by road. And it
+was the agreement reached by Secretary General Guterres that opened a maritime
+corridor in the Black Sea to help bring global prices down and start the resupply of
+Africa, the Middle East and Asia.",unicode_code_point_half_open,1.0.0,,,,,,"It was Russia which decided to place a military blockade on the Black Sea ports, making maritime trade impossible.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-0b635fe0a55f,claim-v2-72043e4b32983f3554df00200f72576299e1a844c6a299d474b60b635fe0a55f,retrieved_candidate,passage-dcd461bce03cd4ca20a2b3e7ec5aff8fda96ec5207289efbe292938d3de3fd34,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,troop_withdrawal,Russian forces should withdraw from all internationally recognized Ukrainian territory.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,4209,4382,"In fact, there is a simple
+solution to end this food crisis that threatens us: that Russia stops the war, withdraws
+from Ukrainian territory and lifts the blockade of ports.",4001,4680,"And today it is the height of cynicism that the Kremlin
+is again threatening not to extend the agreement concluded with the UN. Once again, it
+is the most vulnerable countries which will be the main victims. ","
+Ladies and gentlemen, Excellencies, in this web of lies one moment of frankness and
+sincerity stands out: a year ago, in a written statement, Vladimir Putin declared, on the
+basis of historical rantings, that Ukraine is neither a nation nor a legitimate state. This is
+what is behind his thinking.",unicode_code_point_half_open,1.0.0,,,,,,"In fact, there is a simple solution to end this food crisis that threatens us: that Russia stops the war, withdraws from Ukrainian territory and lifts the blockade of ports.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review;scope_hold_W1,true,,development_only,100,source_attribution_or_text_problem;partial_scope,annotation-79ef4793db367f38ba5333fb96576c65dc92fc0ecb614cc9f4a6cfa599eacb20,support,"AI-assisted judgments reviewed by Badr_A, with non-independent provenance.","Calls for Russia to withdraw from Ukrainian territory without an expressed territorial exception. Record that “all territory” and 1991 borders are not explicit. Check the codebook: if this wording does not meet the exact target, flag a scope conflict for my decision instead of silently broadening the proposition.",,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-88bcef610bb2,claim-v2-240f2dcd291a6e46330a86e76897403eaac0937085afa0af5b1388bcef610bb2,retrieved_candidate,passage-63e623040b084ab5c743ec05424ea92eecdedb23c9b45a96321a72ea2bf5209a,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,5229,5522,"These are the bases for this war of colonisation which has
+Ukraine as its target, and which is deliberately flouting international law and the UN
+Charter, to the point of brandishing the threat of nuclear weapons and even using right
+now the largest nuclear plant in Europe as a military base.",4681,5674,"He is fooling no-one, and sham referendums will not change
+a thing.In 1963, when the Organization of African Unity was founded in Addis Ababa,
+the first president of independent Mali, Modibo Keita, said the following: ‘[I]mperialism is
+that manifestation of that will to domination of man over man, of a society over another
+society, of a people over a people, and the desire to impose at all costs one’s own way
+of thinking, one’s own way of life, and one’s own method of political and economic
+development on others’.
+Imperialism and revanchism. "," This must stop, it is not
+acceptable. We unreservedly support the efforts of IAEA director Rafael Grossi to
+restore security at the Zaporizhzhia plant.",unicode_code_point_half_open,1.0.0,,,,,,"These are the bases for this war of colonisation which has Ukraine as its target, and which is deliberately flouting international law and the UN Charter, to the point of brandishing the threat of nuclear weapons and even using right now the largest nuclear plant in Europe as a military base.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-c2fe74f0cc4e,claim-v2-81eb345fc7cc7fcdc88d8eb001f1fddbdad577c18619225fadafc2fe74f0cc4e,retrieved_candidate,passage-6ae7cd417698667928d12e7c6c2f6b15834c3dc3e8de95aede94d8dcf1998c48,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,5854,5913,The EU’s choice is for respect for borders over aggression.,5675,5993,"Ladies and gentlemen, I stand before you and solemnly say to you that the EU does not
+ask anyone to choose between East or West, North or South. But there is a choice to be
+made. "," Cooperation over
+threats. The rules-based order over the rule of the strongest.",unicode_code_point_half_open,1.0.0,,,,,,The EU’s choice is for respect for borders over aggression.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-da712bf96630,claim-v2-8c97e6be0f82fc65db1815556627f865b6eb3a602ddf7be3cb58da712bf96630,retrieved_candidate,passage-6ae7cd417698667928d12e7c6c2f6b15834c3dc3e8de95aede94d8dcf1998c48,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,5854,5913,The EU’s choice is for respect for borders over aggression.,5675,5993,"Ladies and gentlemen, I stand before you and solemnly say to you that the EU does not
+ask anyone to choose between East or West, North or South. But there is a choice to be
+made. "," Cooperation over
+threats. The rules-based order over the rule of the strongest.",unicode_code_point_half_open,1.0.0,,,,,,The EU’s choice is for respect for borders over aggression.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-f2c6b91733dd,claim-v2-9dc2db64237c280f0ecbcfab7e6dd5fb263a65ada99926371b3df2c6b91733dd,retrieved_candidate,passage-72aa4802dd487989521281696e81000e89bcae2037e8d4b56596cc84b1cbafaf,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,6147,6260,"Because in this
+Assembly you have made yourselves the champions of the doctrine of absolute national
+sovereignty.",5940,6392,"The rules-based order over the rule of the strongest.
+In 1948, in this forum, one of the EU’s founding fathers, Belgian prime minister Paul-
+Henri Spaak, directly addressed the Soviet Union: ‘We are afraid. "," And because we ask ourselves […] how an international organisation can
+fulfil the purposes assigned to it, if this obsolete and […]",unicode_code_point_half_open,1.0.0,,,,,,Because in this Assembly you have made yourselves the champions of the doctrine of absolute national sovereignty.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-685747c26416,claim-control-v2-a24e93abc8809a3d8c19200cdaa0b53048f984a3f3412c2034ed685747c26416,nonretrieved_random_control,passage-25591e05d9abff429816aadb22d3557654a7659e04420d51e30f6480ed8403d9,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,troop_withdrawal,Russian forces should withdraw from all internationally recognized Ukrainian territory.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,10624,10825,"The peace agreements between Arab countries and Israel are a step forward in the
+region. But the Palestinian people have been waiting too long, in vain, for the slightest
+progress for their own future.",10467,11050,"Yemenis have a right to peace. We
+support the efforts of United Nations Special Envoy Grundberg to transform the current
+truce into a sustainable ceasefire.
+"," We must not lose sight of the Palestinian people in the
+global landscape. The two-state solution, with Israel and Palestine living in peaceful
+coexistence, in which the security of all must be guaranteed, remains a priority.",unicode_code_point_half_open,1.0.0,,,,,,"The peace agreements between Arab countries and Israel are a step forward in the region. But the Palestinian people have been waiting too long, in vain, for the slightest progress for their own future.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-b0482733c760,claim-v2-f7bd21aee2b4a2d830ab0b64ca995ec043bd3f4b3ec84ec03fabb0482733c760,retrieved_candidate,passage-8564560b751966dbb0b3e224d18d7d7200cc6c7d520990af874bb93cc694e53a,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,11214,11328,"The goal must
+be to resolve the conflict in order to establish lasting peace and prosperity in the South
+Caucasus.",11051,11423,"Finally, I have personally taken on the role of difficult mediation between the President
+of Azerbaijan and the Prime Minister of Armenia. The fighting must stop. ","
+Dear colleagues, leadership is about showing the way. But it is also about delivering
+results.",unicode_code_point_half_open,1.0.0,,,,,,The goal must be to resolve the conflict in order to establish lasting peace and prosperity in the South Caucasus.,Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-8e52787dbb37,claim-v2-d7ca773b8551191e05f7c5eb0d18073ee9df50fef5942cd49c938e52787dbb37,retrieved_candidate,passage-c8f81eff872feee83b47c033113ae018b214b5b9f3b0683fad1a802c1d1055c4,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,11499,11560,"We have
+jeopardised our security, prosperity and sovereignty.",11383,11684,"But it is also about delivering
+results.
+In terms of energy security, we have been far too dependent, for too long. ","
+Energy and climate change are two sides of the same coin. Overcoming the energy
+crisis means mitigating the climate threat.",unicode_code_point_half_open,1.0.0,,,,,,"We have jeopardised our security, prosperity and sovereignty.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-09cfa6fbb4c5,claim-v2-1d63e9ca406302a62abfd9f961809e09ffe820a2f94c25aa328409cfa6fbb4c5,retrieved_candidate,passage-dc2b3789317ea131581ff19183bac43a922bb7dfd0d04fea3569a1607e6f17d8,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,12486,12565,"But we know more is needed: more coordination, more money and more sovereignty.",12292,12714,"Initiatives are being taken, by
+the G7, by the European Union, by the African Union, and by others. The European
+Union is mobilising almost EUR 8 billion for food security between now and 2024.
+","
+New, more resilient and more equitable agricultural models are needed. More food
+sovereignty is essential, particularly in Africa and Latin America.",unicode_code_point_half_open,1.0.0,,,,,,"But we know more is needed: more coordination, more money and more sovereignty.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-04b368f8543b,claim-v2-169cc4e822ef719b9bc2d05105a546af41b61fbbd52976e68d6c04b368f8543b,retrieved_candidate,passage-052ce3dfd79bee557b90d4318e0befad3feb01dd20935bc508af233b0472c8e8,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,12637,12714,"More food
+sovereignty is essential, particularly in Africa and Latin America.",12486,12946,"But we know more is needed: more coordination, more money and more sovereignty.
+New, more resilient and more equitable agricultural models are needed. "," We are ready to extend
+our hand to support sustainable projects for fertiliser production on those continents, as
+we have done for vaccines to protect against COVID.
+COVID-19 has opened our eyes to our strengths and our weaknesses.",unicode_code_point_half_open,1.0.0,,,,,,"More food sovereignty is essential, particularly in Africa and Latin America.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9d1907af6845,claim-v2-34d0cdfa781a053ed485eceeb973fd5649921a81aad21bbc3b219d1907af6845,retrieved_candidate,passage-eaa39b82977c4715e44f7d19e74440adc90296883bb14bc2c678103f2c659df2,,event-eu-unga77,doc-eu-unga77,EU,2022-09-23,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/european-union,https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf,European Union / President of the European Council Charles Michel,en,false,f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd,14706,14856,"Restoring hope, like the doctors in Dakar, and elsewhere, is at the very heart of our
+responsibility as leaders representing the peoples of the world.",14524,14965,"No
+parent in the world can bear their child being deprived of hope of a dignified and fulfilling
+life.
+Forestalling or preventing horror in Borodianka, Yemen, Myanmar and elsewhere.
+","
+Differences there will always be, but the same blood runs through our veins. The same
+heart beats within us.",unicode_code_point_half_open,1.0.0,,,,,,"Restoring hope, like the doctors in Dakar, and elsewhere, is at the very heart of our responsibility as leaders representing the peoples of the world.",Source/delivery qualifications remain in source review; no scoring clearance.,EU_common_position_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-fc61b325f540,claim-v2-9ae72571b6327029468c2c46a6e22bae1f035ed9878cf7305856fc61b325f540,retrieved_candidate,passage-8bc3cb6ad91353f319e370beb251f9dc929b3a67953c368d70ff250c8664e36d,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,4141,4225,"As the Ukraine conflict continue s to rage, we are often asked
+whose side we are on.",4046,4336,"The inequity of vaccine distribution should not be
+replicated in other domains.
+Mr. President,
+","
+And our answer, each time, is straight and honest.
+India is on the side of peace and will remain firmly there.",unicode_code_point_half_open,1.0.0,,,,,,"As the Ukraine conflict continue s to rage, we are often asked whose side we are on.",Source/delivery qualifications remain in source review; no scoring clearance.,suspected_intraword_spacing_requires_source_comparison,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-ecf0e5267dba,claim-v2-16463dc48e7f2f3c87af9fbf0938bef0b12ce82d214556d0aa12ecf0e5267dba,retrieved_candidate,passage-29ac99c8569cee9c0e2d2acb658b36f4b2d9f1ae7e93613d7d437533bcba4055,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,sanctions,Supports specified restrictive measures against Russia because of its actions in Ukraine.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,9546,9620,"The United Nations respon ds to terrorism by sanctioning its
+perpetrators.",9381,9842,"In our view,
+there is no justification for any act of terrorism, regardless of
+motivation. And no rhetoric, however sanctimonious can ever
+hide blood-stained hands.
+"," Th ose who politicize the UNSC 1267 Sanctions
+regime, sometimes to the extent of defending proclaimed
+terrorists, do so at their own peril. Believe me, they advance
+neither their own interests nor indeed their reputation.",unicode_code_point_half_open,1.0.0,,,,,,The United Nations respon ds to terrorism by sanctioning its perpetrators.,Source/delivery qualifications remain in source review; no scoring clearance.,suspected_intraword_spacing_requires_source_comparison,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-4bc7ec2d64ef,claim-v2-155ea9663f4ef7b7d857fbc33ecd9180519977eceac285ec6c704bc7ec2d64ef,retrieved_candidate,passage-b8ac3a3e5ca2ee7ed15a3f822389dff1f1a69f1a1a7946f08b21a06685550d6f,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,sanctions,Supports specified restrictive measures against Russia because of its actions in Ukraine.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,9621,9760,"Th ose who politicize the UNSC 1267 Sanctions
+regime, sometimes to the extent of defending proclaimed
+terrorists, do so at their own peril.",9472,9948,"And no rhetoric, however sanctimonious can ever
+hide blood-stained hands.
+The United Nations respon ds to terrorism by sanctioning its
+perpetrators. "," Believe me, they advance
+neither their own interests nor indeed their reputation.
+India has always espoused a cooperative, inclusive, and
+consultative approach to international relations.",unicode_code_point_half_open,1.0.0,,,,,,"Th ose who politicize the UNSC 1267 Sanctions regime, sometimes to the extent of defending proclaimed terrorists, do so at their own peril.",Source/delivery qualifications remain in source review; no scoring clearance.,suspected_intraword_spacing_requires_source_comparison,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-785351859602,claim-v2-38f8f738a28ca5dd333cbdadce628450d268f802090739f079a7785351859602,retrieved_candidate,passage-0e79bbff42208ae68684881e6a69a2e8205a49ab3638082b67bc7f4be83fcb47,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,1063,1216,"There are many conflicts, wars, humanitarian crises, political strife and
+social tensions occurring in the south, north, east and west of my own
+country.",791,1564,"Unfortunately, it is not possible to draw a more optimistic picture of the
+future of our world , in comparison with the assessments we made here
+last year.
+The snapshot before us reveals that we are facing more and more
+complex and dangerous challenges on a global scale.
+","
+It becomes mor e and more difficult to deal with these ever -growing
+challenges compounded with global economic problems.
+-Courtesy Translation-
+2
+The war on the eastern borders of Europe, in addition to the humanitarian
+tragedy which it triggered, has created serious problems in all areas, from
+economy to security, from energy to food security.",unicode_code_point_half_open,1.0.0,,,,,,"There are many conflicts, wars, humanitarian crises, political strife and social tensions occurring in the south, north, east and west of my own country.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-ee5e2bd4623d,claim-v2-cc49b01ddbcca8e3cc9e847e1101d439e8e603c984c35fe3b9a5ee5e2bd4623d,retrieved_candidate,passage-679d75d9242a964c2649dbf874c360b44c65f29a5d7b12c716b7c712ac0781d4,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,1364,1564,"The war on the eastern borders of Europe, in addition to the humanitarian
+tragedy which it triggered, has created serious problems in all areas, from
+economy to security, from energy to food security.",1063,2043,"There are many conflicts, wars, humanitarian crises, political strife and
+social tensions occurring in the south, north, east and west of my own
+country.
+It becomes mor e and more difficult to deal with these ever -growing
+challenges compounded with global economic problems.
+-Courtesy Translation-
+2
+","
+Terrorism, which has been turned into a tool for proxy wars in Syria, North
+Africa and the Sahel region, is causing irreparable damage to the
+international security climate, whose fragility is increasing rapidly.
+The activity fields of terrorist organizations which grow by exploiting the
+ambitions of global powers, are spreading like an epidemic over wide
+geographies, taking also advantage of the deteriorating socio-economic
+conditions as well as technological developments.",unicode_code_point_half_open,1.0.0,,,,,,"The war on the eastern borders of Europe, in addition to the humanitarian tragedy which it triggered, has created serious problems in all areas, from economy to security, from energy to food security.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-eefa9f146258,claim-v2-ddfaad5d50ac76789e1b80c2dcb8dfaa713c5c11a209efe7d6d1eefa9f146258,retrieved_candidate,passage-19465a3d6f53db67e7186efebe47774c4370c2da68d08fe6eec0ae3da2940429,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,5916,6070,"We will continue to increase our efforts to end the war through diplomacy
+and dialogue , on the basis of Ukraine's independence and territorial
+integrity.",5494,6364,"As a country which has pioneered numerous initiatives to strengthen
+peace and stability, we attach importance to Secretary General
+GUTERRES' call for the establishment of a ""New Agenda for Peace"".
+With this understanding, we have been striving to keep both our Russian
+and Ukrainian friends at the table since the beginning of the Russia -
+Ukraine war, with the motto ""there are no winners in war and no losers in
+peace"".
+","
+Through the Black Sea Initiative, which we launched together with the
+United Nations, we prevented the threat of a global hunger crisis by
+ensuring the shipment of 33 million tons of grain product s to world
+markets.
+The Initiative has been extended three times thanks to our personal
+efforts.",unicode_code_point_half_open,1.0.0,,,,,,"We will continue to increase our efforts to end the war through diplomacy and dialogue , on the basis of Ukraine's independence and territorial integrity.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",scope_insufficiency;translation_review,true,,development_only,100,source_attribution_or_text_problem;partial_scope;unresolved,annotation-1076ad90ed4896a1874e05d1598aa2b182b824e1f4c9793855c6448c672ecb7f,unresolved,AI-assisted judgments reviewed by Badr_A; non-independent annotations.,Same scope limitation as B09-R1. Preserve the courtesy-translation qualification.,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-742c178f5db6,claim-v2-fa457555a6c95264365c0818cae16fd1deb5180f932d7cbe203a742c178f5db6,retrieved_candidate,passage-d7e6fbcfec35c3e89ed4141d504088b15f4045b41c4da83f42ea62ece67f5fb9,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,6704,6835,"Faced with conflicts and disputes around us , our aim is to make the
+greatest possible contributions to world peace and prosperity.",6464,7221,"We pursue our contacts to maintain this humanitarian bridge which
+reaches out to areas where the threat of global hunger persists.
+We attach importance to the plan that envisages the transfer of 1 million
+ton of grain to African countries.
+","
+The humanitarian tragedy in Syria, now in its 13th year, is making living
+conditions more and more difficult for everyone in the region, regardless
+of origin and faith.
+We are the only country to have displayed a principled, constructive and
+fair attitude vis-à-vis the developments which are threatening Syria's
+political unity, as well as its social integrity and economic structure.",unicode_code_point_half_open,1.0.0,,,,,,"Faced with conflicts and disputes around us , our aim is to make the greatest possible contributions to world peace and prosperity.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-22ec2ce9c851,claim-v2-1beb087c0dade7fff8ade8719e8c0690631944b3b0f719426cdf22ec2ce9c851,retrieved_candidate,passage-1aa009c33010c71f42b8ca6d6149477ab4590cd5b2a4e01f17389aad5b21e7ac,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,7674,7819,"It is an unfortunate development that the United Nations cross -border
+humanitarian assistance in the region has been interrupted at such a time.",7454,8135,"The devastating impact of the February 6 earthquakes, which affected 14
+million people in our country, also took its toll on Syria.
+The already dire humanitarian situation, particularly in northwest Syria,
+has worsened.
+","
+Türkiye will certainly not abandon more than 4 million people in northern
+Syria, who are struggling to survive in difficult conditions, to their fate.
+As the construction of settlements beyond our borders, which we are
+pioneering, are completed, we will continue to encourage the return of
+refugees to these places.",unicode_code_point_half_open,1.0.0,,,,,,It is an unfortunate development that the United Nations cross -border humanitarian assistance in the region has been interrupted at such a time.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-de89401669c9,claim-v2-79ca70c6c58f6800bba564fe2d2a8bbc8e5f15112bc20f964435de89401669c9,retrieved_candidate,passage-3515031da01066779115ec14d289008fc0fdeab18e356c8212a1df0c0428f17a,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,7971,8135,"As the construction of settlements beyond our borders, which we are
+pioneering, are completed, we will continue to encourage the return of
+refugees to these places.",7674,8548,"It is an unfortunate development that the United Nations cross -border
+humanitarian assistance in the region has been interrupted at such a time.
+Türkiye will certainly not abandon more than 4 million people in northern
+Syria, who are struggling to survive in difficult conditions, to their fate.
+","
+However, the biggest threat to Syria's territorial integrity and political unity
+is the overt support given to terrorist organizations under the direction of
+the powers which harbour designs on this country.
+The Syrian people, overwhelmed by the PKK -PYD terrorist organization
+on the one hand , and the radical groups organized on the basis of
+sectarian divisions on the other, have reached the point of revolt.",unicode_code_point_half_open,1.0.0,,,,,,"As the construction of settlements beyond our borders, which we are pioneering, are completed, we will continue to encourage the return of refugees to these places.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-c312fa8903ee,claim-v2-cd43e57037c76a37ce5e3059462ab7101bc496f6225132a70092c312fa8903ee,retrieved_candidate,passage-da8a3c51136f665bc375b80bafad293ac874107ed46ddcee274ba79c90cd2f93,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,8136,8343,"However, the biggest threat to Syria's territorial integrity and political unity
+is the overt support given to terrorist organizations under the direction of
+the powers which harbour designs on this country.",7820,8616,"Türkiye will certainly not abandon more than 4 million people in northern
+Syria, who are struggling to survive in difficult conditions, to their fate.
+As the construction of settlements beyond our borders, which we are
+pioneering, are completed, we will continue to encourage the return of
+refugees to these places.
+","
+The Syrian people, overwhelmed by the PKK -PYD terrorist organization
+on the one hand , and the radical groups organized on the basis of
+sectarian divisions on the other, have reached the point of revolt.
+Indeed, as a result, various consequences began to emerge recently.",unicode_code_point_half_open,1.0.0,,,,,,"However, the biggest threat to Syria's territorial integrity and political unity is the overt support given to terrorist organizations under the direction of the powers which harbour designs on this country.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-f5b359a83ac8,claim-v2-f353e46864cf6313604828604376a1b008ac6156f99c32d7fd6df5b359a83ac8,retrieved_candidate,passage-0fa2f59925251d94ceae5b7ed5c4e319ae1e19e70f79697e8c099f2061b52f5e,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,8738,8946,"We act with an understanding geared at strengthening Iraq's political unity,
+territorial integrity and reconstruction efforts, and which does not
+discriminate between the constituent elements of that country.",8549,9205,"Indeed, as a result, various consequences began to emerge recently.
+Iraq, our other neighbour, is also displaying genuine efforts to overcome
+the internal and external challenges it faces.
+","
+With the Development Road project that we will implement as the
+countries of the region, we will further strengthen regional integration.
+The tricks of those who refer to DAESH as a pretext every time they are
+in trouble in the region, have now been exposed.",unicode_code_point_half_open,1.0.0,,,,,,"We act with an understanding geared at strengthening Iraq's political unity, territorial integrity and reconstruction efforts, and which does not discriminate between the constituent elements of that country.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-b032f101bb5f,claim-v2-fb162cedbe24b2b1ae6575d69009b9199251179ec1b750384873b032f101bb5f,retrieved_candidate,passage-deff699982718a851c0aafdb832c2f50bfe761f88158ea9a8d5426d1ae4497ce,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,9755,9970,"The real threat consists of the terrorist organizations, paramilitary groups,
+mercenaries and some local elements working for the highest bidder
+which are nurtured and strengthened to be used as tools of proxy wars.",9206,10301,"As the leader of the country who has given the biggest struggle against
+DAESH in deed, inflicted the greatest losses on this organization, and who
+knows very well the overt and background facts of the problem, I would
+like to speak openly:
+-Courtesy Translation-
+6
+We are fed up with the hypocrisy of those who use DAESH and similar
+organizations as a cover for their own political and economic interests ,
+first and foremost in Syria and Iraq, but also in the Middle East, North
+Africa and the Sahel.
+DAESH is not the only threat in these regions.
+","
+The countries which continue to work with terrorist organizations despite
+this reality, purely for their own political and economic interests , have no
+right to complain about terrorism and related issues.
+In such a world, no one is safe, whether they live right next to a conflict
+zone or far away on a land surrounded by oceans.",unicode_code_point_half_open,1.0.0,,,,,,"The real threat consists of the terrorist organizations, paramilitary groups, mercenaries and some local elements working for the highest bidder which are nurtured and strengthened to be used as tools of proxy wars.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9d3f4b67bea7,claim-v2-d61e846ff6b0ba297b3ba8526092c0c4ba7dfac50a71914d47a69d3f4b67bea7,retrieved_candidate,passage-3d25c16e4d3eee43c04aa0206905be72fd83a37b1efe646842ec2d9e5552b8fc,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,10177,10301,"In such a world, no one is safe, whether they live right next to a conflict
+zone or far away on a land surrounded by oceans.",9755,10665,"The real threat consists of the terrorist organizations, paramilitary groups,
+mercenaries and some local elements working for the highest bidder
+which are nurtured and strengthened to be used as tools of proxy wars.
+The countries which continue to work with terrorist organizations despite
+this reality, purely for their own political and economic interests , have no
+right to complain about terrorism and related issues.
+","
+That is why we argue that we must rapidly restructure the institutions
+responsible for ensuring security, peace and prosperity in the world, under
+the leadership of the United Nations.
+We must build a global governance architecture which has the capacity to
+represent people of all origins, faiths and cultures in the world, from every
+geography and demographics.",unicode_code_point_half_open,1.0.0,,,,,,"In such a world, no one is safe, whether they live right next to a conflict zone or far away on a land surrounded by oceans.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9151094803c8,claim-v2-0921488cb0ab4286cc0748965102e9e323fbc756830364637f8b9151094803c8,retrieved_candidate,passage-5ddbea59ef0f24e86c36b1dc38809ede7b0cb1c9ce5eca36f59a739fd40b7f5a,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,12141,12273,"It is our biggest wish that this problem be solved as soon as possible within
+the national unity and territorial integrity of Yemen.",11893,12503,"We do not want this Force, whose reputation has already been tarnished,
+to experience yet another loss of credibility in Cyprus.
+We are deeply saddened by the situation in Yemen, with which we share
+deep-rooted historical ties and heartfelt bonds.
+","
+With Egypt, we have entered a period in which we have started to develop
+our relations in all fields which were stagnant for a while.
+We are determined to advance our cooperation on the basis of mutual
+benefit in this new period.",unicode_code_point_half_open,1.0.0,,,,,,It is our biggest wish that this problem be solved as soon as possible within the national unity and territorial integrity of Yemen.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-41053e00f11f,claim-v2-c6069e65abe626a4821c0798021b287b2f305193db67586db1e541053e00f11f,retrieved_candidate,passage-de93ab4630bcc12d0910b7df993562a596f3888028e1151312f0db2120b962b7,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,12504,12620,"Permanent peace in the M iddle East is only possible through a lasting
+solution to the Palestinian-Israeli conflict.",12274,12957,"With Egypt, we have entered a period in which we have started to develop
+our relations in all fields which were stagnant for a while.
+We are determined to advance our cooperation on the basis of mutual
+benefit in this new period.
+","
+We will continue to support the Palestinian people and State in their
+struggle for their legitimate rights on the basis of international law.
+To reiterate once ag ain, without the creation of an independent and
+contiguous Palestinian State, based on 1967 borders, it is also difficult for
+Israel to find the peace and security it seeks.",unicode_code_point_half_open,1.0.0,,,,,,Permanent peace in the M iddle East is only possible through a lasting solution to the Palestinian-Israeli conflict.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9f6e3bbb0940,claim-v2-c7ec734a20550b79c46bd0affdb93fc3960c7307eac6e0b8f5039f6e3bbb0940,retrieved_candidate,passage-fe80d28ba3ece7847bf279bdc19615cf5e7e39360f9977b3da4d369a6a83d182,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,12763,12957,"To reiterate once ag ain, without the creation of an independent and
+contiguous Palestinian State, based on 1967 borders, it is also difficult for
+Israel to find the peace and security it seeks.",12504,13192,"Permanent peace in the M iddle East is only possible through a lasting
+solution to the Palestinian-Israeli conflict.
+We will continue to support the Palestinian people and State in their
+struggle for their legitimate rights on the basis of international law.
+","
+In this context, we will pursue our efforts, so that the historic status of
+Jerusalem, especially Al-Haram Al-Sharif is respected.
+We have strong political, economic and humanitarian ties with the
+Balkans, which are rooted in history.",unicode_code_point_half_open,1.0.0,,,,,,"To reiterate once ag ain, without the creation of an independent and contiguous Palestinian State, based on 1967 borders, it is also difficult for Israel to find the peace and security it seeks.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9c05c1e154d8,claim-v2-fcd28a2e075b8a027d31211c3dedca583d8aff216dfd8dfadee09c05c1e154d8,retrieved_candidate,passage-a64bbcaf9c83966a0dbc3abf7bf2c279c580ae03c462b86fa0213222a45ce769,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,13193,13378,"We are displaying intensive efforts at bilateral, regional and international
+platforms to ensure stability, and to resolve conflicts through dialogue, in
+this critical region of Europe.",12958,13701,"In this context, we will pursue our efforts, so that the historic status of
+Jerusalem, especially Al-Haram Al-Sharif is respected.
+We have strong political, economic and humanitarian ties with the
+Balkans, which are rooted in history.
+","
+We actively support the processes aimed at normalizing the recently
+strained relations between Kosovo and Serbia.
+-Courtesy Translation-
+8
+The increasingly complex nature of regional and global challenges
+indicates that there is a need, now more than ever, to advance Türkiye -
+European Union relations on a healthy basis.",unicode_code_point_half_open,1.0.0,,,,,,"We are displaying intensive efforts at bilateral, regional and international platforms to ensure stability, and to resolve conflicts through dialogue, in this critical region of Europe.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-7235e9868781,claim-v2-27240e3364351df25f1ff80ec8befef3272ceffaadeb9e9b713f7235e9868781,retrieved_candidate,passage-6f0750e3466de0badd192d77ba5faad3468e79760b90e8cc5c10406a33898192,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,15010,15119,"Any military intervention in Niger risks plunging this country and the entire
+region into deeper instability.",14745,15410,"However, it is a fact that the Sahel region faces serious political,
+economic, social and security challenges.
+We hope that Niger, which has been going through troubled times recently,
+reaches a constitutional order and a democratic governance as soon as
+possible.
+","
+Our Asia Anew Initiative has become a symbol of our will to further
+advance our relations with Asia, our ancestral homeland, on the basis of
+mutual benefit and common priorities.
+There is an historic opportunity before us to build peace, tranqui llity and
+cooperation in the South Caucasus.",unicode_code_point_half_open,1.0.0,,,,,,Any military intervention in Niger risks plunging this country and the entire region into deeper instability.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-d4bf748262dd,claim-v2-c6a3b62abb33787e350caeee2be07cf31f7261856ac8062e2a44d4bf748262dd,retrieved_candidate,passage-c3efa231ccd2484014f825e12c2849aa66bf04a566d60032c3ce79abd7ca760d,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,16112,16242,"We act with the motto ""ONE PEOPLE, TWO STATES"", and we support
+the steps taken by Azerbaijan to protect its territorial integrity.",15931,16540,"The imposition of any other status will never be accepted.
+Our priority target must be everybody living side by side, in peace, in the
+territory of Azerbaijan, including Armenians.
+","
+We are strengthening our cooperation with the countries of Central Asia,
+where the roots of our ancient civilization lie and with which we share the
+same culture.
+We welcome the fact that the Organization of Turkic States is becoming
+an increasingly effective actor on a regional and global level.",unicode_code_point_half_open,1.0.0,,,,,,"We act with the motto ""ONE PEOPLE, TWO STATES"", and we support the steps taken by Azerbaijan to protect its territorial integrity.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-f7c16b1d6006,claim-v2-50ef9ce482f167dc7fcf07deca3b86506b1c2e1140d8e1a77bdaf7c16b1d6006,retrieved_candidate,passage-c29c80881352392326d3a84062bd9bfa2c2c21e2f600fdbea0a35c759a031685,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,17260,17360,"On every occasion , we underline that we respect the territorial integrity
+and sovereignty of China.",16954,17744,"Another development which will pave the way for regional serenity,
+stability and prosperity in South Asia will be the establishment of a just
+and lasting peace in Kashmir through dialogue and cooperation between
+India and Pakistan.
+Türkiye will continue to support the steps to be taken in this direction.
+","
+-Courtesy Translation-
+10
+However, we will continue to express , and keep on the agenda , our
+sensitivity regarding the protection of the rights and freedoms of Uyghur
+Turks, with whom we have strong historical and human ties.
+We are a country which has extended a helping hand from the very first
+day to the Rohingya Muslims living in difficult conditions in Myanmar and
+Bangladesh.",unicode_code_point_half_open,1.0.0,,,,,,"On every occasion , we underline that we respect the territorial integrity and sovereignty of China.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-d800da2b80b9,claim-v2-a0fcccd8986c4a275b83d3d4fc63de603922781105f8d05a67d2d800da2b80b9,retrieved_candidate,passage-5ddeb297ee18b99de070e81a49f606d0f9bc28ea521197dfcff7882739ecf9c5,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,18121,18269,"We have intensified our efforts towards preventing energy from being an
+element of conflict and promotin g its use on the basis of common
+interests.",17903,18642,"Another crucial global challenge on our agenda is energy security.
+Türkiye has covered a long distance towards ensuring its own energy
+security, thanks to its investments in the field of energy over the last 20
+years.
+","
+To this end, we are striving to extend the spirit of cooperation and
+solidarity in the field of energy in a wide geography , ranging from the
+Eastern Mediterranean to the Caspian Basin, from the Black Sea to the
+Balkans.
+Also in the field of transport , Türkiye is at a geopolitical position which
+allows it to support all the projects that will pass through or around it.",unicode_code_point_half_open,1.0.0,,,,,,We have intensified our efforts towards preventing energy from being an element of conflict and promotin g its use on the basis of common interests.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-f57497405268,claim-v2-c67fc9b56679004016cea0d030d10b53f37fd4646c7e7d0d37ecf57497405268,retrieved_candidate,passage-5c551456de04685a2c11156dcb4804a1464e8c37686b2ec8888e01a460110b55,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,21806,21917,"It is our common responsibility to tackle all these challenges that I have
+tried to address in a few sentences.",21665,22091,"Regardless of their faith, I call upon all our friends who reject attacks on
+sacred values to support our struggle.
+Distinguished Delegates…
+","
+We can only fulfill this responsibility through effective cooperation,
+solidarity and embracing human values.
+Unfortunately, human values are under very heavy attack lately.",unicode_code_point_half_open,1.0.0,,,,,,It is our common responsibility to tackle all these challenges that I have tried to address in a few sentences.,"English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-de77f990f23f,claim-v2-646555cf3082a6d61d79270ae879edad1c7fe23ae9982e6499e8de77f990f23f,retrieved_candidate,passage-85cfd3c931bfec965771ff61158a2113372160d299aabe655c997026421229fd,,event-tur-unga78,doc-tur-unga78,TUR,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/turkiye,https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf,Türkiye government / Recep Tayyip Erdoğan,en,false,19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852,21918,22027,"We can only fulfill this responsibility through effective cooperation,
+solidarity and embracing human values.",21781,22223,"Distinguished Delegates…
+It is our common responsibility to tackle all these challenges that I have
+tried to address in a few sentences.
+","
+Unfortunately, human values are under very heavy attack lately.
+Family is the primary target of these attacks directly threatening human
+being, human nature, future of humanity and social fabric.",unicode_code_point_half_open,1.0.0,,,,,,"We can only fulfill this responsibility through effective cooperation, solidarity and embracing human values.","English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",translation_review,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-af156fbb1a4e,claim-v2-5575fed5bdb0f11ec13bfcc0a59f43f3cbe84f9bd5fc997422b5af156fbb1a4e,retrieved_candidate,passage-6046ba05831fdf6777546b93309e396bc20b6c989c0dd60eafde075e87af5a65,,event-us2014,doc-us2014,USA,2014-03-12,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,White House · President Barack Obama,en,false,aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8,5481,5639,"Mr. President, it’s all about the freedom. We fight for our freedom. We fight for our independence. We fight for our sovereignty. And we will never surrender.",5260,6221,"Thank you.
+PRIME MINISTER YATSENYUK: Thank you, Mr. President. And we highly appreciate the support that you have given to the Ukrainian people. And my country feels that the United States stands by the Ukrainian people.
+","
+My country has faced a number of challenges. The military one is a key challenge today, and we urge Russia to stick to its international obligations, to pull back its military into barracks, and to start the dialogue with no guns, with no military, with no tanks, but with the diplomacy and political tools.
+On behalf of my government, I would like to reiterate that we are absolutely ready and open for talks with the Russian Federation. We adhere to all international obligations. And we as the state of Ukraine will fulfill all bilateral and multilateral international treaties.",unicode_code_point_half_open,1.0.0,,,,,,"Mr. President, it’s all about the freedom. We fight for our freedom. We fight for our independence. We fight for our sovereignty. And we will never surrender.",Source/delivery qualifications remain in source review; no scoring clearance.,attribution_actor_mismatch,true,,development_only,100,source_attribution_or_text_problem,annotation-b979f31dbe66a759a937f70269cacba3e5e9334d0043362db72e65d70a3d580a,no_stance,AI-assisted judgments reviewed by Badr. These are not independent human annotations.,"The named actor is the United States, but the passage is spoken by Ukrainian Prime Minister Yatsenyuk. His statements about Ukrainian freedom, independence and sovereignty cannot establish the US position. The context confirms his identity. Flag a speaker-attribution error and exclude this passage from US stance scoring. This label does not imply that the US lacks a policy position. The passage also does not explicitly establish the full territorial-recognition proposition.",,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-2f271d3dd17b,claim-v2-fd54fcfba8b894d7d52db216c29f5c1cb1add1e0080203386f142f271d3dd17b,retrieved_candidate,passage-6e4dcb3a7b4c5686ca490bcebcd8312861a53a47c5241e7fab70d8254307a52c,,event-us2014,doc-us2014,USA,2014-03-12,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,White House · President Barack Obama,en,false,aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8,5640,5947,"My country has faced a number of challenges. The military one is a key challenge today, and we urge Russia to stick to its international obligations, to pull back its military into barracks, and to start the dialogue with no guns, with no military, with no tanks, but with the diplomacy and political tools.",5271,6607,"PRIME MINISTER YATSENYUK: Thank you, Mr. President. And we highly appreciate the support that you have given to the Ukrainian people. And my country feels that the United States stands by the Ukrainian people.
+Mr. President, it’s all about the freedom. We fight for our freedom. We fight for our independence. We fight for our sovereignty. And we will never surrender.
+","
+On behalf of my government, I would like to reiterate that we are absolutely ready and open for talks with the Russian Federation. We adhere to all international obligations. And we as the state of Ukraine will fulfill all bilateral and multilateral international treaties.
+On the economic side, Mr. President, we highly appreciate the support of the United States and the decision to guarantee $1 billion loan for the Ukrainian economy. You know that we resumed talks with the IMF. We do understand that these are tough reforms, but these reforms are needed for the Ukrainian state. And we are back on track in terms of delivering real reforms in my country.",unicode_code_point_half_open,1.0.0,,,,,,"My country has faced a number of challenges. The military one is a key challenge today, and we urge Russia to stick to its international obligations, to pull back its military into barracks, and to start the dialogue with no guns, with no military, with no tanks, but with the diplomacy and political tools.",Source/delivery qualifications remain in source review; no scoring clearance.,attribution_actor_mismatch,true,,development_only,100,source_attribution_or_text_problem,,,,,,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-5e8e011b84e9,claim-v2-76d0fcc212392cc71b4658bee53bee842c2c22ec893f2338fadc5e8e011b84e9,retrieved_candidate,passage-ef6efcf342694849e498d54ff3d43526b1d007aa3a6ad171cd4c73c6879c45a3,,event-us2014,doc-us2014,USA,2014-03-12,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,White House · President Barack Obama,en,false,aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8,1364,1936,"The most pressing challenge that Ukraine faces at the moment, however, is the threat to its territorial integrity and its sovereignty. We have been very clear that we consider the Russian incursion into Crimea outside of its bases to be a violation of international law, of international agreements of which Russia is a signatory, and a violation of the territorial integrity and sovereignty of Ukraine. And we have been very firm in saying that we will stand with Ukraine and the Ukrainian people in ensuring that that territorial integrity and sovereignty is maintained.",110,3336,"I think all of us have seen the courage of the Ukrainian people in standing up on behalf of democracy and on the desire that I believe is universal for people to be able to determine their own destiny. And we saw in the Maidan how ordinary people from all parts of the country had said that we want a change. And the Prime Minister was part of that process, showed tremendous courage, and upheld the principles of nonviolence throughout the course of events over the last several months.
+Obviously, the Prime Minister comes here during a very difficult time for his country. In the aftermath of President Yanukovych leaving the country, the parliament, the Rada, acted in a responsible fashion to fill the void, created a inclusive process in which all parties had input, including the party of former President Yanukovych. They have set forward a process to stabilize the country, take a very deliberate step to assure economic stability and negotiate with the International Monetary Fund, and to schedule early elections so that the Ukrainian people, in fact, can choose their direction for the future. And the Prime Minister has managed that process with great skill and great restraint, and we’re very much appreciative of the work that he has done.
+","
+I think we all recognize that there are historic ties between Russia and Ukraine, and I think the Prime Minister would be the first one to acknowledge that. And I think the Prime Minister and the current government in Kyiv has recognized and has communicated directly to the Russian Federation their desire to try to manage through this process diplomatically. But what the Prime Minister I think has rightly insisted on is, is that they cannot have a country outside of Ukraine dictate to them how they should arrange their affairs. And there is a constitutional process in place and a set of elections that they can move forward on that, in fact, could lead to different arrangements over time with the Crimean region, but that is not something that can be done with the barrel of a gun pointed at you.
+And so Secretary Kerry is in communications with the Russian government and has offered to try to explore with his counterpart, Foreign Minister Lavrov, a diplomatic solution to this crisis. We are in close communication with the Ukrainian government in terms of how we might proceed going forward. But we will continue to say to the Russian government that if it continues on the path that it is on then not only us, but the international community -- the European Union and others -- will be forced to apply a cost to Russia’s violations of international law and its encroachments on Ukraine.",unicode_code_point_half_open,1.0.0,,,,,,"The most pressing challenge that Ukraine faces at the moment, however, is the threat to its territorial integrity and its sovereignty. We have been very clear that we consider the Russian incursion into Crimea outside of its bases to be a violation of international law, of international agreements of which Russia is a signatory, and a violation of the territorial integrity and sovereignty of Ukraine. And we have been very firm in saying that we will stand with Ukraine and the Ukrainian people in ensuring that that territorial integrity and sovereignty is maintained.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,95,unresolved;partial_scope,,,,,unresolved,"Explicit Ukraine/Crimea sovereignty and illegality language is partial support, but comprehensive territory and annexation non-recognition are not fully established.",partial_scope,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-b69fa3f78fb1,claim-v2-9d993b4afc22a9cbe780e90970226f2c1542ac3d3dfe3bc4270bb69fa3f78fb1,retrieved_candidate,passage-193cd8bbbcf913d28394b8f6105bf8a11c070f43e95a042524ce3ac24d92c429,,event-us2014,doc-us2014,USA,2014-03-12,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,White House · President Barack Obama,en,false,aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8,3337,3611,"There’s another path available, and we hope that President Putin is willing to seize that path. But if he does not, I’m very confident that the international community will stand strongly behind the Ukrainian government in preserving its unity and its territorial integrity.",1937,4673,"I think we all recognize that there are historic ties between Russia and Ukraine, and I think the Prime Minister would be the first one to acknowledge that. And I think the Prime Minister and the current government in Kyiv has recognized and has communicated directly to the Russian Federation their desire to try to manage through this process diplomatically. But what the Prime Minister I think has rightly insisted on is, is that they cannot have a country outside of Ukraine dictate to them how they should arrange their affairs. And there is a constitutional process in place and a set of elections that they can move forward on that, in fact, could lead to different arrangements over time with the Crimean region, but that is not something that can be done with the barrel of a gun pointed at you.
+And so Secretary Kerry is in communications with the Russian government and has offered to try to explore with his counterpart, Foreign Minister Lavrov, a diplomatic solution to this crisis. We are in close communication with the Ukrainian government in terms of how we might proceed going forward. But we will continue to say to the Russian government that if it continues on the path that it is on then not only us, but the international community -- the European Union and others -- will be forced to apply a cost to Russia’s violations of international law and its encroachments on Ukraine.
+","
+Let me just make two final points. Obviously, because of the political turmoil, the economic situation in Ukraine has become more challenging, not less. And that’s why I’m very proud that not only as critical members of the International Monetary Fund, the IMF, we are working with the Prime Minister and his team in a package that can help to institute necessary reforms inside of the Ukraine, but also help to stabilize the situation so that people feel confident that in their daily lives they can meet their basic necessities.
+We’re also asking Congress to act promptly to deliver on an aid package, including a $1 billion loan guarantee that can help smooth the path for reform inside of Ukraine and give the Prime Minister and his government the capacity to do what they need to do as they are also organizing an election process. So I would just ask both Democrats and Republicans, who I know are unified in their support of Ukraine, to move quickly to give us the support that we need so that we can give the Ukrainian people the support that they need.",unicode_code_point_half_open,1.0.0,,,,,,"There’s another path available, and we hope that President Putin is willing to seize that path. But if he does not, I’m very confident that the international community will stand strongly behind the Ukrainian government in preserving its unity and its territorial integrity.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,95,unresolved;partial_scope;conditional,,,,,unresolved,Conditional support for Ukrainian unity and integrity leaves the strict comprehensive recognition/non-annexation target incomplete.,partial_scope;conditional,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-7c4526d71289,claim-v2-1eba223554be27529fed428b9f3be66b88484baa58b8b1206acc7c4526d71289,retrieved_candidate,passage-e8284066ddc628d6d4b327cf4e602f0cce46a36f07913dee5fed4bca341a01ee,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,2540,2703,"In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.",2115,3170,"From the experience of our own journey from apartheid to democracy, we value
+the importance of engaging all parties to conflicts to achieve peaceful, just and
+enduring resolutions.
+It is these principles that inform South Africa’s participation in the African Peace
+Initiative, which seeks a peaceful resolution of the conflict between Russia and
+Ukraine.
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+3
+","
+Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.
+As the international community, we must do everything within our means to
+enable meaningful dialogue, just as we should refrain from any actions that fuel
+the conflict.",unicode_code_point_half_open,1.0.0,,,,,,"In this conflict, as in all conflicts, we have insisted that the UN Charter’s principle of respect for the territorial integrity of every country should be upheld.",Source/delivery qualifications remain in source review; no scoring clearance.,scope_insufficiency,false,,development_only,95,partial_scope;unresolved,annotation-ba0f2decf1e6e9cd09b25be19f84efbfb45e68c4549c8fefd7c68e70f30fc03a,unresolved,"Badr_A-reviewed, AI-assisted and non-independent judgments.","Applies territorial-integrity principles to the Russia–Ukraine conflict, providing partial supporting evidence. The full strict territorial-recognition proposition, including annexation non-recognition, is not established. Flag scope insufficiency and exclude from directional scoring pending resolution.",,,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-e9821566eff3,claim-v2-6e625ccdf43d27dc054f76e7d3b1ca2f38beeaef5a3812ded476e9821566eff3,retrieved_candidate,passage-0263a5027486e20580de303b394e35313ebe8c71c52c9154383a4bb479648fdf,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,territorial_recognition,Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,4731,4897,"The principles of the UN Charter on territorial integrity and on the prohibition on
+the annexation of land through the use of force must be applied in this situation.",4468,5162,"For as long as the land of the
+Palestinians remains occupied, for as long as their rights are ignored and their
+dignity denied, such peace will remain elusive.
+The actions of the Government of Israel have imperiled the possibility of a
+viable two state solution.
+","
+South Africa continues to call for the lifting of the economic embargo against
+Cuba, which has caused untold damage to the country’s economy and people.
+Sanctions against Zimbabwe should also be lifted as they are imposing untold
+suffering on ordinary Zimbabweans.",unicode_code_point_half_open,1.0.0,,,,,,The principles of the UN Charter on territorial integrity and on the prohibition on the annexation of land through the use of force must be applied in this situation.,Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,60,cross_conflict_attribution,,,,,no_stance,"The immediate antecedent is Palestine and Israel’s actions, not Ukrainian territory; do not transplant this annexation language across conflicts.",cross_conflict_attribution,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-58560a53db79,claim-v2-74de43266a740c5e7f1609de85d7b6296fc3eb4af8ae274930bb58560a53db79,retrieved_candidate,passage-819d1fbfc6d68b4249af4cbbd4061c9a366ba4f7f4d73e9d0b843b6297ccf44a,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,sanctions,Supports specified restrictive measures against Russia because of its actions in Ukraine.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,5051,5162,"Sanctions against Zimbabwe should also be lifted as they are imposing untold
+suffering on ordinary Zimbabweans.",4731,5556,"The principles of the UN Charter on territorial integrity and on the prohibition on
+the annexation of land through the use of force must be applied in this situation.
+South Africa continues to call for the lifting of the economic embargo against
+Cuba, which has caused untold damage to the country’s economy and people.
+","
+As many people around the world are confronted by hunger and want the
+essential human qualities of cooperation and solidarity must be evident in the
+actions we take to bridge the divide between wealthy and poor.
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+5
+We must summon the necessary will and resolve to regain the momentum
+towards the achievement of the 2030 Agenda.",unicode_code_point_half_open,1.0.0,,,,,,Sanctions against Zimbabwe should also be lifted as they are imposing untold suffering on ordinary Zimbabweans.,Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,60,cross_country_target,,,,,no_stance,"Calls for lifting sanctions against Zimbabwe, not sanctions against Russia; this is not opposition on the target lens.",cross_country_target,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-321870da9fd0,claim-v2-03cd6ce6c09fc5b48f0b350de0a6d698169a18658f7d20df6445321870da9fd0,retrieved_candidate,passage-719bfe0e44fbc81d3008fce9f63c5c0a41ca0689bf587f57a6a56c640612f3bf,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,2627,2819,"Similarly, our evacuation operations in HADR
+As on September 24, 2022; 0800 Hrs
+4
+(Humanitarian Assistance and Disaster Relief) situations always
+have had room for other nationals in distress.",2479,3003,"We believe that national good and global good can
+be entirely in harmony.
+It is this conviction that led us to supply vaccines to over 100
+nations. ","
+Even as we meet our own development targets, India offers
+partnerships to our brothers and sisters in Asia, Africa and Latin
+America. And we do so based on their needs and priorities.",unicode_code_point_half_open,1.0.0,,,,,,"Similarly, our evacuation operations in HADR (Humanitarian Assistance and Disaster Relief) situations always have had room for other nationals in distress.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,header_obstruction_resolved_by_exact_source_aligned_reading_view,development_only,20,routine_check,,,,,no_stance,"HADR evacuation and assistance to nationals in distress are humanitarian operations, not external military assistance to Ukraine.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-735adf8b947a,claim-v2-777df373431402d6b96bc2de8c743d791fd2e0af6740217742f4735adf8b947a,retrieved_candidate,passage-9c3cbba8a228a45ff436b2db3de5c6b4a7a504c4ef7875161cceb13df985294f,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,4658,4817,"It is therefore in our collective interest to work constructively,
+both within the United Nations and outside, in finding an early
+resolution to this conflict.",4414,4970,"We are on the side that calls for dialogue and diplomacy as the
+only way out.
+As on September 24, 2022; 0800 Hrs
+6
+We are on the side of those struggling to make ends meet , even
+as they stare at escalating costs of food, fuel and fertilizers.
+","
+Excellencies,
+While the global attention has been on Ukraine, India has also
+had to contend with other challenges , especially in its own
+neighbourhood.",unicode_code_point_half_open,1.0.0,,,,,,"It is therefore in our collective interest to work constructively, both within the United Nations and outside, in finding an early resolution to this conflict.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,Calls for collective conflict resolution without identifying Russia as responsible for initiating the invasion.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-7900476f5eac,claim-v2-43714c320cbd55b10b4855c2d163a8bdb64a6b868b9558d97eb87900476f5eac,retrieved_candidate,passage-73fd49f4d3b1ced1e77f57e1205a849be51bb9d27273906f0c2b38130bb8d902,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,4971,5086,"Some of them may be aggravated by the Covid pandemic and
+ongoing conflicts; but they speak too of a deeper malaise.",4818,5258,"Excellencies,
+While the global attention has been on Ukraine, India has also
+had to contend with other challenges , especially in its own
+neighbourhood.
+"," The
+accumulation of debt in fragile economies is of particular
+concern.
+We believe that in such times, the international community
+must rise above narrow national agendas.",unicode_code_point_half_open,1.0.0,,,,,,Some of them may be aggravated by the Covid pandemic and ongoing conflicts; but they speak too of a deeper malaise.,Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,Describes economic consequences of conflict; it does not assign responsibility for the February invasion to Russia.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-2aaf3a4c6494,claim-v2-8c67651aa0f09a5ac905778f6013e1376ec5afa8153bb2d8f7ab2aaf3a4c6494,retrieved_candidate,passage-5e4df1717b37689ebe2b0cb11bc9482f73e1502fcf0574525e78f03b32d2c2c1,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,5766,5899,"Whether it is disaster response or humanitarian assistance, India
+has stood strong, contributing particularly to those nearest to
+us.",5598,5979,"When we suppl ied 10,000 metric tons of food aid and vaccine
+shipments to Myanmar.
+When we fill the gap in humanitarian needs left unaddressed by
+political complexity.
+","
+Excellencies,
+The world, as we knew it, is poised for transformational changes.",unicode_code_point_half_open,1.0.0,,,,,,"Whether it is disaster response or humanitarian assistance, India has stood strong, contributing particularly to those nearest to us.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,Disaster response and humanitarian assistance are distinct from military assistance to Ukraine.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-6f8606ab6a95,claim-v2-e47285e1958170384e040e3b051072e5ae7f171cad5e507d7ac66f8606ab6a95,retrieved_candidate,passage-0c56054d7153710c438bea57114316c0ff647028d7834a6c32ab552cac5278bd,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,6286,6409,"The repercussions of the ongoing Ukraine conflict have further
+heightened economic stresses, especially on food and energy.",5980,6601,"It has been impacted in recent times by a succession of shocks,
+each of them significant by itself.
+As on September 24, 2022; 0800 Hrs
+8
+The Covid pandemic called into question the over -centralized
+nature of globalization and has led all of us to seek greater
+resilience and reliability of supply chains.
+","
+Climate events have added to the disruption that the world is
+already facing.
+As for the promise of technology, it has certainly multiplied our
+capabilities but also added to vulnerabilities.",unicode_code_point_half_open,1.0.0,,,,,,"The repercussions of the ongoing Ukraine conflict have further heightened economic stresses, especially on food and energy.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,Describes economic consequences of conflict; it does not assign responsibility for the February invasion to Russia.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-4faaf14d27c7,claim-v2-589fd70838c69dc61bf0d1c80888ab38d890762e73dc820c29894faaf14d27c7,retrieved_candidate,passage-44f60f7cf1c1314d42c8d9f974957d1fa28b9a1435b2c582eee042f7aa72cadd,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,11021,11089,"We believe and advocate that this is not an era of war and
+conflict.",10940,11167,"And experiences more acts of goodwill.
+India is willing and able on both counts.
+"," On the contrary, it is a time for development and
+cooperation.
+Mr. President,",unicode_code_point_half_open,1.0.0,,,,,,We believe and advocate that this is not an era of war and conflict.,Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,General opposition to an era of war and conflict does not attribute the specific invasion to Russia.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-230f9530277f,claim-v2-214e5d6c1f1f279bcd86fa8ce2fd8d311570c48d78f0284b94a8230f9530277f,retrieved_candidate,passage-37efa5ef09f356ba193feac628b1cb1683cd248a1a9573bad6e5586f7f096724,,event-us2014,doc-us2014,USA,2014-03-12,military_assistance,"Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat,White House · President Barack Obama,en,false,aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8,7597,7857,"PRESIDENT OBAMA: Julie, we completely reject a referendum patched together in a few weeks with Russian military personnel basically taking over Crimea. We reject its legitimacy. It is contrary to international law. It is contrary to the Ukrainian constitution.",7524,9024,"PRESIDENT OBAMA: Mr. Prime Minister, thank you very much.
+Q (Inaudible.)
+","
+I know that we've heard from the Russian Federation this notion that these kinds of decisions are often made in other places, and they’ve even analogized it to Scotland or other situations of that sort. In each of those cases that they’ve cited, decisions were made by a national government through a long, lengthy, deliberative process. It's not something that happens in a few days, and it's not something that happens with an outside army essentially taking over the region.
+As you just heard the Prime Minister indicate, the people of Ukraine recognize historic ties with the people of Russia. The Prime Minister you just heard say, repeat what he said often, which is they’re prepared to respect all international treaties and obligations that they are signatories to, including Russian basing rights in Crimea. The issue now is whether or not Russia is able to militarily dominate a region of somebody else’s country, engineer a slapdash referendum, and ignore not only the Ukrainian constitution but a Ukrainian government that includes parties that are historically in opposition with each other -- including, by the way, the party of the previous President.",unicode_code_point_half_open,1.0.0,,,,,,"PRESIDENT OBAMA: Julie, we completely reject a referendum patched together in a few weeks with Russian military personnel basically taking over Crimea. We reject its legitimacy. It is contrary to international law. It is contrary to the Ukrainian constitution.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,Rejects the Crimea referendum and Russian military presence; it does not endorse or oppose external military assistance to Ukraine.,,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-36f9d85fac5d,claim-v2-7cc575af9a7979ebf763cb25ea6634d2c1d87704673e5326b62e36f9d85fac5d,retrieved_candidate,passage-f21f99b4810f00ca3d8c1b7e21b3f8db54d8d818024e6d467f9f8686458d7df3,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,737,875,"And yet, as we gather here, much of humanity is confronted by war and
+conflict, by want and hunger, by disease and environmental disaster.",364,980,"Seventy-eight years ago, in the aftermath of the Second World War, the nations
+of the world made a solemn commitment to save future generations from the
+horror and the suffering of war.
+Through the United Nations Charter these nations accepted a shared mandate
+to foster peace and to promote fundamental human rights, social progress and
+a better standard of life for all.
+","
+Solidarity and trust between states is being eroded.
+Inequality, poverty and unemployment are deepening.",unicode_code_point_half_open,1.0.0,,,,,,"And yet, as we gather here, much of humanity is confronted by war and conflict, by want and hunger, by disease and environmental disaster.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-f277ae1ff8e5,claim-v2-fe9904f82b795b4126b5f44881508c1c5ce529920a39cd22a255f277ae1ff8e5,retrieved_candidate,passage-d5538c89750434cc2eecb089b9d87f9aade4dde1545c35a1b56df7f546f0aa4f,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,1723,1840,"These qualities must be evident in how we work together as a global
+community and as nations to end war and conflict.",1477,2114,"Over millennia, the human race has demonstrated an enormous capacity for
+resilience, adaptation, innovation, compassion and solidarity.
+At this moment, we are all called upon to reaffirm these essential qualities that
+define our common humanity.
+","
+Democratic South Africa has consistently advocated for dialogue, negotiation
+and diplomacy to prevent and end conflict and achieve lasting peace.
+It has committed itself to the promotion of human rights, human dignity, justice,
+democracy and adherence to international law.",unicode_code_point_half_open,1.0.0,,,,,,These qualities must be evident in how we work together as a global community and as nations to end war and conflict.,Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-aa1cb343e39b,claim-v2-937085b0584cc4e8173520014bd3da70d906dba3deb9d2147757aa1cb343e39b,retrieved_candidate,passage-09d7622929ee98a29d881bf08748615001c164bf9d839010c5bb07a33b1e8cfa,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,1841,1986,"Democratic South Africa has consistently advocated for dialogue, negotiation
+and diplomacy to prevent and end conflict and achieve lasting peace.",1613,2295,"At this moment, we are all called upon to reaffirm these essential qualities that
+define our common humanity.
+These qualities must be evident in how we work together as a global
+community and as nations to end war and conflict.
+","
+It has committed itself to the promotion of human rights, human dignity, justice,
+democracy and adherence to international law.
+From the experience of our own journey from apartheid to democracy, we value
+the importance of engaging all parties to conflicts to achieve peaceful, just and
+enduring resolutions.",unicode_code_point_half_open,1.0.0,,,,,,"Democratic South Africa has consistently advocated for dialogue, negotiation and diplomacy to prevent and end conflict and achieve lasting peace.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-11de7a4a1d85,claim-v2-7a22b81872e83b4b8ba7d3a17fe5ced5a202f7fcea602efc753711de7a4a1d85,retrieved_candidate,passage-957e891bf645e36e09f1b0f4b2015b90c2fc13203319ce49c7cdf964d04216ec,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,2115,2295,"From the experience of our own journey from apartheid to democracy, we value
+the importance of engaging all parties to conflicts to achieve peaceful, just and
+enduring resolutions.",1841,2703,"Democratic South Africa has consistently advocated for dialogue, negotiation
+and diplomacy to prevent and end conflict and achieve lasting peace.
+It has committed itself to the promotion of human rights, human dignity, justice,
+democracy and adherence to international law.
+","
+It is these principles that inform South Africa’s participation in the African Peace
+Initiative, which seeks a peaceful resolution of the conflict between Russia and
+Ukraine.
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+3
+In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.",unicode_code_point_half_open,1.0.0,,,,,,"From the experience of our own journey from apartheid to democracy, we value the importance of engaging all parties to conflicts to achieve peaceful, just and enduring resolutions.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-d9be2353f11d,claim-v2-42ae5f85a57763e14eaa5b2d571f9c694bc65c703c9756f9ee95d9be2353f11d,retrieved_candidate,passage-38c53c54f9e199de1e2ccb07129886f0bbe445c62735492a4ee745032f82d24a,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,2296,2470,"It is these principles that inform South Africa’s participation in the African Peace
+Initiative, which seeks a peaceful resolution of the conflict between Russia and
+Ukraine.",1987,3001,"It has committed itself to the promotion of human rights, human dignity, justice,
+democracy and adherence to international law.
+From the experience of our own journey from apartheid to democracy, we value
+the importance of engaging all parties to conflicts to achieve peaceful, just and
+enduring resolutions.
+","
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+3
+In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.
+Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.",unicode_code_point_half_open,1.0.0,,,,,,"It is these principles that inform South Africa’s participation in the African Peace Initiative, which seeks a peaceful resolution of the conflict between Russia and Ukraine.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"Discusses peace efforts, integrity or suffering in the Russia–Ukraine conflict without assigning responsibility for initiating the invasion.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-e80b2e5bd3ca,claim-v2-391cf057fc7b953a5b0f8a421e839131f3cd294ca84c8d4cd975e80b2e5bd3ca,retrieved_candidate,passage-e8284066ddc628d6d4b327cf4e602f0cce46a36f07913dee5fed4bca341a01ee,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,2540,2703,"In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.",2115,3170,"From the experience of our own journey from apartheid to democracy, we value
+the importance of engaging all parties to conflicts to achieve peaceful, just and
+enduring resolutions.
+It is these principles that inform South Africa’s participation in the African Peace
+Initiative, which seeks a peaceful resolution of the conflict between Russia and
+Ukraine.
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+3
+","
+Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.
+As the international community, we must do everything within our means to
+enable meaningful dialogue, just as we should refrain from any actions that fuel
+the conflict.",unicode_code_point_half_open,1.0.0,,,,,,"In this conflict, as in all conflicts, we have insisted that the UN Charter’s principle of respect for the territorial integrity of every country should be upheld.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"Discusses peace efforts, integrity or suffering in the Russia–Ukraine conflict without assigning responsibility for initiating the invasion.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9fa46b10c68a,claim-v2-972c97fd03aa1eed29ab3796dcdaff5d8f5dc1e0ecbf584554329fa46b10c68a,retrieved_candidate,passage-93a0dda37bf9ac2522bdb562364a70e4090103eea3dbb2e8385a568250c70fb2,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,2704,3001,"Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.",2296,3324,"It is these principles that inform South Africa’s participation in the African Peace
+Initiative, which seeks a peaceful resolution of the conflict between Russia and
+Ukraine.
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+3
+In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.
+","
+As the international community, we must do everything within our means to
+enable meaningful dialogue, just as we should refrain from any actions that fuel
+the conflict.
+As we confront other conflicts in several parts of the world, including on our
+continent Africa, we need to be investing in prevention and peacebuilding.",unicode_code_point_half_open,1.0.0,,,,,,"Our participation in the African Peace Initiative is informed by a desire to see an end to the suffering of those most directly affected by the conflict and the millions on our continent and across the world who, as a result of the conflict, are now vulnerable to worsening hunger and deprivation.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"Discusses peace efforts, integrity or suffering in the Russia–Ukraine conflict without assigning responsibility for initiating the invasion.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-9aebe7caff90,claim-v2-faa627f1674720456ad118b554b9904b60280346b45f26bfba259aebe7caff90,retrieved_candidate,passage-082b991e286e17cfe2b99124ef02b603356e1407ac38fa643320f9f6d26b9d52,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,3002,3170,"As the international community, we must do everything within our means to
+enable meaningful dialogue, just as we should refrain from any actions that fuel
+the conflict.",2540,3498,"In this conflict, as in all conflicts, we have insisted that the UN Charter’s
+principle of respect for the territorial integrity of every country should be upheld.
+Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.
+","
+As we confront other conflicts in several parts of the world, including on our
+continent Africa, we need to be investing in prevention and peacebuilding.
+We support the call by the UN Secretary-General in the New Agenda for Peace
+for Member States to provide more sustainable and predictable financing to
+peacebuilding efforts.",unicode_code_point_half_open,1.0.0,,,,,,"As the international community, we must do everything within our means to enable meaningful dialogue, just as we should refrain from any actions that fuel the conflict.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"Discusses peace efforts, integrity or suffering in the Russia–Ukraine conflict without assigning responsibility for initiating the invasion.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-a8297c35c6da,claim-v2-f5dd8ccf437a0157910626befedf3ea5d0f27eaf91943a8bd6dba8297c35c6da,retrieved_candidate,passage-02e618c1dbca6aa6ad9c5ea9998f91e665f85045b99398742c45ce8b094968f2,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,3171,3324,"As we confront other conflicts in several parts of the world, including on our
+continent Africa, we need to be investing in prevention and peacebuilding.",2704,3631,"Our participation in the African Peace Initiative is informed by a desire to see
+an end to the suffering of those most directly affected by the conflict and the
+millions on our continent and across the world who, as a result of the conflict,
+are now vulnerable to worsening hunger and deprivation.
+As the international community, we must do everything within our means to
+enable meaningful dialogue, just as we should refrain from any actions that fuel
+the conflict.
+","
+We support the call by the UN Secretary-General in the New Agenda for Peace
+for Member States to provide more sustainable and predictable financing to
+peacebuilding efforts.
+As a global community, we should be concerned by recent incidents of
+unconstitutional changes of government in some parts of Africa.",unicode_code_point_half_open,1.0.0,,,,,,"As we confront other conflicts in several parts of the world, including on our continent Africa, we need to be investing in prevention and peacebuilding.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-bb226a23d932,claim-v2-75447063d34d3d5d29f72686d277435d89513511fb2470c60cbcbb226a23d932,retrieved_candidate,passage-80c0f7e5adb3961812d58646484aa1d191f9982e81812f104143a97efce7cd7e,,event-zaf-unga78,doc-zaf-unga78,ZAF,2023-09-19,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/78/south-africa,https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf,South Africa government / Cyril Ramaphosa,en,false,a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19,10376,10580,"Despite its history, despite the legacy of exploitation and subjugation, despite
+the ongoing challenge of conflict and instability, Africa is determined to regain
+its position as a site of human progress.",10150,11124,"All the peoples represented here in this United Nations had their origins in
+Africa.
+In Africa, they developed the tools and capabilities to spread across the world
+and achievable remarkable feats of development and progress.
+","
+Through the African Continental Free Trade Area, which is creating a wider
+seamless trading area of low tariffs and accelerated interconnectivity, African
+V7
+78TH UN GENERAL ASSEMBLY DEBATE
+19 SEPTEMBER 2023
+NEW YORK, USA
+9
+countries are mobilising their collective means and resources to achieve shared
+prosperity.
+Through the African Continental Free Trade Area, African countries are
+establishing the foundation for a massive increase in trade, accelerated
+infrastructure development, regional integration and sustainable
+industrialisation.",unicode_code_point_half_open,1.0.0,,,,,,"Despite its history, despite the legacy of exploitation and subjugation, despite the ongoing challenge of conflict and instability, Africa is determined to regain its position as a site of human progress.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,20,routine_check,,,,,no_stance,"General conflict, peacebuilding or African development language contains no attribution of the February invasion to Russia.",,,,,false,,,,
+annotation-queue-1.0.0,annotation_task,R-128764f2ca50,claim-v2-17dcf85dfc86bae45b007eb7f145da9e244b0f6477c8c8093436128764f2ca50,retrieved_candidate,passage-778c7a4fccc58c174e44109d7be2aff89a848c27ae0846e863f84a1fc292ec28,,event-ind-unga77,doc-ind-unga77,IND,2022-09-24,invasion_responsibility,Attributes responsibility for the February 2022 full-scale invasion to the Russian state.,https://gadebate.un.org/en/77/india,https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf,India government / Subrahmanyam Jaishankar,en,false,32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e,3556,3664,"These, along with trade disruptions
+and diversions, are among the many consequences of the
+Ukraine conflict.",3407,3851,"The debt situation of the developing is precarious.
+To this, is now added the rising costs and shrinking availability
+of fuel, food and fertilizers. ","
+As on September 24, 2022; 0800 Hrs
+5
+The Indo-Pacific too witnesses fresh concerns about its stability
+and security. And climate events have added an overlay on these
+mounting anxieties.",unicode_code_point_half_open,1.0.0,,,,,,"These, along with trade disruptions and diversions, are among the many consequences of the Ukraine conflict.",Source/delivery qualifications remain in source review; no scoring clearance.,,false,,development_only,10,already_recorded,annotation-a81a67ba891bd00ed04cf0b913f197641753595a277fc2931de4d0a45a90c2dd,no_stance,"Badr_A-reviewed, AI-assisted and non-independent judgments.",Describes economic consequences of the Ukraine conflict without attributing responsibility for the February 2022 invasion to Russia.,,,,,,,false,,,,

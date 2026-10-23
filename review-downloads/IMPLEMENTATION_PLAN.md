@@ -1,6 +1,6 @@
 # ORBIT implementation plan
 
-Status: consolidated bulk review replaces small batches. Existing judgments preserved; 84 unreviewed AI drafts, 94 quarantined records, separate blind event rehearsal, aggregation/coverage/ledger implementation and guarded training setup. No training or public-score change.
+Status: practical development-only review is ready: 68 records, automatic local saving, resume/import/export and protected assisted provenance. Evaluation text is excluded. Technical source/collection work stays separate; no training or public-score change.
 Updated: 23 October 2026.
 
 Authority: AGENTS.md and HANDOFF.md establish scope; ORBIT_Methodology_v0_1.qmd supplies measurement details. The handoff supersedes the methodology's older two-actor, first-lens-only release wording. Stages below are development increments, not reduced release scope. The current milestone adds configurations, schemas and collection, without model training or public-score changes.
@@ -141,3 +141,9 @@ Small annotation batches are discontinued. Historical batch checkpoints above re
 | Aggregation/release | Tested hierarchy, duplicate handling, coverage gates and contribution ledger; real scores null | Validated calibrated outputs only; contribution/weight reconciliation, declared streams, adequate annual coverage (four quarters, two events on distinct dates each), reviewed uncertainty/sensitivity. Current website design/editorial scores persist until this passes. |
 
 Next milestone: bulk adjudication and source clearance, plus untouched evaluation-source expansion, then an approved dataset freeze and baseline readiness check. Remaining independent work includes broader retrieval/coverage audits, transformer dependency/model pin/compute checks and eventual calibration/evaluation implementation. No model training is authorized by this workflow-preparation step.
+
+## Development review usability checkpoint
+
+Completed: development-only 68-record packet; no reserved event text/context; unreviewed, clean and quarantined filters; automatic local response/settings saving and honest saved status; CSV/JSON resume with conflict and immutable-field guards; backend baseline recognition; 62 Python tests plus browser reopen/export/import checks. See DEVELOPMENT_REVIEW.md.
+
+Badr's next action is bulk review of clean records and return of the complete exported CSV. Source clearance and collection expansion remain independent technical work with new versioned artifacts, preserving the active review snapshot. Keep blind event exclusions, provenance, strict codebooks, training approval and public scoring gates unchanged. No further small batches.
