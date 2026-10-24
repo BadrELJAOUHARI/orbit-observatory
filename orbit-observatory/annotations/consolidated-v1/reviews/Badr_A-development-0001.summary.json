@@ -1,0 +1,35 @@
+{
+  "review_id": "Badr_A-development-0001",
+  "submission_sha256": "fa1e9c0bd6e5ef17cabd714f067c432ee2bb760e4997f4f0c595ca7e3312cf46",
+  "records": 68,
+  "annotations": 68,
+  "annotator_id": "Badr_A",
+  "ai_assisted": true,
+  "independent_annotations": 0,
+  "labels": {
+    "support": 4,
+    "no_stance": 58,
+    "unresolved": 6
+  },
+  "evidence_fields_unchanged": true,
+  "audit": {
+    "expected_records": 68,
+    "returned_records": 68,
+    "fatal_conflicts": [],
+    "prior_label_differences": [
+      {
+        "candidate_id": "claim-v2-72043e4b32983f3554df00200f72576299e1a844c6a299d474b60b635fe0a55f",
+        "row_id": "R-0b635fe0a55f",
+        "previous_annotation_id": "annotation-79ef4793db367f38ba5333fb96576c65dc92fc0ecb614cc9f4a6cfa599eacb20",
+        "previous_label": "support",
+        "submitted_label": "unresolved",
+        "handling": "Append new reviewed judgment; preserve previous annotation, revision lineage and all source/scope holds."
+      }
+    ],
+    "independence_counts": {
+      "false": 68
+    },
+    "policy": "Reported extra checks do not change record independence without explicit record-level, no-suggestion-exposure provenance."
+  },
+  "all_prior_records_preserved": true
+}

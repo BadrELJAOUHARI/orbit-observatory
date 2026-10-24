@@ -1,0 +1,30 @@
+{
+  "workflow_version": "consolidated-1.0.0",
+  "codebook": "codebooks/consolidated-v1/README.md",
+  "unchanged_targets": "configs/v1/lenses.json",
+  "withdrawal_rule": "W1",
+  "source_quarantine_flags": ["EU_common_position_review", "language_review", "translation_review"],
+  "attribution_quarantine_prefix": "attribution_",
+  "unrepairable_text_flags": ["extraction_boundary", "extraction_hyphenation"],
+  "suspect_word_patterns": ["\\bcontinue s\\b", "\\brespon ds\\b", "\\bTh ose\\b", "\\bsettlemen t\\b", "\\bregi on\\b", "\\bn ation\\b"],
+  "suspect_word_policy": "Flag central evidence or supplied context, compare with cached PDF; never guess corrections.",
+  "mapped_header_resolution": "Only resolve the reading obstruction if every omitted physical line is an exact known page/header template and frozen source indices reproduce the reading view.",
+  "evaluation": {
+    "seed": 20261023,
+    "one_event_per_actor": true,
+    "candidates_per_event": 4,
+    "role": "evaluation_rehearsal_only",
+    "prior_pilot_exposure": true,
+    "exclude_entire_selected_events_from_training_and_tuning": true,
+    "final_evaluation_requires_untouched_events": true
+  },
+  "suggestions": {
+    "origin": "ai_generated",
+    "review_status": "unreviewed",
+    "independent_human": false,
+    "annotator_id": null,
+    "method": "single_assistant_contextual_pass_frozen_decision_map",
+    "heldout_event_suggestions": "Sealed separate file; never embedded in review HTML/CSV, blind exports or training input."
+  },
+  "annual_coverage": {"required_quarters": 4, "minimum_events_distinct_dates_per_quarter": 2, "status": "methodology_provisional_gate"}
+}

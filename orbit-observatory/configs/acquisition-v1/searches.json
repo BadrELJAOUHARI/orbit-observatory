@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "purpose": "Discovery cues only; no automatic stance assignment",
+  "period": [
+    "2014-01-01",
+    "2026-10-24"
+  ],
+  "source_families": [
+    "Treasury official yearly press-release shards",
+    "Council registry adopted-position series",
+    "DIRCO published-post API",
+    "GOV.UK official search/content APIs (auxiliary only)",
+    "MEA official listing/detail endpoints (access gaps)",
+    "Supplementary official UN delegation archive, missing events only; original PDF rather than AI transcript"
+  ],
+  "executed_query_receipts": ".local/acquisition-sprint-v1/query_receipts.json",
+  "pending_and_failures": ".local/acquisition-sprint-v1/state.json",
+  "terms": {
+    "territorial_recognition": [
+      "Ukraine internationally recognised borders",
+      "Crimea non-recognition",
+      "annexation recognition"
+    ],
+    "troop_withdrawal": [
+      "Russian forces withdraw all territory",
+      "Ukraine withdrawal conditions",
+      "pre-February 2022 lines"
+    ],
+    "military_assistance": [
+      "military support to Ukraine",
+      "weapons to Ukraine refusal",
+      "assistance suspension conditions"
+    ],
+    "sanctions": [
+      "Russia Ukraine sanctions impose",
+      "Russia sanctions reject lift",
+      "sanctions maintained until withdrawal"
+    ],
+    "invasion_responsibility": [
+      "Russia unprovoked invasion Ukraine",
+      "NATO provoked invasion",
+      "responsibility for February 2022 invasion"
+    ]
+  },
+  "restriction": "Access restrictions and failed routes are not bypassed; secondary discovery cannot establish official attribution"
+}

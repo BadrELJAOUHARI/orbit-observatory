@@ -1,0 +1,11 @@
+{
+  "event_roles": {
+    "event-exp-zaf-dirco-61309": "evaluation_reserved",
+    "event-exp-zaf-dirco-51631": "development_only",
+    "event-exp-zaf-dirco-39565": "development_only",
+    "event-exp-zaf-dirco-9188": "development_only",
+    "event-exp-zaf-dirco-53717": "development_only"
+  },
+  "reserved_before_suggestions": true,
+  "translation_mirror_policy": "Group all copies and excerpts with actual communication, including joint events."
+}

@@ -1,0 +1,27 @@
+{
+  "protocol_version": "consolidated-v1",
+  "targets_unchanged": true,
+  "withdrawal_rule": "W1",
+  "lens_definitions": {
+    "territorial_recognition": "Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.",
+    "troop_withdrawal": "Russian forces should withdraw from all internationally recognized Ukrainian territory.",
+    "military_assistance": "Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",
+    "sanctions": "Supports specified restrictive measures against Russia because of its actions in Ukraine.",
+    "invasion_responsibility": "Attributes responsibility for the February 2022 full-scale invasion to the Russian state."
+  },
+  "labels": [
+    "support",
+    "oppose",
+    "no_stance",
+    "mixed",
+    "unresolved"
+  ],
+  "administrative_label": "not_applicable",
+  "authoritative_rules": "README.md",
+  "prior_sources": [
+    "v1.0.0",
+    "v1.0.1",
+    "v1.0.2"
+  ],
+  "AI_suggestions": "unreviewed_nonhuman_not_scoring_or_training_approved"
+}

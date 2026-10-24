@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "id",
+    "claim_id",
+    "origin",
+    "annotator_id",
+    "codebook_version",
+    "label",
+    "review_status",
+    "created_at",
+    "rationale",
+    "supersedes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "record_type": {
+      "const": "annotation"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "enum": [
+        "editorial",
+        "human"
+      ]
+    },
+    "annotator_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebook_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "label": {
+      "enum": [
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed",
+        "unresolved",
+        "not_applicable"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "independent",
+        "adjudicated"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:orbit:annotation:v1.1"
+}

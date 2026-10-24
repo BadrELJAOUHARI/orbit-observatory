@@ -1,0 +1,4 @@
+# Optional baseline dependencies already available in the current environment.
+# No model fitting is performed by setup/preflight.
+numpy==2.3.5
+scikit-learn==1.8.0

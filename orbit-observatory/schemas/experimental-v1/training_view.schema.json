@@ -1,0 +1,223 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "id",
+    "claim_id",
+    "origin",
+    "annotator_id",
+    "codebook_version",
+    "label",
+    "review_status",
+    "created_at",
+    "rationale",
+    "supersedes",
+    "batch_id",
+    "review_notes",
+    "review_provenance",
+    "ai_assisted",
+    "independent_human",
+    "scoring_status",
+    "human_independent_check",
+    "training_approved",
+    "blind_independent_annotation",
+    "training_approval_id",
+    "training_policy_version",
+    "candidate_id",
+    "event_id",
+    "document_id",
+    "actor_id",
+    "actor_role",
+    "lens_id",
+    "event_date",
+    "language",
+    "proposition",
+    "passage",
+    "reading_text",
+    "text_sha256",
+    "source_url",
+    "leakage_group_id",
+    "start",
+    "end",
+    "source_eligibility_cleared",
+    "text_quality_cleared",
+    "scope_cleared",
+    "alignment_score"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.3.0"
+    },
+    "record_type": {
+      "const": "annotation"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "ai_assisted_reviewed"
+    },
+    "annotator_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebook_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "label": {
+      "enum": [
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed"
+      ]
+    },
+    "review_status": {
+      "const": "reviewed_non_independent"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "batch_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_provenance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ai_assisted": {
+      "const": true
+    },
+    "independent_human": {
+      "const": false,
+      "description": "Legacy blind-independent-annotation flag. False does not deny a separately documented human check."
+    },
+    "scoring_status": {
+      "enum": [
+        "not_scored_pending_quality_review",
+        "excluded_actor_mismatch",
+        "excluded_defective_span"
+      ]
+    },
+    "human_independent_check": {
+      "const": true,
+      "description": "Named human confirms checking the AI-assisted judgments. This is not blind annotation."
+    },
+    "training_approved": {
+      "const": true
+    },
+    "blind_independent_annotation": {
+      "const": false
+    },
+    "training_approval_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "training_policy_version": {
+      "const": "experimental-training-2.0.0"
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lens_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "passage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reading_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_sha256": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "leakage_group_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_eligibility_cleared": {
+      "const": true
+    },
+    "text_quality_cleared": {
+      "const": true
+    },
+    "scope_cleared": {
+      "const": true
+    },
+    "alignment_score": {
+      "type": "null"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:orbit:experimental-training-view:v1",
+  "title": "Frozen training feature projection of schema-1.3 annotations; canonical annotations remain separately validated"
+}

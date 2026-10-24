@@ -1,0 +1,57 @@
+{
+  "pipeline_version": "experimental-training-3.0.0",
+  "seed": 20261023,
+  "labels": [
+    "support",
+    "oppose",
+    "no_stance",
+    "mixed"
+  ],
+  "training_default": "disabled_preflight_only",
+  "approved_label_origin": "human",
+  "approved_review_statuses": [
+    "independent",
+    "adjudicated"
+  ],
+  "requires_training_approved": true,
+  "requires_source_and_text_clearance": true,
+  "split_unit": "communication_event",
+  "blind_event_role": "evaluation_rehearsal",
+  "baseline": {
+    "features": "word_tfidf_1_2grams",
+    "classifier": "logistic_regression",
+    "class_weight": "balanced",
+    "max_iter": 2000
+  },
+  "transformer": {
+    "model": "FacebookAI/xlm-roberta-base",
+    "revision": null,
+    "max_length": 512,
+    "revision_must_be_pinned_before_download": true
+  },
+  "final_evaluation": {
+    "independent_annotators_per_item": 2,
+    "untouched_events_required": true,
+    "tune_on_test": false
+  },
+  "calibration": {
+    "fit_on": "development_calibration_events_only",
+    "evaluation_events_forbidden": true
+  },
+  "publish_public_scores": false,
+  "approved_assisted_origin": "ai_assisted_reviewed",
+  "requires_human_independent_check_for_assisted": false,
+  "assisted_independent_check_is_not_blind_annotation": true,
+  "excluded_supervised_labels": [
+    "unresolved",
+    "not_applicable"
+  ],
+  "scope_rule": "W1_and_existing_strict_territorial_target_unchanged",
+  "validation": "leave_one_connected_event_group_out",
+  "minimum_event_groups": 2,
+  "minimum_classes": 2,
+  "require_each_represented_class_in_two_groups": true,
+  "authorization": "User request 2026-10-24 extends experimental use to all 113 reviewed development records, without asserting new independent/blind checks, clearing source holds or approving unresolved targets.",
+  "requires_explicit_record_scoped_grant": true,
+  "preserve_existing_check_provenance": true
+}

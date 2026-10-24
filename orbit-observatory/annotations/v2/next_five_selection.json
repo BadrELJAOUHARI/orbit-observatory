@@ -1,0 +1,36 @@
+{
+  "version": "annotation-v2-batch-1",
+  "sampling": "Diagnostic selection: one per actor and lens, en/fr; no extraction-boundary/attribution flag, no transferred review. This is not a random evaluation sample.",
+  "items": [
+    {
+      "row_id": "V2-B01",
+      "document_id": "doc-us2022",
+      "start": 2119,
+      "lens_id": "sanctions"
+    },
+    {
+      "row_id": "V2-B02",
+      "document_id": "doc-eu-unga78",
+      "start": 1484,
+      "lens_id": "military_assistance"
+    },
+    {
+      "row_id": "V2-B03",
+      "document_id": "doc-tur-unga77",
+      "start": 14285,
+      "lens_id": "troop_withdrawal"
+    },
+    {
+      "row_id": "V2-B04",
+      "document_id": "doc-ind-unga77",
+      "start": 3556,
+      "lens_id": "invasion_responsibility"
+    },
+    {
+      "row_id": "V2-B05",
+      "document_id": "doc-zaf-unga78",
+      "start": 2540,
+      "lens_id": "territorial_recognition"
+    }
+  ]
+}

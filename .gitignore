@@ -1,0 +1,26 @@
+# Local secrets (keep documented example files versionable).
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local tooling, downloaded artifacts, and visual checkpoints.
+.local/
+.cache/
+node_modules/
+.DS_Store
+
+# dist/ is editable website source: keep it, vendor JS, and data.json tracked.
+# Do not broadly ignore data, annotations, evaluations, or release manifests.

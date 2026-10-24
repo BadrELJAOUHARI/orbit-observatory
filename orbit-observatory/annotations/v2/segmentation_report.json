@@ -1,0 +1,173 @@
+{
+  "segmentation_version": "orbit-segmentation-2.0.0",
+  "old_original_candidates": 184,
+  "old_manual_revisions": 6,
+  "new_candidates": 179,
+  "distinct_new_passages": 162,
+  "exact_annotation_transfers": 10,
+  "unchanged_events": 10,
+  "per_document": [
+    {
+      "document_id": "doc-eu-unga77",
+      "actor_id": "EU",
+      "language": "en",
+      "old_candidates": 19,
+      "new_candidates": 19,
+      "source_pages": 6,
+      "reconstructed_paragraphs": 41,
+      "sentence_or_html_units": 178,
+      "cross_page_units": 0,
+      "issue_counts": {
+        "EU_common_position_review": 19,
+        "scope_hold_W1": 1
+      }
+    },
+    {
+      "document_id": "doc-eu-unga78",
+      "actor_id": "EU",
+      "language": "fr",
+      "old_candidates": 13,
+      "new_candidates": 12,
+      "source_pages": 29,
+      "reconstructed_paragraphs": 95,
+      "sentence_or_html_units": 196,
+      "cross_page_units": 0,
+      "issue_counts": {
+        "EU_common_position_review": 12,
+        "language_review": 12
+      }
+    },
+    {
+      "document_id": "doc-ind-unga77",
+      "actor_id": "IND",
+      "language": "en",
+      "old_candidates": 10,
+      "new_candidates": 10,
+      "source_pages": 13,
+      "reconstructed_paragraphs": 71,
+      "sentence_or_html_units": 118,
+      "cross_page_units": 3,
+      "issue_counts": {
+        "extraction_header_in_envelope": 1
+      }
+    },
+    {
+      "document_id": "doc-ind-unga78",
+      "actor_id": "IND",
+      "language": "en",
+      "old_candidates": 4,
+      "new_candidates": 4,
+      "source_pages": 6,
+      "reconstructed_paragraphs": 38,
+      "sentence_or_html_units": 112,
+      "cross_page_units": 0,
+      "issue_counts": {}
+    },
+    {
+      "document_id": "doc-tur-unga77",
+      "actor_id": "TUR",
+      "language": "en",
+      "old_candidates": 21,
+      "new_candidates": 21,
+      "source_pages": 12,
+      "reconstructed_paragraphs": 55,
+      "sentence_or_html_units": 132,
+      "cross_page_units": 2,
+      "issue_counts": {
+        "translation_review": 21,
+        "scope_insufficiency": 1,
+        "extraction_header_in_envelope": 1
+      }
+    },
+    {
+      "document_id": "doc-tur-unga78",
+      "actor_id": "TUR",
+      "language": "en",
+      "old_candidates": 21,
+      "new_candidates": 20,
+      "source_pages": 12,
+      "reconstructed_paragraphs": 30,
+      "sentence_or_html_units": 160,
+      "cross_page_units": 1,
+      "issue_counts": {
+        "translation_review": 20,
+        "scope_insufficiency": 1
+      }
+    },
+    {
+      "document_id": "doc-us2014",
+      "actor_id": "USA",
+      "language": "en",
+      "old_candidates": 5,
+      "new_candidates": 5,
+      "source_pages": 0,
+      "reconstructed_paragraphs": 29,
+      "sentence_or_html_units": 29,
+      "cross_page_units": 0,
+      "issue_counts": {
+        "attribution_actor_mismatch": 2
+      }
+    },
+    {
+      "document_id": "doc-us2022",
+      "actor_id": "USA",
+      "language": "en",
+      "old_candidates": 64,
+      "new_candidates": 64,
+      "source_pages": 0,
+      "reconstructed_paragraphs": 142,
+      "sentence_or_html_units": 142,
+      "cross_page_units": 0,
+      "issue_counts": {
+        "attribution_actor_mismatch": 14,
+        "extraction_boundary": 3
+      }
+    },
+    {
+      "document_id": "doc-zaf-unga77",
+      "actor_id": "ZAF",
+      "language": "en",
+      "old_candidates": 12,
+      "new_candidates": 11,
+      "source_pages": 9,
+      "reconstructed_paragraphs": 26,
+      "sentence_or_html_units": 78,
+      "cross_page_units": 3,
+      "issue_counts": {}
+    },
+    {
+      "document_id": "doc-zaf-unga78",
+      "actor_id": "ZAF",
+      "language": "en",
+      "old_candidates": 15,
+      "new_candidates": 13,
+      "source_pages": 9,
+      "reconstructed_paragraphs": 64,
+      "sentence_or_html_units": 72,
+      "cross_page_units": 1,
+      "issue_counts": {}
+    }
+  ],
+  "independent_annotation_count": 0,
+  "issue_counts": {
+    "EU_common_position_review": 31,
+    "scope_hold_W1": 1,
+    "language_review": 12,
+    "extraction_header_in_envelope": 2,
+    "translation_review": 41,
+    "scope_insufficiency": 2,
+    "attribution_actor_mismatch": 16,
+    "extraction_boundary": 3
+  },
+  "changed_evidence_annotation_policy": "No transfer. New human review required.",
+  "paragraph_limit": "PDF blank lines, unique-line vertical gaps (>1.6 median line spacing) and addresses recovered from cached bytes. Unmatched/ambiguous geometry has uncertain paragraph boundaries; pages never force sentence/paragraph cuts.",
+  "ambiguity_policy": "Scope, attribution and extraction flags are separate. Political ambiguity is not inferred; model ambiguity is not evaluated.",
+  "artifact_hashes": {
+    "candidates.json": "04c064c3da03ff6cecaad1a406dff2db24b310bf829021d3153ff95ced931086",
+    "segments.json": "6522957ae0f5d98d8b9fa4ffafb2f68623e8fe9941dcaed15fcd66bfc84a7736",
+    "queue.csv": "3e3c61c694143e31a3c202dc0df7a0baf793358d460f53b97a18983dc79ba848",
+    "queue.jsonl": "a497134b5860400876f016c74107202b2f83ed62dd87a405cb44a89969ff377d",
+    "annotation_transfers.json": "84f13779859c38d71b9c7b84316fd9f174390437cdf9bb1954ffbf948963a405",
+    "lineage.json": "91f3423b4c7117ce0023b18b8a6ceb9b4ff78837472bf3c4e8d3311da6589785"
+  }
+}

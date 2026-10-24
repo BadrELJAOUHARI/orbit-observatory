@@ -1,0 +1,186 @@
+{
+  "goal_additional_focal_events": 40,
+  "verified_additional_focal_events": 43,
+  "auxiliary_events": 3,
+  "events_by_actor": {
+    "USA": 8,
+    "EU": 9,
+    "TUR": 6,
+    "IND": 7,
+    "ZAF": 13,
+    "RUS": 1,
+    "UKR": 2
+  },
+  "years_by_actor": {
+    "EU": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2021,
+      2024,
+      2025
+    ],
+    "IND": [
+      2012,
+      2013,
+      2014,
+      2016,
+      2017,
+      2024,
+      2025
+    ],
+    "RUS": [
+      2022
+    ],
+    "TUR": [
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2024
+    ],
+    "UKR": [
+      2022,
+      2024
+    ],
+    "USA": [
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2022,
+      2023,
+      2024
+    ],
+    "ZAF": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2021,
+      2022,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "collection_streams": {
+    "supplementary_UN_broad_speech": 42,
+    "targeted_training_acquisition": 4
+  },
+  "reserved_events_collected": 8,
+  "candidates": 90,
+  "rejected_retrieval_candidates": 2,
+  "retrieval_screened_pairs": 92,
+  "development_candidates": 73,
+  "evaluation_candidates": 17,
+  "candidate_events_by_actor": {
+    "EU": 5,
+    "IND": 2,
+    "RUS": 1,
+    "TUR": 2,
+    "UKR": 2,
+    "USA": 5,
+    "ZAF": 4
+  },
+  "actor_lens_candidate_counts": {
+    "EU": {
+      "territorial_recognition": 7,
+      "sanctions": 1,
+      "invasion_responsibility": 3,
+      "military_assistance": 1
+    },
+    "IND": {
+      "invasion_responsibility": 3
+    },
+    "RUS": {
+      "territorial_recognition": 4,
+      "military_assistance": 2,
+      "invasion_responsibility": 3
+    },
+    "TUR": {
+      "territorial_recognition": 2
+    },
+    "UKR": {
+      "invasion_responsibility": 4,
+      "territorial_recognition": 5,
+      "military_assistance": 2,
+      "troop_withdrawal": 6
+    },
+    "USA": {
+      "territorial_recognition": 6,
+      "sanctions": 4,
+      "invasion_responsibility": 7,
+      "military_assistance": 2
+    },
+    "ZAF": {
+      "invasion_responsibility": 18,
+      "territorial_recognition": 2,
+      "military_assistance": 6,
+      "sanctions": 2
+    }
+  },
+  "quality_holds": {
+    "OCR_text_requires_visual_review": 15,
+    "EU_common_position_review": 12,
+    "language_review": 17,
+    "incomplete_sentence_boundary": 1,
+    "translation_review": 28,
+    "official_press_excerpt_not_full_transcript": 1,
+    "event_date_range_15_16_June_exact_day_unresolved": 5
+  },
+  "wrong_attachment_mirrors": [
+    {
+      "document_id": "doc-exp-usa-unga73",
+      "duplicate_of": "doc-exp-usa-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-eu-unga73",
+      "duplicate_of": "doc-exp-eu-unga72",
+      "issues": [
+        "EU_common_position_review",
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-ind-unga73",
+      "duplicate_of": "doc-exp-ind-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-zaf-unga73",
+      "duplicate_of": "doc-exp-zaf-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    }
+  ],
+  "approved_training_labels": 0,
+  "independent_human_annotations": 0,
+  "independent_human_labeled_events": 0,
+  "returned_reviewed_labels": {
+    "no_stance": 58,
+    "support": 4,
+    "unresolved": 6
+  },
+  "source_clearance": "Official archive provenance and event headings verified. EU common-position, translations, OCR, attribution and rights holds remain separate; no blanket scoring clearance.",
+  "evaluation_policy": "Reservations frozen before collection; no AI suggestions or human labels generated for reserved events.",
+  "training_executed": false,
+  "public_scores_changed": false
+}

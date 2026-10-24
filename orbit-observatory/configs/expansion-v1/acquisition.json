@@ -1,0 +1,24 @@
+{
+  "version": "acquisition-1.0.0",
+  "displayed_actors": ["USA", "EU", "TUR", "IND", "ZAF"],
+  "auxiliary_actors": [
+    {"id": "RUS", "definition": "Official Russian Federation communications; auxiliary contrast evidence only", "role": "auxiliary_training_only", "applicable_from": "2012-01-01", "applicable_until": null},
+    {"id": "UKR", "definition": "Official Ukrainian communications; auxiliary contrast evidence only", "role": "auxiliary_training_only", "applicable_from": "2012-01-01", "applicable_until": null}
+  ],
+  "streams": {
+    "supplementary_UN_broad_speech": "Purposive official archive speeches, supplementary to policy-specific acquisition",
+    "targeted_training_acquisition": "Policy-targeted official statements; selection bias recorded; not representative position estimates"
+  },
+  "retrieval_screen_version": "conflict-policy-screen-2.0.0",
+  "screen_rules": [
+    "Require Ukraine-specific conflict context, or a verified Ukraine-specific document topic",
+    "Require lens-specific policy formulation beyond generic conflict, military or force keywords",
+    "Reject explicit other-conflict subjects into separate diagnostics",
+    "Keep partial territorial evidence for scope review, without broadening the strict target",
+    "Quarantine unresolved text, language, attribution, eligibility and event-date problems",
+    "Retrieval terms and screening decisions never assign stance labels"
+  ],
+  "event_partition_policy": "Reserved evaluation status wins across mirrors, translations, revisions and related joint communications",
+  "new_stance_suggestions_generated": false,
+  "country_period_scoring_eligible": false
+}

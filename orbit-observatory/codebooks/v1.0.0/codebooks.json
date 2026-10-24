@@ -1,0 +1,196 @@
+{
+  "codebook_version": "1.0.0",
+  "status": "frozen_for_first_human_pilot_not_empirically_validated",
+  "labels": [
+    "support",
+    "oppose",
+    "no_stance",
+    "mixed",
+    "unresolved",
+    "not_applicable"
+  ],
+  "human_fields_initially_empty": true,
+  "common_rules": "README.md",
+  "lenses": [
+    {
+      "id": "territorial_recognition",
+      "definition": "Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "rules": {
+        "support": "Explicitly recognizes Ukrainian sovereignty over its internationally recognized territory/borders, or rejects legal annexation with a clearly specified territorial scope that actually answers the fixed proposition. Generic sovereignty or integrity language alone is insufficient.",
+        "oppose": "Explicitly recognizes legal Russian annexation or denies Ukrainian legal sovereignty over the territory named in the proposition. Reporting de facto control or a temporary ceasefire line alone is insufficient.",
+        "no_stance": "Generic invocations of sovereignty, territorial integrity or the UN Charter without resolving the relevant Ukrainian legal territory; peace talks; another country; partial territorial claims that do not settle the full target.",
+        "mixed": "Endorses and rejects the same Ukrainian legal territorial proposition within an inseparable passage. Split distinct regions/claims first and record scope instead of hiding it in one label.",
+        "unresolved": "Unclear whether territory refers to internationally recognized Ukrainian borders or a different line; unclear legal recognition versus temporary practical control.",
+        "examples": [
+          [
+            "support",
+            "We recognize Ukraine’s sovereignty within its internationally recognized borders."
+          ],
+          [
+            "oppose",
+            "We recognize the annexed Ukrainian territories as legally part of Russia."
+          ],
+          [
+            "no_stance",
+            "All states should respect sovereignty."
+          ],
+          [
+            "mixed",
+            "We accept and reject the very same annexation; this contradictory paragraph needs splitting."
+          ],
+          [
+            "unresolved",
+            "Those borders should be respected. (Context does not identify which borders.)"
+          ]
+        ],
+        "notes": "Crimea/referendum material requires exact legal and territorial interpretation. Do not invent an all-territory stance from vague independence language. Qualified or region-specific claims should be preserved for scoped review, not generalized."
+      }
+    },
+    {
+      "id": "troop_withdrawal",
+      "definition": "Russian forces should withdraw from all internationally recognized Ukrainian territory.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "rules": {
+        "support": "Calls for Russian forces to leave all internationally recognized Ukrainian territory; interpret explicit universal withdrawal in its supplied Ukrainian context.",
+        "oppose": "Explicitly endorses continued Russian military control/presence on that territory. A mere statement that forces are present is descriptive, not an endorsement.",
+        "no_stance": "Ceasefire, diplomacy, freezing fighting, NATO troop movements, withdrawal from another country, or reporting military activity without a withdrawal position.",
+        "mixed": "Inseparable endorsement and rejection of withdrawal under the same defined conditions; split different territories, actors and time windows first.",
+        "unresolved": "Unclear whose forces, which territory, whether removal is a demand or hypothetical, or whether a partial withdrawal satisfies the full target.",
+        "examples": [
+          [
+            "support",
+            "Russian forces must withdraw from all internationally recognized Ukrainian territory."
+          ],
+          [
+            "oppose",
+            "Russian forces should permanently retain military control there. (There explicitly means Ukrainian territory.)"
+          ],
+          [
+            "no_stance",
+            "Both sides should hold peace talks."
+          ],
+          [
+            "mixed",
+            "Under identical conditions we demand full withdrawal and insist the occupation continue."
+          ],
+          [
+            "unresolved",
+            "They should leave that area. (Forces and area are unidentified.)"
+          ]
+        ],
+        "notes": "A call to return to pre-February-2022 lines may leave Crimea unresolved. Do not silently equate it with withdrawal from all internationally recognized territory."
+      }
+    },
+    {
+      "id": "military_assistance",
+      "definition": "Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "rules": {
+        "support": "Explicitly endorses or supplies external military equipment, weapons, training or defined military support to Ukraine, retaining type, recipient and conditions. The specified assistance, not the country’s alliance, is the target.",
+        "oppose": "Explicitly opposes the defined external military assistance to Ukraine; refusal to provide it oneself need not oppose others providing it.",
+        "no_stance": "Humanitarian/economic aid alone; NATO deterrence deployments outside Ukraine; Ukraine’s abstract self-defence right without a commitment to military assistance; military activity concerning another country.",
+        "mixed": "Inseparable support and opposition to the same aid definition. Support for defensive arms but opposition to direct combat deployment should normally be split and qualified, not merged into a midpoint.",
+        "unresolved": "Assistance type, recipient, external supplier, modality or conditions are too unclear to decide whether the defined military policy is endorsed.",
+        "examples": [
+          [
+            "support",
+            "We support supplying defensive weapons to Ukraine. (Record defensive-weapons scope.)"
+          ],
+          [
+            "oppose",
+            "No state should supply weapons or military training to Ukraine."
+          ],
+          [
+            "no_stance",
+            "We will provide food and medical relief to Ukraine."
+          ],
+          [
+            "mixed",
+            "We both support and oppose the same weapons transfer under the same conditions."
+          ],
+          [
+            "unresolved",
+            "We will provide the necessary assistance. (Type not specified.)"
+          ]
+        ],
+        "notes": "Rejecting US combat deployment is not opposition to weapons aid. Do not generalize support for one bounded aid type to every possible weapon or intervention; preserve a narrower target rather than invent a blanket position."
+      }
+    },
+    {
+      "id": "sanctions",
+      "definition": "Supports specified restrictive measures against Russia because of its actions in Ukraine.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "rules": {
+        "support": "Explicitly supports adopting or maintaining specified restrictive measures against Russia because of its actions in Ukraine. Preserve the measure, target, conditions and temporal state.",
+        "oppose": "Explicitly opposes adopting/maintaining those Russia-related measures or calls for their removal. Distinguish objections to one measure from all sanctions.",
+        "no_stance": "Sanctions on Cuba, Zimbabwe, terrorists or another target; descriptions of prices or humanitarian costs alone; a reporter asking about sanctions without an endorsed answer.",
+        "mixed": "Inseparable support and opposition to the same Russia/Ukraine-linked measure. Normally split different measures, exemptions, adoption and conditional removal.",
+        "unresolved": "The sanctioned target, Ukraine linkage, measure, stance or conditions are not identifiable from passage and context.",
+        "examples": [
+          [
+            "support",
+            "We will maintain these restrictions on Russian banks in response to the invasion."
+          ],
+          [
+            "oppose",
+            "The invasion-related restrictions on Russian banks must be lifted now."
+          ],
+          [
+            "no_stance",
+            "The embargo on Cuba should end."
+          ],
+          [
+            "mixed",
+            "We endorse and reject the same banking restriction without a coherent distinction."
+          ],
+          [
+            "unresolved",
+            "These measures should stop. (Neither target nor measures is clear.)"
+          ]
+        ],
+        "notes": "An energy-payment exemption does not negate all sanctions. A threat to impose measures conditional on a future act must retain its condition; do not code it as enacted sanctions."
+      }
+    },
+    {
+      "id": "invasion_responsibility",
+      "definition": "Attributes responsibility for the February 2022 full-scale invasion to the Russian state.",
+      "applicable_from": "2022-02-24",
+      "applicable_until": null,
+      "rules": {
+        "support": "Explicitly attributes the February 2022 full-scale invasion to the Russian state, its government, military or leadership; identifying Russia as initiating the attack can establish attribution without the word responsibility.",
+        "oppose": "Explicitly rejects Russian-state responsibility for that invasion. A claim about shared background causes alone does not entail this rejection.",
+        "no_stance": "Generic conflict language, economic consequences, calls for peace, personal responsibility in another context, or an unendorsed account of another speaker’s claim.",
+        "mixed": "Inseparable assertion and rejection of Russian responsibility for the same invasion. Criticism of NATO alongside recognition that Russia initiated the invasion need not be mixed.",
+        "unresolved": "Unclear referent of attack/aggression, date, actor, quoted speaker, irony or whether the assertion concerns 2014 rather than the 2022 full-scale invasion.",
+        "examples": [
+          [
+            "support",
+            "Russia initiated the full-scale invasion of Ukraine in February 2022."
+          ],
+          [
+            "oppose",
+            "The Russian state bears no responsibility for that invasion."
+          ],
+          [
+            "no_stance",
+            "The conflict has increased food prices."
+          ],
+          [
+            "mixed",
+            "Russia initiated this invasion and did not initiate it; both assertions remain unresolved in the passage."
+          ],
+          [
+            "unresolved",
+            "They started it. (Neither actor nor event is identifiable.)"
+          ]
+        ],
+        "notes": "Not applicable before 24 February 2022. Rejecting a quoted Kremlin justification can reverse the apparent meaning of a quotation; read the surrounding context and request an expanded span when necessary."
+      }
+    }
+  ]
+}

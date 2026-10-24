@@ -1,0 +1,83 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assessment_id",
+    "annotation_id",
+    "candidate_id",
+    "review_id",
+    "scope_reason",
+    "schema_version",
+    "record_type",
+    "source_eligibility_flags",
+    "evidence_quality_flags",
+    "scope_flags",
+    "directional_scoring_eligible",
+    "language_review",
+    "source_text_sha256"
+  ],
+  "properties": {
+    "assessment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "annotation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "const": "review_quality_assessment"
+    },
+    "source_eligibility_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_quality_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "scope_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "scope_insufficiency"
+        ]
+      }
+    },
+    "directional_scoring_eligible": {
+      "const": false
+    },
+    "language_review": {
+      "enum": [
+        "assisted_French_review_not_independent_language_validation",
+        "not_newly_reviewed"
+      ]
+    },
+    "source_text_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

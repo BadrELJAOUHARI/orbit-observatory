@@ -1,0 +1,45 @@
+{
+  "summary_version": "review-summary-1.0.0",
+  "historical_decisions": 21,
+  "historical_label_counts": {
+    "no_stance": 8,
+    "support": 6,
+    "unresolved": 7
+  },
+  "current_review_families": 15,
+  "current_label_counts": {
+    "no_stance": 7,
+    "support": 5,
+    "unresolved": 3
+  },
+  "resolved_stance_labels": 12,
+  "resolved_binary_direction_labels": 5,
+  "unresolved_reasons": [
+    {
+      "annotation_id": "annotation-44e6d0672931ed85cbf448a00fc0924d2fc8961349068a6bf88a6165ff9fbb02",
+      "batch_id": "B09-R1",
+      "reason_class": "scope_insufficiency",
+      "review_notes": "Explicit support for Ukraine's territorial integrity and independence, but insufficient specificity for the complete strict territorial-recognition target. Preserve this partial evidence and the unofficial-translation qualification."
+    },
+    {
+      "annotation_id": "annotation-1076ad90ed4896a1874e05d1598aa2b182b824e1f4c9793855c6448c672ecb7f",
+      "batch_id": "B10-R1",
+      "reason_class": "scope_insufficiency",
+      "review_notes": "Same scope limitation as B09-R1. Preserve the courtesy-translation qualification."
+    },
+    {
+      "annotation_id": "annotation-ba0f2decf1e6e9cd09b25be19f84efbfb45e68c4549c8fefd7c68e70f30fc03a",
+      "batch_id": "V2-B05",
+      "reason_class": "scope_insufficiency",
+      "review_notes": "Applies territorial-integrity principles to the Russia–Ukraine conflict, providing partial supporting evidence. The full strict territorial-recognition proposition, including annexation non-recognition, is not established. Flag scope insufficiency and exclude from directional scoring pending resolution."
+    }
+  ],
+  "additional_scope_held_support": {
+    "batch_id": "B05-R1",
+    "rule": "W1",
+    "directional_scoring_eligible": false
+  },
+  "independent_annotations": 0,
+  "scored_claims": 0,
+  "counting_policy": "Collapse manual revisions and exact-evidence transfer aliases; take latest reviewed judgment per family. Distinct lenses remain distinct tasks. Old defective judgments remain historical, not extra votes."
+}

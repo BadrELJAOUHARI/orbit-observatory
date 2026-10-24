@@ -1,0 +1,45 @@
+{
+  "submission_id": "review-0002",
+  "annotator_id": "Badr_A",
+  "review_provenance": "AI-assisted judgments reviewed by Badr_A, with non-independent provenance.",
+  "ai_assisted": true,
+  "independent_human": false,
+  "judgments": [
+    {
+      "batch_id": "B05-R1",
+      "label": "support",
+      "review_notes": "Calls for Russia to withdraw from Ukrainian territory without an expressed territorial exception. Record that “all territory” and 1991 borders are not explicit. Check the codebook: if this wording does not meet the exact target, flag a scope conflict for my decision instead of silently broadening the proposition.",
+      "scoring_status": "not_scored_pending_quality_review"
+    },
+    {
+      "batch_id": "B06",
+      "label": "support",
+      "review_notes": "Describing economic sanctions as unavoidable endorses their necessity. Context ties them to Russia's war. Create a complete-sentence span revision.",
+      "scoring_status": "excluded_defective_span"
+    },
+    {
+      "batch_id": "B07",
+      "label": "unresolved",
+      "review_notes": "Incomplete fragment lacks a self-contained responsibility attribution. Create a revision containing enough text to identify the aggression and responsible actor.",
+      "scoring_status": "excluded_defective_span"
+    },
+    {
+      "batch_id": "B08",
+      "label": "no_stance",
+      "review_notes": "Supports Ukraine exercising its right to self-defence, without specifying external military assistance. Create a full-sentence revision preserving the original French.",
+      "scoring_status": "excluded_defective_span"
+    },
+    {
+      "batch_id": "B09",
+      "label": "unresolved",
+      "review_notes": "Repair to the complete sentence, then review whether Ukraine-specific territorial-integrity language establishes the exact territorial-recognition target. Preserve translation status.",
+      "scoring_status": "excluded_defective_span"
+    },
+    {
+      "batch_id": "B10",
+      "label": "unresolved",
+      "review_notes": "Same boundary and target-specificity issues as B09. Preserve courtesy-translation provenance.",
+      "scoring_status": "excluded_defective_span"
+    }
+  ]
+}

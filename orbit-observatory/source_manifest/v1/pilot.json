@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_version": "pilot-v1.1-source-review",
+  "selection_policy": "Ten explicitly targeted official documents, two per actor. Not representative sampling or verified retrieval. UN speech landing pages must resolve to exactly one official manifest-language PDF, never a press summary. EU press-release targets were replaced with separately published official UN statements because Consilium robots.txt disallows this collector. The original failures are retained in the pilot audit documentation. EU 2023 has a French full statement only; retain French, do not use AI-generated transcripts or translate as evidence.",
+  "access_policy": "Check robots before requests, cache failures and downloads, one second minimum per host, local research cache only. Full terms review and source/date verification pending access. Do not redistribute downloaded texts without rights review.",
+  "sources": [
+    {
+      "id": "doc-us2014",
+      "actor_id": "USA",
+      "event_id": "event-us2014",
+      "event_date": "2014-03-12",
+      "delivery_date": "2014-03-12",
+      "publication_date": "2014-03-12",
+      "date_basis": "Existing curated source metadata; recheck dates against retrieved source during annotation.",
+      "title": "Remarks after the Obama–Yatsenyuk bilateral meeting",
+      "issuer": "White House · President Barack Obama",
+      "publisher": "White House archive",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat",
+      "language": "en",
+      "stream": "official_statement",
+      "extraction": {
+        "kind": "html",
+        "root": null,
+        "encoding": "utf-8",
+        "start_marker": "PRESIDENT OBAMA:",
+        "end_marker": "END"
+      },
+      "identity_markers": [
+        [
+          "Ukraine"
+        ],
+        [
+          "PRESIDENT OBAMA:"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-us2022",
+      "actor_id": "USA",
+      "event_id": "event-us2022",
+      "event_date": "2022-02-24",
+      "delivery_date": "2022-02-24",
+      "publication_date": "2022-02-24",
+      "date_basis": "Existing curated source metadata; recheck dates against retrieved source during annotation.",
+      "title": "Remarks on Russia’s attack on Ukraine",
+      "issuer": "White House · President Joe Biden",
+      "publisher": "White House archive",
+      "url": "https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/02/24/remarks-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/",
+      "language": "en",
+      "stream": "official_statement",
+      "extraction": {
+        "kind": "html",
+        "root": null,
+        "encoding": "utf-8",
+        "start_marker": "THE PRESIDENT:",
+        "end_marker": "2:05 P.M. EST"
+      },
+      "identity_markers": [
+        [
+          "Ukraine"
+        ],
+        [
+          "THE PRESIDENT:"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-eu-unga77",
+      "actor_id": "EU",
+      "event_id": "event-eu-unga77",
+      "event_date": "2022-09-23",
+      "delivery_date": "2022-09-23",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "European Union: 77th UN General Debate statement",
+      "issuer": "European Union / President of the European Council Charles Michel",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/77/european-union",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "European Union",
+          "Union européenne",
+          "Union Européenne"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-eu-unga78",
+      "actor_id": "EU",
+      "event_id": "event-eu-unga78",
+      "event_date": "2023-09-21",
+      "delivery_date": "2023-09-21",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "European Union: 78th UN General Debate statement",
+      "issuer": "European Union / President of the European Council Charles Michel",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/78/european-union",
+      "language": "fr",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "European Union",
+          "Union européenne",
+          "Union Européenne"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-tur-unga77",
+      "actor_id": "TUR",
+      "event_id": "event-tur-unga77",
+      "event_date": "2022-09-20",
+      "delivery_date": "2022-09-20",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "Türkiye: 77th UN General Debate statement",
+      "issuer": "Türkiye government / Recep Tayyip Erdoğan",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/77/t%C3%BCrkiye",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "Türkiye",
+          "Turkey"
+        ],
+        [
+          "Erdoğan",
+          "Erdogan"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": "English attachment published by the official UN archive, explicitly marked UNOFFICIAL TRANSLATION in the PDF; translator/certification not identified; Turkish original not collected."
+    },
+    {
+      "id": "doc-tur-unga78",
+      "actor_id": "TUR",
+      "event_id": "event-tur-unga78",
+      "event_date": "2023-09-19",
+      "delivery_date": "2023-09-19",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "Türkiye: 78th UN General Debate statement",
+      "issuer": "Türkiye government / Recep Tayyip Erdoğan",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/78/t%C3%BCrkiye",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "Türkiye",
+          "Turkey"
+        ],
+        [
+          "Erdoğan",
+          "Erdogan"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": "English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected."
+    },
+    {
+      "id": "doc-ind-unga77",
+      "actor_id": "IND",
+      "event_id": "event-ind-unga77",
+      "event_date": "2022-09-24",
+      "delivery_date": "2022-09-24",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "India: 77th UN General Debate statement",
+      "issuer": "India government / Subrahmanyam Jaishankar",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/77/india",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "India"
+        ],
+        [
+          "Jaishankar"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-ind-unga78",
+      "actor_id": "IND",
+      "event_id": "event-ind-unga78",
+      "event_date": "2023-09-26",
+      "delivery_date": "2023-09-26",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "India: 78th UN General Debate statement",
+      "issuer": "India government / Subrahmanyam Jaishankar",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/78/india",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "India"
+        ],
+        [
+          "Jaishankar"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-zaf-unga77",
+      "actor_id": "ZAF",
+      "event_id": "event-zaf-unga77",
+      "event_date": "2022-09-21",
+      "delivery_date": "2022-09-21",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "South Africa: 77th UN General Debate statement",
+      "issuer": "South Africa government / Naledi Pandor",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/77/south-africa",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "PANDOR"
+        ],
+        [
+          "21 SEPTEMBER 2022"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    },
+    {
+      "id": "doc-zaf-unga78",
+      "actor_id": "ZAF",
+      "event_id": "event-zaf-unga78",
+      "event_date": "2023-09-19",
+      "delivery_date": "2023-09-19",
+      "publication_date": null,
+      "date_basis": "Delivery date and speaker checked against the official UN landing-page header on 23 October 2026; publication date not established.",
+      "title": "South Africa: 78th UN General Debate statement",
+      "issuer": "South Africa government / Cyril Ramaphosa",
+      "publisher": "United Nations General Debate official statement archive",
+      "url": "https://gadebate.un.org/en/78/south-africa",
+      "language": "en",
+      "stream": "un_general_debate",
+      "extraction": {
+        "kind": "un_statement_pdf"
+      },
+      "identity_markers": [
+        [
+          "South Africa"
+        ],
+        [
+          "19 SEPTEMBER 2023"
+        ]
+      ],
+      "duplicate_of": null,
+      "translation_of": null,
+      "translation_provenance": null
+    }
+  ]
+}

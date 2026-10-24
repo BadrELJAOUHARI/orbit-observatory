@@ -1,0 +1,127 @@
+{
+  "selection_version": "first-review-1.0.0",
+  "codebook_version": "1.0.0",
+  "purpose": "Diagnostic teaching/codebook pilot, not representative model evaluation. Four retrieved candidates per actor, all lenses and all documents; includes attribution, scope, qualifiers and shared passages. No suggested labels.",
+  "retrieved": [
+    {
+      "document_id": "doc-us2014",
+      "lens_id": "territorial_recognition",
+      "start": 5481
+    },
+    {
+      "document_id": "doc-us2022",
+      "lens_id": "military_assistance",
+      "start": 5713
+    },
+    {
+      "document_id": "doc-us2022",
+      "lens_id": "troop_withdrawal",
+      "start": 5713
+    },
+    {
+      "document_id": "doc-us2022",
+      "lens_id": "military_assistance",
+      "start": 1078
+    },
+    {
+      "document_id": "doc-eu-unga77",
+      "lens_id": "troop_withdrawal",
+      "start": 4236
+    },
+    {
+      "document_id": "doc-eu-unga77",
+      "lens_id": "sanctions",
+      "start": 3161
+    },
+    {
+      "document_id": "doc-eu-unga77",
+      "lens_id": "invasion_responsibility",
+      "start": 2998
+    },
+    {
+      "document_id": "doc-eu-unga78",
+      "lens_id": "military_assistance",
+      "start": 3017
+    },
+    {
+      "document_id": "doc-tur-unga77",
+      "lens_id": "territorial_recognition",
+      "start": 4832
+    },
+    {
+      "document_id": "doc-tur-unga78",
+      "lens_id": "territorial_recognition",
+      "start": 5990
+    },
+    {
+      "document_id": "doc-tur-unga78",
+      "lens_id": "territorial_recognition",
+      "start": 17260
+    },
+    {
+      "document_id": "doc-tur-unga77",
+      "lens_id": "troop_withdrawal",
+      "start": 7808
+    },
+    {
+      "document_id": "doc-ind-unga77",
+      "lens_id": "invasion_responsibility",
+      "start": 4141
+    },
+    {
+      "document_id": "doc-ind-unga77",
+      "lens_id": "sanctions",
+      "start": 9607
+    },
+    {
+      "document_id": "doc-ind-unga77",
+      "lens_id": "military_assistance",
+      "start": 5766
+    },
+    {
+      "document_id": "doc-ind-unga78",
+      "lens_id": "territorial_recognition",
+      "start": 9193
+    },
+    {
+      "document_id": "doc-zaf-unga78",
+      "lens_id": "territorial_recognition",
+      "start": 2618
+    },
+    {
+      "document_id": "doc-zaf-unga78",
+      "lens_id": "sanctions",
+      "start": 5051
+    },
+    {
+      "document_id": "doc-zaf-unga77",
+      "lens_id": "invasion_responsibility",
+      "start": 7491
+    },
+    {
+      "document_id": "doc-zaf-unga77",
+      "lens_id": "military_assistance",
+      "start": 7855
+    }
+  ],
+  "controls": {
+    "seed": 20261023,
+    "strata": "actor",
+    "per_actor": 1,
+    "unit": "Normalized nonempty source line, at least 60 characters and 40 alphabetic characters, not overlapping any of the 184 retrieved candidates. Header/page fragments excluded where detectable.",
+    "lens_assignment": "Seeded random choice among temporally applicable lenses.",
+    "inference_limit": "Five stratified diagnostic samples do not estimate retrieval recall. Context may contain retrieved text; judge central span separately."
+  },
+  "corpus_text_hashes": {
+    "doc-eu-unga77": "f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd",
+    "doc-eu-unga78": "1297d28ae348ab08969ee98f23b27baf890f73dc11a8c9a634b9576d5c488161",
+    "doc-ind-unga77": "32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e",
+    "doc-ind-unga78": "6a04cf082f579730c19e688da53d5b9bf16698f5a297c69ad2f61afe83b5b7f2",
+    "doc-tur-unga77": "4a2d54107179679e524c06cc4b6d38ab604ebefdbe6f424cbe0b096e62afc3e3",
+    "doc-tur-unga78": "19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852",
+    "doc-us2014": "aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8",
+    "doc-us2022": "93ad239a3124d27af6827c2cc0e80eff8137772c7caaec6524b957829296386f",
+    "doc-zaf-unga77": "05def04d9e61578e4bfec360e2ecf771e1b61e937c59611060424c16cdce2de1",
+    "doc-zaf-unga78": "a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19"
+  }
+}

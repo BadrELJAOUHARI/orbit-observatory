@@ -1,0 +1,1148 @@
+{
+  "record_type": "training_authorization",
+  "version": "1.0.0",
+  "id": "Badr_A-experimental-grant-20261024",
+  "authorized_by": "Badr_A",
+  "authorization_date": "2026-10-24",
+  "authority": "Explicit user request extends experimental training use to the 68 earlier development reviews and 45 newly approved reviews.",
+  "policy_version": "experimental-training-3.0.0",
+  "new_human_or_blind_checks_asserted": false,
+  "source_holds_cleared": false,
+  "unresolved_targets_approved": false,
+  "review_annotation_hashes": {
+    "Badr_A-development-0001": "61c15a698ad2400c0a8e4933d9e142d97a1f5f1c00e37ec6c862b5d4e5d61550",
+    "Badr_A-expanded-0002": "38e8168f687cf6fc5f2e8ca5d1248820152c757fc509726a8d6c65c50e28005f"
+  },
+  "records": [
+    {
+      "candidate_id": "claim-v2-d586e1fa79cfd3175518438d1a3b53c0bbccfc8f3a7f3c2a2879fec4bb84841c",
+      "annotation_id": "annotation-1eb50d468c56d8aa34186bfc607abb370ca557fe895251f32ed9ceccbe9a62fc",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-35eb15a5e8c1946cbfc24c771fe8146f0c24e7375b742c7c01c48418c19bc0a9",
+      "annotation_id": "annotation-3c52dedff1a5ad150b7f7e434a6282d051a638a35b50fb8c4735fcfe8e077dfe",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-ed01ef775cddac31ff73712f2eda30ee5bfdcf5f721fd3a62d18d03f71113a18",
+      "annotation_id": "annotation-654999be4693341bbb73035044b99a147a93aa60f7a6dec2f98658f3411a5be7",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-f154b3e0140dc5ab3d69ca68283883013fc8cfc3b95ec8434d24fc66b6fb5662",
+      "annotation_id": "annotation-1407e071cdc33d334676b7b641565bdf3fa2624681bd843b298ebcdc10508429",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-ff2e78f20e1e8e5dab0ef384c0dfe435a32c13bf1bbadca353e52a5ddac8aacc",
+      "annotation_id": "annotation-acd44a9891c60780f40dcd93c960aeabbd5a67f51160b137adf767a859430bad",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-70dc0128f040ccd0711ab6dd7120edc8822c53b853da436b09a6045f1cfa0f8e",
+      "annotation_id": "annotation-02eec36120ba36c34839867352128e842075d0c0e90c012e402b1f729edffc04",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fc4ebee0498c0cb51165c73af1de09a457d7c0a320b13282b3d1718d1e5f1923",
+      "annotation_id": "annotation-34154d4819f22d4a59187ed66806b2341d7904cbcfce6bd1832816706d75d1c9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-38f703a7c0aafb639e5b46ccc1107b86c4eccffc99b78c82833f09e33483e091",
+      "annotation_id": "annotation-1d2e85cffc516aa7e22d972a29bee7d4a899bc247a8fa26a9fc05e81b0b9d857",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-7919b3683e3817ff95999ceb437a94ec2d7ac58a4227b725ab0e598f72648aa6",
+      "annotation_id": "annotation-2d544b878be3404d6f4e77e07c1797ffa71c4f792df9850e4d2e0899a1ee29f5",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-72043e4b32983f3554df00200f72576299e1a844c6a299d474b60b635fe0a55f",
+      "annotation_id": "annotation-b1fbe9248cb7c22965cf0ee30915417afc4fc225902b6633047c6aecabc55148",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-240f2dcd291a6e46330a86e76897403eaac0937085afa0af5b1388bcef610bb2",
+      "annotation_id": "annotation-6f8f126ff44c8722560ad8138f394a8a662fb1df9c3a4c607e57427f66f45aae",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-81eb345fc7cc7fcdc88d8eb001f1fddbdad577c18619225fadafc2fe74f0cc4e",
+      "annotation_id": "annotation-c742afe1b48df93b2079ba5e71c154406dcd4878ce6f1d24d784611587df6924",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-8c97e6be0f82fc65db1815556627f865b6eb3a602ddf7be3cb58da712bf96630",
+      "annotation_id": "annotation-f76040d647bf9f0b7dcc17a7d0b1db0e5836cf5d6dde5876925354bb2f22298a",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-9dc2db64237c280f0ecbcfab7e6dd5fb263a65ada99926371b3df2c6b91733dd",
+      "annotation_id": "annotation-5e20789ceb62455d1e375b48d4ec0bb2dad57af93c0b3924c700ab2dbcacc6f8",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-control-v2-a24e93abc8809a3d8c19200cdaa0b53048f984a3f3412c2034ed685747c26416",
+      "annotation_id": "annotation-11cb82d7d5571c5d0e070b5a9801a0f31e563add397863d737f6e0867820f416",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-f7bd21aee2b4a2d830ab0b64ca995ec043bd3f4b3ec84ec03fabb0482733c760",
+      "annotation_id": "annotation-be7fc09dc9cb8aae1e068c2114c4bb04783e51a9bf6b461c1a282b5aff959203",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-d7ca773b8551191e05f7c5eb0d18073ee9df50fef5942cd49c938e52787dbb37",
+      "annotation_id": "annotation-8a636f88342927afd6477b39a981175fce8088101c9b3172173e80493bf3448d",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-1d63e9ca406302a62abfd9f961809e09ffe820a2f94c25aa328409cfa6fbb4c5",
+      "annotation_id": "annotation-ba6723a977930b28553a9005afbd2c23b789561a61dc7a3557ccd4886ba552f6",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-169cc4e822ef719b9bc2d05105a546af41b61fbbd52976e68d6c04b368f8543b",
+      "annotation_id": "annotation-9640b275e818dfe205e224b561d8bcb0467fbf34608ab9aa5f01534ed9588597",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-34d0cdfa781a053ed485eceeb973fd5649921a81aad21bbc3b219d1907af6845",
+      "annotation_id": "annotation-6c0429de62bdefce1003daba0037628e2078a95eb76c2832c87a6d2a71d67081",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-9ae72571b6327029468c2c46a6e22bae1f035ed9878cf7305856fc61b325f540",
+      "annotation_id": "annotation-51b0baf5fd62a9885a52c629b7190b1d282dd6dc746edd1ee28cb6198a6c8538",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-16463dc48e7f2f3c87af9fbf0938bef0b12ce82d214556d0aa12ecf0e5267dba",
+      "annotation_id": "annotation-835b8894be61bdefabbc4933132bdf3ea0fdd6f38352432d3133cc50bf18844a",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-155ea9663f4ef7b7d857fbc33ecd9180519977eceac285ec6c704bc7ec2d64ef",
+      "annotation_id": "annotation-a5574ae69923b1aca068a404d35b848b33c0510d9b87031c21c7f9c7a48238e1",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-38f8f738a28ca5dd333cbdadce628450d268f802090739f079a7785351859602",
+      "annotation_id": "annotation-6577acaba66c5939e4b050a8e4d039cb3b6931d90e0ab2d285d4e2cf5d268af6",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-cc49b01ddbcca8e3cc9e847e1101d439e8e603c984c35fe3b9a5ee5e2bd4623d",
+      "annotation_id": "annotation-2e53c05980ee451ba69ab2807dacbe90803bd9487978419a5315ac544598f225",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-ddfaad5d50ac76789e1b80c2dcb8dfaa713c5c11a209efe7d6d1eefa9f146258",
+      "annotation_id": "annotation-56b160c558ff96c0a7e9fe10420ad1af0ebfb8e67cce2286697c6fc5dcf90e4f",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fa457555a6c95264365c0818cae16fd1deb5180f932d7cbe203a742c178f5db6",
+      "annotation_id": "annotation-35e146781d17effdbb3e18fec336b59fadbcd29888a740d48a7825e34a3c8e03",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-1beb087c0dade7fff8ade8719e8c0690631944b3b0f719426cdf22ec2ce9c851",
+      "annotation_id": "annotation-9b53b74702453358f01b28f7c89ee3ce9c34611b1038c00deaa5baa484069071",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-79ca70c6c58f6800bba564fe2d2a8bbc8e5f15112bc20f964435de89401669c9",
+      "annotation_id": "annotation-f1697a8eb6449016c71d9c4245bd7c6eb1859e32b0d8a93fc2a814720823ec73",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-cd43e57037c76a37ce5e3059462ab7101bc496f6225132a70092c312fa8903ee",
+      "annotation_id": "annotation-0a33e5f5973f0180ce325a25d24196bed6055f03b21cacb82e73496cbf997d30",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-f353e46864cf6313604828604376a1b008ac6156f99c32d7fd6df5b359a83ac8",
+      "annotation_id": "annotation-ad6cb1924c309edfb194a6dce344b1f1ef07c244f9f0c27909c0e3e2f1a83ab3",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fb162cedbe24b2b1ae6575d69009b9199251179ec1b750384873b032f101bb5f",
+      "annotation_id": "annotation-de5222fdd8cdd7df360995e50c59d8623e66d2fb47d0bbae5775305c54384b10",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-d61e846ff6b0ba297b3ba8526092c0c4ba7dfac50a71914d47a69d3f4b67bea7",
+      "annotation_id": "annotation-7debdc3e574276a9167cf4267542e560d425fef0d084a9b4749d9764cc795cf3",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-0921488cb0ab4286cc0748965102e9e323fbc756830364637f8b9151094803c8",
+      "annotation_id": "annotation-05332dee2d66ef0168ac84631d6eeb461057aae1f1c00b54bf1833871c98dc99",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-c6069e65abe626a4821c0798021b287b2f305193db67586db1e541053e00f11f",
+      "annotation_id": "annotation-b3d230a244abed31081566d0009eed4b7f59d830a35d7aee6dd7e7db6211d801",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-c7ec734a20550b79c46bd0affdb93fc3960c7307eac6e0b8f5039f6e3bbb0940",
+      "annotation_id": "annotation-300649d72d783470a6c5f0472b8ba56f1347f22f5f629855525aa627fe1bca68",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fcd28a2e075b8a027d31211c3dedca583d8aff216dfd8dfadee09c05c1e154d8",
+      "annotation_id": "annotation-fcf9c31fcfa88c977e3a85829bec8f9329d13fc8212ec3eced7dbfed239b069c",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-27240e3364351df25f1ff80ec8befef3272ceffaadeb9e9b713f7235e9868781",
+      "annotation_id": "annotation-5ae60da3733bc966be490db7a903101913eb7ad4ec271fd94d93daf3c11b4bac",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-c6a3b62abb33787e350caeee2be07cf31f7261856ac8062e2a44d4bf748262dd",
+      "annotation_id": "annotation-c54781b4de2100c591ebdef7985a2a5eb728c366f0282b9d31fe4b7078df41a0",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-50ef9ce482f167dc7fcf07deca3b86506b1c2e1140d8e1a77bdaf7c16b1d6006",
+      "annotation_id": "annotation-db475cb2bc1ccd2ff9ece3e593bbb6ae0e69df91b655f87f25e5e09e9d5e43b9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-a0fcccd8986c4a275b83d3d4fc63de603922781105f8d05a67d2d800da2b80b9",
+      "annotation_id": "annotation-1c0f299eba4d4797ca25c383a7bdcdc19c79b6ca82a5b0d3f15438458ae91507",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-c67fc9b56679004016cea0d030d10b53f37fd4646c7e7d0d37ecf57497405268",
+      "annotation_id": "annotation-5af09ea0d7adfd1087daae9fd6360ee47a11f5c73f06a248c90c42f0a07f3078",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-646555cf3082a6d61d79270ae879edad1c7fe23ae9982e6499e8de77f990f23f",
+      "annotation_id": "annotation-d270cef0838f698c7137293580c65fd2f77d6c2092b559eed8937a8e6b986591",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-5575fed5bdb0f11ec13bfcc0a59f43f3cbe84f9bd5fc997422b5af156fbb1a4e",
+      "annotation_id": "annotation-fca890807df59df72d6ceea6bbca0bb7ed93c6bd9c2b86ccbe2310a9fbc01acb",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fd54fcfba8b894d7d52db216c29f5c1cb1add1e0080203386f142f271d3dd17b",
+      "annotation_id": "annotation-3971defd8ce71b3a7b320ff4373d53e031b08be70515f6e99baab0f71d8c164f",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-76d0fcc212392cc71b4658bee53bee842c2c22ec893f2338fadc5e8e011b84e9",
+      "annotation_id": "annotation-bba62a664349351ad168750e02ca6df7749ec4856bbbbaeb6142832056c22a79",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-9d993b4afc22a9cbe780e90970226f2c1542ac3d3dfe3bc4270bb69fa3f78fb1",
+      "annotation_id": "annotation-50546e5e9b0c2c48156eb63b722e0a3ba164dc2864ca510724f84dade39649dd",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-1eba223554be27529fed428b9f3be66b88484baa58b8b1206acc7c4526d71289",
+      "annotation_id": "annotation-10b76d1e5f537d7e7d8dd4ede7e7913075af6debaa61002031f19f828a2809a5",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-6e625ccdf43d27dc054f76e7d3b1ca2f38beeaef5a3812ded476e9821566eff3",
+      "annotation_id": "annotation-fd601e06e6e8e105e8de81172ece97afb684840baeb6d3bf153340c6be02ac4f",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-74de43266a740c5e7f1609de85d7b6296fc3eb4af8ae274930bb58560a53db79",
+      "annotation_id": "annotation-a552f69dbce22ab302081ae28029c0dd6dbae9768ef6f8eaa72b724cd0561b1d",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-03cd6ce6c09fc5b48f0b350de0a6d698169a18658f7d20df6445321870da9fd0",
+      "annotation_id": "annotation-97dfff2561c673ca863a8bf9e819b11c2d861237de6f26bacdd760ebac2c5ec4",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-777df373431402d6b96bc2de8c743d791fd2e0af6740217742f4735adf8b947a",
+      "annotation_id": "annotation-39254b51dd2a3192b819e1e6867ca05d3e1e73d54240f3453a5fed85fd560df9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-43714c320cbd55b10b4855c2d163a8bdb64a6b868b9558d97eb87900476f5eac",
+      "annotation_id": "annotation-8c0c81c9e0b4ca98bd7d7fe280fd28623c0a20788d34b291865eaefa7f35d239",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-8c67651aa0f09a5ac905778f6013e1376ec5afa8153bb2d8f7ab2aaf3a4c6494",
+      "annotation_id": "annotation-e1a7f9d340a6dc521740e3b3cc74ef21d056a67042c9ab75facb1ad0ba09169c",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-e47285e1958170384e040e3b051072e5ae7f171cad5e507d7ac66f8606ab6a95",
+      "annotation_id": "annotation-85bd3fe6dbc2c41170463fe6ba8420dad344ef42b277e85f6d8fd51a4e4c4769",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-589fd70838c69dc61bf0d1c80888ab38d890762e73dc820c29894faaf14d27c7",
+      "annotation_id": "annotation-45adcaeac85fadb1b9c538de9ef79b5d031e106006c08f0581d10bf3f3f403e3",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-214e5d6c1f1f279bcd86fa8ce2fd8d311570c48d78f0284b94a8230f9530277f",
+      "annotation_id": "annotation-bd7b882916fa054dac92cbd2ad5a7e90116c68c56c773d0b44bf9e13bd24c98e",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-7cc575af9a7979ebf763cb25ea6634d2c1d87704673e5326b62e36f9d85fac5d",
+      "annotation_id": "annotation-1143c4dc99701b4b82280ee907cbcb8b43d5e503d34797d2872d231d70030d35",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-fe9904f82b795b4126b5f44881508c1c5ce529920a39cd22a255f277ae1ff8e5",
+      "annotation_id": "annotation-4c653fa1c674765179db72f66069939326686aca9c56658768f8c5fcec1e3155",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-937085b0584cc4e8173520014bd3da70d906dba3deb9d2147757aa1cb343e39b",
+      "annotation_id": "annotation-7913e67c7563c2ae9f173f9f5720c05a908d6ec0633841bf229ea178d16bcde1",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-7a22b81872e83b4b8ba7d3a17fe5ced5a202f7fcea602efc753711de7a4a1d85",
+      "annotation_id": "annotation-3c897c5afc4a9f0ea14b8c0b2daf124d6f11a235c7722c3d98f9aa316d465c64",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-42ae5f85a57763e14eaa5b2d571f9c694bc65c703c9756f9ee95d9be2353f11d",
+      "annotation_id": "annotation-2f615a03e15626f422fdb23e149273d48246804821fd8fbe32812302a685453e",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-391cf057fc7b953a5b0f8a421e839131f3cd294ca84c8d4cd975e80b2e5bd3ca",
+      "annotation_id": "annotation-ac536c16faac7dbe45d1ce576005d0ab9cf538770515bce4ae0c91b5197380f4",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-972c97fd03aa1eed29ab3796dcdaff5d8f5dc1e0ecbf584554329fa46b10c68a",
+      "annotation_id": "annotation-26f39c9aea84db099aca8b1c138b0ca85e70f980e955621a4a228fe411ccee57",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-faa627f1674720456ad118b554b9904b60280346b45f26bfba259aebe7caff90",
+      "annotation_id": "annotation-225998351968e5af3e82d736fe09edbb7d646044d1ce1a7f88203282c3b521c9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-f5dd8ccf437a0157910626befedf3ea5d0f27eaf91943a8bd6dba8297c35c6da",
+      "annotation_id": "annotation-c88fab0dd3ebcf3719f1a3fcd484eed8d0ca16a42fbdc1e793633dde00c646d0",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-75447063d34d3d5d29f72686d277435d89513511fb2470c60cbcbb226a23d932",
+      "annotation_id": "annotation-752c7f1296cd7453bb769f4d07f7378ffdd19ba156f4e537caa327718eb248ba",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-v2-17dcf85dfc86bae45b007eb7f145da9e244b0f6477c8c8093436128764f2ca50",
+      "annotation_id": "annotation-e1d3d3c670636e15d111d85cc9a50228011b4b8e63751c4b3710e4cc7ac481e8",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": null,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-333cea30cb117f3b9ef3458e6093c80fe6e69e3947b298b928b793d514d1aec8",
+      "annotation_id": "annotation-adfcb60b764ae03bb835271782e449f9e1e128b128cb308ebf6db4af2a7bc77b",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-4533e0425ed0ba216a6efda2b08db0a1d9a4e580683d270daaaa6e12a6623195",
+      "annotation_id": "annotation-2885881f3fb67b29d4792d6f2ed071ba7e5cf91a5ef1b17549b4cfb32fd465a7",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-d0eac67b957fb8608f8c42d4d41fa723a429f5ad6c7a296f897a2634b1efa52d",
+      "annotation_id": "annotation-6eb315ac16a7124271447887991d34d034cc35bca62d99bdc4fce00d57a12fb1",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-a0acbc6dd583a077e449e9425ba29c52b0b94ccffcd99d6fc07f892970c976c3",
+      "annotation_id": "annotation-7a23bb520d8451f0345df8eefd983afcc664783a66f654cb75520dc29c23060b",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-31d08ec2feaf03205001cf395022e13be05345dfd658c520a0aa5d93b462512a",
+      "annotation_id": "annotation-11d55768e449b07222c697f00f04aca5f300b5a072e4ce0ad8e1b94b74b17c28",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-62f611142d794664f25d58a0692737f782f2cc2eb70e4f050f92e318ff6410fc",
+      "annotation_id": "annotation-b16cf3bdee9b3f5001c7c13f48efbb8f8108b7501b76921c7af90bb66b993ec9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-c863e3005042fd43fc1d7288b595434ac148bf1707edc889eb36fe4bd720dbb6",
+      "annotation_id": "annotation-e3df4503ab848bfc69593d80a2aaf811ea4ad538b41a5b6b0938d94c20e3f209",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-52c13c80fd4bad9d520718d6c2597dd42f3fd91350edcca658e79a1a4038e389",
+      "annotation_id": "annotation-3923358ac6a3d846e0a16feb642f9d9c5f73c6d38961d64b91ec5a4da14f2807",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-a6f33ceaf50ec40fe5e18118e6e96d55906857805288ff60b59f009597c39ab2",
+      "annotation_id": "annotation-d8759bd37eb0146945e4e2a41d4ed01613feae609d3ee19ee400ad0537ab9f64",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-292a0ce2134dad975ed4769f9a366c48fe8fe08874e95e76a87490eba564b69c",
+      "annotation_id": "annotation-a76828b5cacdbcc0629c91fbaa084b1f60f51499f8940046eb4a4b585e9e7b68",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-af9a343dcd09807147ef846dce7f7787aaf493efd7b1d386763d413fa49ca3e0",
+      "annotation_id": "annotation-91dc015bb49ac965421ce0564221c7d15fad60ed8436efc880e8a303e54981d9",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-4b316d29b2cec414d0a74374078c9c8f82d4f430c42ed1ada9e3a807f654f5cf",
+      "annotation_id": "annotation-1b14d9c59fadd2cb78b3845fba7063790dcf40f0e20d6881cca4d1a5ded744fc",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-95ff2185c1d39f3ac9580f16c7e228e6279444529a69086c81281d6e2a3510b1",
+      "annotation_id": "annotation-aa67dda9063def539606ec4afaded2256c4148cc366fac1394b9973042a7a74b",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-882904050d005146e1cdcf4211f9a3433d715e00733b3694727e2972882df30a",
+      "annotation_id": "annotation-7a82f9ec8826767ceabbdfe4efaa31ff73a597198620422c5e8b4b3266e3c072",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-6b7abebea8bc12e3c4591ba67beabbe51cb26e218d70f689d68553fd9308acf7",
+      "annotation_id": "annotation-c82d980a7b8a57066f1b378d22a8ca64097a456f5d894f8d73e5fc6a7caed8ea",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-f6f6ce6e0f71ce713b0c519959ef0cb3cb7a5d46c82615db7caedf4e20b89b6d",
+      "annotation_id": "annotation-26bdf5b235ba5594b89114d82d5c5e07229cfcd0956e7c66eaf637c03b46daa0",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-e1d7d96f09a3be955341a5f3ad23dc5a0932846915487afd99634c7eff7408a7",
+      "annotation_id": "annotation-5ceb3e459d0a8754eed6d94e47374dee0d5a6dcbb7fb307e0176dce14d331cd8",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-6ac621c75915ac5f1772821278e0aaafc97dadc5fb594a3ecc02e4d060f62728",
+      "annotation_id": "annotation-7707dc99666a14e946e3997d16b8a9c77df0293a0cb3a357f78d69c15f582119",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "oppose",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-007f8e70335d20cf807187f8ce09c34527fb0eae183e36c4728e8fd92f5a20cb",
+      "annotation_id": "annotation-8329bfa288cd8eaf5d688e0e497d81d1fdf956924fda3f832e2cf7f68dee5b48",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-084e06a1c103a89f7f26bf484baa5ab9b7aa49cc2cf7bc235a1c57c4351d7e07",
+      "annotation_id": "annotation-68e6cab19584867bd1f7ce170609f11da373f80edf3248f6e7e0ddf930567237",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-947f5bc9bf813b5e55a7cb748ea23dc626eccb943c53e0bc9ef9cb81eccac8bd",
+      "annotation_id": "annotation-cbba097c3370905cc2abdbcf85abfa80db5809303b8b57499d78585049900678",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-48ece89aca03513fd2caa4680d8080b6f8051174bd75745a943b80d9858b5337",
+      "annotation_id": "annotation-c3f093f39021e0bc26041829469b10916bb3cb1b7c71b908b9ebb3cedde47a78",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-8fd830aca03ee1928157021a81f3cb2bf5bcbda5e662ee8fd073129449ac2416",
+      "annotation_id": "annotation-d812984d93400249341996062d8c24f59b8fc5149b765fb3fc78eb836cdfb062",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-9cf9e66c32f44a0d1a69b2c5e5498a765bfb8c29ad44f3bb015b412eb76cbc75",
+      "annotation_id": "annotation-edd641aa750cf2f6d11eaff0f1a706814cc587db43cbf01af8bf1293003b2ec8",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-8fb3b681aa4946152ffa9ac9b5392f8e27da9ba256c381fabfc8684ba3d4d46d",
+      "annotation_id": "annotation-5717e3eb93db2e9e8cff109161c0dadfe956773752ec6581d8e2e8f352e68936",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-7551d6fd456d777f8772eb4c744383e63297f3c99d9351dfcda2dd31d01a87b0",
+      "annotation_id": "annotation-221f386ee6edf522d0d92c710aea815d7ec90bdc22a16fc4f81e182fc849148b",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-e7949709ae665c22bc4d35103f35c583aa3ae26848500c63ea08ff96fd412e30",
+      "annotation_id": "annotation-a285a7c0d59c4e2545c73cdf2fcd16678c5242956050b46a39ac8d62ef18db19",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-75fcce23fe20f0544ba0251dcd3c3bcd62fd45494db9fbbc66afbd2c9303c96d",
+      "annotation_id": "annotation-821d7cb7f0c80f031215a4b96d3c802aa9c3670b877e536936000cf5ff2d4fd6",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-8983829be857297501803e93497851cb25d09193fa01ecc9706ed4bf2dfed8a9",
+      "annotation_id": "annotation-4c335a318dc24c3414b19ea88576b443374530aaf3859237d341ddddd6e042d1",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-ab8ae65f500158b811312b0c2ad2fdb5b8f5204ca02ecbe3ae20313b1fffff3b",
+      "annotation_id": "annotation-39383949bdc740b5dfd89506d21c44f9c05aebac4edfa2e43526e98156253da7",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-dac27a8f1c4e823bc8403433182127779cfc22aa869542c922d9631b1492d151",
+      "annotation_id": "annotation-3529c6b8543e28fbb60743563a97b6dfa38fe0a1daf62a27b59fe094233b4f2f",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-32acbcbcf592603b8bbcd4e007c9aca2fd166f1c048bf0e89f0d1ce090a04d59",
+      "annotation_id": "annotation-f16ddfc2f49b6c8f9bab93daf67820f886320daad0b5a8cd20e92bd6e3eb38d7",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-c0c122a8833b947f970e0e1c3ceb45b24e5368aee0ac0abdab45ec2cdb808120",
+      "annotation_id": "annotation-91bdeab3535ad7be38eeb851e4baf3108d385d28f4884b72f9d0268ebf661f44",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-657c7532ad29c29997d94b015f0442bc856e72db24ebb8068465cec6cbde984f",
+      "annotation_id": "annotation-469582273af20c61d3c73c063986896f6f2080ee9389a04a86421514ad46e733",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-d5241319041358f08e76893b1f0f3182aa245fdf06bee2c8dd411af92787a4c6",
+      "annotation_id": "annotation-cd2dd8ded0e00513e541a7f538ff81ddd40c2e9000e3983ad7b4b414745c7ebc",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-006a7a84835814e1ef0544d1e34c22a4bc395e92a2dce1565496dd61f2e6114b",
+      "annotation_id": "annotation-1b6c9c0b4ebd236725a71a0a2373405dac407061a471e0f6ec0f689a8fac0fa6",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-1f53648b4dac120fa65f320c0df767ee1bda39c05e07c32714ce5df62ae4d710",
+      "annotation_id": "annotation-a8d2bb241ee3749d45b8ffe0e54a20c8747a4b3b80728f36c2e5ca231d664744",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-3b1c5bd338d7c98ba04360d631b319773515fa95ca0bd1cd6baea167c188c284",
+      "annotation_id": "annotation-0cfa049de185fc18787ed43d2aa379176bd23518219f6797a2561fbbd7d847ee",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-e82a78e040141ef735220f047a0d45cacaa4a935d4743bd2b10218dd1759361f",
+      "annotation_id": "annotation-d5a14fa938f3176851d9b360a5ad0c1c939df46399d2f16f1b01909ffdc8909e",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "support",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-ac8c2fa33f5b30942eec68c3eb18c0cefdfe3c8060e2fbf349cdb0b8919bc98f",
+      "annotation_id": "annotation-9372ba86979e11916ac852c40f73489cea05c5f6514ae17606172346f4d765df",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-eb986aad277f9bce9066dacbd7f47c16b7e57f3230c8da6e6ad317dd8020fc31",
+      "annotation_id": "annotation-2f28eefcc7bc71b0673bfab106c090a3d3b011fca3a2374754fb2fe513d53ba6",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-b469284294ba9af8ae7b3fd1f6435ab2fc763a570bec43dff528ab02b65f3e65",
+      "annotation_id": "annotation-ebc0e83493822f14fe5b4641756a7eed6066bc30ddbc3807a52c8d2049afc8d2",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-e3010a1f8265150b0d6c63bcfe2908517d42e4bc584e597b8a5e84edb2da5ffc",
+      "annotation_id": "annotation-7a94260b5dafc66a065a12774b1d54ced8dc7405d51c0153399efc419d399444",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "unresolved",
+      "supervised_training_approved": false,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-58d3c176c7d30638535614d23fd4c7ed04bf1a8ea77d7aa540e4a9c3a57b9ee1",
+      "annotation_id": "annotation-86508de75b86d245c8d64bd254cfdbeac5e9c212c2fcf5761497fc6aa6bf14e3",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    },
+    {
+      "candidate_id": "claim-exp-df45d4952692dda405182844df3e9ccc483960da3ea4d9ed84a16fd3bd437233",
+      "annotation_id": "annotation-afbcb254abbba8afdab14193c8d125954ab61a55a9ea730ee8ac8c53ac6b6f00",
+      "annotator_id": "Badr_A",
+      "origin": "ai_assisted_reviewed",
+      "reviewed_label": "no_stance",
+      "supervised_training_approved": true,
+      "existing_human_independent_check": true,
+      "blind_independent_annotation": false
+    }
+  ]
+}

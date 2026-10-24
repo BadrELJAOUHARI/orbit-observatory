@@ -1,0 +1,177 @@
+{
+  "goal_additional_focal_events": 40,
+  "verified_additional_focal_events": 39,
+  "auxiliary_events": 3,
+  "events_by_actor": {
+    "USA": 8,
+    "EU": 9,
+    "TUR": 6,
+    "IND": 7,
+    "ZAF": 9,
+    "RUS": 1,
+    "UKR": 2
+  },
+  "years_by_actor": {
+    "EU": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2021,
+      2024,
+      2025
+    ],
+    "IND": [
+      2012,
+      2013,
+      2014,
+      2016,
+      2017,
+      2024,
+      2025
+    ],
+    "RUS": [
+      2022
+    ],
+    "TUR": [
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2024
+    ],
+    "UKR": [
+      2022,
+      2024
+    ],
+    "USA": [
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2022,
+      2023,
+      2024
+    ],
+    "ZAF": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2021,
+      2024,
+      2025
+    ]
+  },
+  "reserved_events_collected": 7,
+  "candidates": 96,
+  "development_candidates": 83,
+  "evaluation_candidates": 13,
+  "candidate_events_by_actor": {
+    "EU": 5,
+    "IND": 3,
+    "RUS": 1,
+    "TUR": 3,
+    "UKR": 2,
+    "USA": 7,
+    "ZAF": 1
+  },
+  "actor_lens_candidate_counts": {
+    "EU": {
+      "territorial_recognition": 7,
+      "sanctions": 1,
+      "invasion_responsibility": 3,
+      "military_assistance": 1
+    },
+    "IND": {
+      "troop_withdrawal": 1,
+      "invasion_responsibility": 4
+    },
+    "RUS": {
+      "territorial_recognition": 7,
+      "military_assistance": 8,
+      "invasion_responsibility": 4
+    },
+    "TUR": {
+      "territorial_recognition": 2,
+      "military_assistance": 1
+    },
+    "UKR": {
+      "invasion_responsibility": 9,
+      "territorial_recognition": 8,
+      "military_assistance": 6,
+      "troop_withdrawal": 6
+    },
+    "USA": {
+      "troop_withdrawal": 2,
+      "military_assistance": 5,
+      "territorial_recognition": 7,
+      "sanctions": 5,
+      "invasion_responsibility": 8
+    },
+    "ZAF": {
+      "military_assistance": 1
+    }
+  },
+  "quality_holds": {
+    "OCR_text_requires_visual_review": 18,
+    "EU_common_position_review": 12,
+    "language_review": 27,
+    "incomplete_sentence_boundary": 1,
+    "translation_review": 52,
+    "quotation_attribution_review": 2
+  },
+  "wrong_attachment_mirrors": [
+    {
+      "document_id": "doc-exp-usa-unga73",
+      "duplicate_of": "doc-exp-usa-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-eu-unga73",
+      "duplicate_of": "doc-exp-eu-unga72",
+      "issues": [
+        "EU_common_position_review",
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-ind-unga73",
+      "duplicate_of": "doc-exp-ind-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    },
+    {
+      "document_id": "doc-exp-zaf-unga73",
+      "duplicate_of": "doc-exp-zaf-unga72",
+      "issues": [
+        "attachment_header_year_mismatch",
+        "cross_year_attachment_conflict"
+      ]
+    }
+  ],
+  "approved_training_labels": 0,
+  "independent_human_annotations": 0,
+  "independent_human_labeled_events": 0,
+  "returned_reviewed_labels": {
+    "no_stance": 58,
+    "support": 4,
+    "unresolved": 6
+  },
+  "source_clearance": "Official archive provenance and event headings verified. EU common-position, translations, OCR, attribution and rights holds remain separate; no blanket scoring clearance.",
+  "evaluation_policy": "Reservations frozen before collection; no AI suggestions or human labels generated for reserved events.",
+  "training_executed": false,
+  "public_scores_changed": false
+}

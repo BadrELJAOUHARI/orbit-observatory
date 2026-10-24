@@ -1,0 +1,56 @@
+{
+  "split_version": "event-holdout-1.0.0",
+  "seed": 20261023,
+  "reserved_event_ids": [
+    "event-eu-unga78",
+    "event-ind-unga78",
+    "event-tur-unga77",
+    "event-us2022",
+    "event-zaf-unga77"
+  ],
+  "blind_candidate_ids": [
+    "claim-v2-160135945025b2707a625ad22fb8e8f1b3a6da7e98d9fc61afa65a3586fd05c3",
+    "claim-v2-ac68c9758bef92bf4809cf850bdef6618f9ad0b1083feb871a6f4ce5ebdc06a9",
+    "claim-v2-df9415ed121f4a70a464611cd5c196a97b5ef84b9c6aa9c79ff4037068dff3eb",
+    "claim-v2-fb2e8e8106fd2faab2986406dea5083b789615e93201551eb5a78ff88469c8ed",
+    "claim-v2-0900be4e4c86075979087af9b09a493ec709257ccc38db9f237837c9ce8f29ba",
+    "claim-control-v2-a01c6e055b7e98af6a9a2f56a8354c1e50b5365bfe8e88b888c00fe437046ca0",
+    "claim-v2-9d5ee96d1ea45ef3bcb43a4da2cd4c35f5355483bc601a91fc146bf4b336cc69",
+    "claim-v2-2b75d1e843bd422aae89a26811c6d3b421ad153157eaf5acdf98252016e88b38",
+    "claim-v2-0d5e7affe05dbceab5c993b6f92b5a661e3695b767693a356b37f16a58fba936",
+    "claim-v2-f94cfb78af2a0d26702436409ae95ac7f71692a896009de0d139dba8c7bd016b",
+    "claim-v2-8babc634b2b86b382612a406375a80c73378823663b00435f4692291d9b15015",
+    "claim-control-v2-0260ec18e1c23575437f351daf8a7e5e5cad4c2ba4544c33c9f7f747134e0b5d",
+    "claim-v2-a22111e2318739dc4147ee50e21a16ae1f0f10cb8952890ba49d64687fe97e99",
+    "claim-v2-315a8eba0bbbcf9c7fba070d32fea6454a43c5690ce5a431e31f59d486a9ce2d",
+    "claim-v2-66b95cdf604d25f200d65175ee9d17ed1f0ef05f460b880b7e6e689fedc4b4aa",
+    "claim-v2-80fa331fbcc5ff6730ce82a207f0747fee33cb7f5ba746adc1da72a8610275a6",
+    "claim-control-v2-12684472d0ada475fcdf248ea22ca290ed0f78f3c301e7e4a285082505bde600",
+    "claim-v2-67ed553d22bf159dc715acfe68e34c61f81bf1eaa552c2c8a98c254bb1e77a87",
+    "claim-v2-a91897158fcd9c5114b1024ad46bb218f915f6ae043ea64a0c1ab9d8beb8a39f",
+    "claim-control-v2-eeb0a0c7cc9eed5e29df1bec3d4ca25eaef82c89a6c8cde034657ce8ec3bff29",
+    "claim-v2-8fb6d3aa35ec90e327e23a77795e7e43d33ddf0dce7d478219d377df0983ea00"
+  ],
+  "event_roles": {
+    "event-eu-unga77": "development_only",
+    "event-eu-unga78": "evaluation_rehearsal",
+    "event-ind-unga77": "development_only",
+    "event-ind-unga78": "evaluation_rehearsal",
+    "event-tur-unga77": "evaluation_rehearsal",
+    "event-tur-unga78": "development_only",
+    "event-us2014": "development_only",
+    "event-us2022": "evaluation_rehearsal",
+    "event-zaf-unga77": "evaluation_rehearsal",
+    "event-zaf-unga78": "development_only"
+  },
+  "excluded_from_training_and_tuning_event_ids": [
+    "event-eu-unga78",
+    "event-ind-unga78",
+    "event-tur-unga77",
+    "event-us2022",
+    "event-zaf-unga77"
+  ],
+  "final_evaluation_ready": false,
+  "prior_pilot_exposure": true,
+  "limitation": "Pilot events informed codebook development and assisted review. This is a blind labeling rehearsal, not an untouched confirmatory test. Final evaluation needs new events and separate independent humans."
+}

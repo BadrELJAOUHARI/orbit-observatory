@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT targeted acquisition document 1.0.0",
+  "type": "object",
+  "required": ["id", "actor_id", "actor_role", "issuer", "speaker", "speaker_basis", "canonical_url", "event_date", "publication_date", "retrieved_at", "language", "translation_provenance", "text_sha256", "text_path", "source_receipt", "event_id", "event_role", "leakage_group_id", "new_source_document", "acquisition_stream", "source_clearance_basis"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^doc-sprint-[a-f0-9]+$"},
+    "actor_id": {"enum": ["USA", "EU", "TUR", "IND", "ZAF", "GBR", "RUS", "UKR"]},
+    "actor_role": {"enum": ["focal", "auxiliary_training_only"]},
+    "canonical_url": {"type": "string", "pattern": "^https://"},
+    "issuer": {"type": "string", "minLength": 3},
+    "speaker": {"type": "string", "minLength": 3},
+    "event_date": {"type": "string", "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}$"},
+    "publication_date": {"type": ["string", "null"]},
+    "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "event_role": {"enum": ["development_only", "evaluation_reserved"]},
+    "acquisition_stream": {"const": "targeted_training_acquisition_not_position_estimation"},
+    "source_receipt": {"type": "object", "required": ["requested_url", "retrieved_at", "raw_sha256", "raw_path"]}
+  },
+  "allOf": [{"if": {"properties": {"actor_id": {"enum": ["GBR", "RUS", "UKR"]}}}, "then": {"properties": {"actor_role": {"const": "auxiliary_training_only"}}}, "else": {"properties": {"actor_role": {"const": "focal"}}}}]
+}

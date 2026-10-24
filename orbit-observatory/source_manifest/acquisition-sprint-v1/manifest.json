@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "cutoff": "2026-10-24",
+  "displayed_actors": [
+    "USA",
+    "EU",
+    "TUR",
+    "IND",
+    "ZAF"
+  ],
+  "auxiliary_actors": [
+    "GBR"
+  ],
+  "lenses": [
+    "territorial_recognition",
+    "troop_withdrawal",
+    "military_assistance",
+    "sanctions",
+    "invasion_responsibility"
+  ],
+  "codebook": "codebooks/consolidated-v1",
+  "withdrawal_rule": "W1",
+  "selection": "targeted_training_acquisition_not_position_estimation",
+  "artifact_root": ".local/acquisition-sprint-v1",
+  "development_packet": ".local/development-review-sprint-v1",
+  "counts": {
+    "documents_retrieved": 858,
+    "new_source_documents": 855,
+    "new_distinct_texts": 855,
+    "attempted_source_urls": 1398,
+    "queries": 40,
+    "pending": 0,
+    "batches": 54,
+    "clean_pairs": 561,
+    "clean_passages": 521,
+    "clean_events": 255,
+    "clean_independent_groups": 238,
+    "clean_documents": 255,
+    "held_pairs": 691,
+    "new_evaluation_pairs": 694,
+    "rejected_pairs": 51,
+    "duplicate_diagnostics": 15,
+    "clean_by_actor": {
+      "USA": {
+        "pairs": 141,
+        "events": 55,
+        "groups": 47,
+        "lenses": {
+          "invasion_responsibility": 50,
+          "military_assistance": 3,
+          "sanctions": 88
+        }
+      },
+      "EU": {
+        "pairs": 47,
+        "events": 14,
+        "groups": 14,
+        "lenses": {
+          "invasion_responsibility": 29,
+          "military_assistance": 9,
+          "sanctions": 6,
+          "territorial_recognition": 1,
+          "troop_withdrawal": 2
+        }
+      },
+      "TUR": {
+        "pairs": 0,
+        "events": 0,
+        "groups": 0,
+        "lenses": {}
+      },
+      "IND": {
+        "pairs": 0,
+        "events": 0,
+        "groups": 0,
+        "lenses": {}
+      },
+      "ZAF": {
+        "pairs": 1,
+        "events": 1,
+        "groups": 1,
+        "lenses": {
+          "sanctions": 1
+        }
+      },
+      "GBR": {
+        "pairs": 372,
+        "events": 185,
+        "groups": 176,
+        "lenses": {
+          "invasion_responsibility": 258,
+          "military_assistance": 53,
+          "sanctions": 47,
+          "territorial_recognition": 3,
+          "troop_withdrawal": 11
+        }
+      }
+    },
+    "clean_by_year": {
+      "2014": 17,
+      "2015": 19,
+      "2016": 7,
+      "2017": 6,
+      "2018": 17,
+      "2019": 14,
+      "2020": 3,
+      "2021": 7,
+      "2022": 192,
+      "2023": 111,
+      "2024": 81,
+      "2025": 53,
+      "2026": 34
+    },
+    "suggested_classes": {
+      "support": 457,
+      "unresolved": 104
+    },
+    "approved_new_labels": 0,
+    "existing_eligible_examples": 38,
+    "existing_eligible_events": 8,
+    "hold_reasons": {
+      "incomplete_sentence_boundary": 77,
+      "Ukraine_sanctions_basis_not_local": 42,
+      "W1_legal_territorial_extent_review": 34,
+      "sanctions_target_or_conflict_basis_review": 5,
+      "PDF_cover_or_sentence_review": 10,
+      "previously_collected_source_not_new": 32,
+      "joint_signatory_attribution_review": 138,
+      "partial_territorial_scope": 376,
+      "quoted_speaker_review": 105,
+      "inline_word_boundary_extraction": 2,
+      "legal_implementation_only": 31,
+      "W1_scope_not_established": 17,
+      "speaker_role_review": 6,
+      "reported_foreign_position_attribution_review": 2,
+      "EU_common_position_review": 1,
+      "translation_review": 1
+    },
+    "selection": "targeted_training_acquisition_not_position_estimation",
+    "suggestion_method": "sprint-admission-suggestions-1.0.0"
+  },
+  "artifacts": {
+    "state.json": "c8583d0121d16eea42929c0ebd6fef3e4cd4cfdc028796824b122628f7dac74d",
+    "source_event_manifest.json": "0298bf717bee9e0ab3eafe7da2d2aa021d280e396ba37cf8ee23e4640aca7fe9",
+    "split_assignments.json": "312886545bf0e2aebca735da31be06c4fe956b86a38fbaf736959546390b6b80",
+    "clean.json": "b1deac06b78b930569a9f1fc145fdfd925a7e1a8f24ba82ba62dc72603fcddd2",
+    "held.json": "1d09847b8399a72ef78a11448dc7f7e27494e2e16cd9c9efcf27a493dbd2dedb",
+    "rejected.json": "2f55877ec925cc1b6c07eed2862ce6164295348806284dfd0ae2ed48b963a1a0",
+    "duplicates.json": "10e3c7179542d9be0e4757789d43d424838f0399bab8ab410db9c8b5988d9cfb",
+    "coverage.csv": "df57d7278cc888931b74ed4141561b4038d64369dd877cf15ababb522af039a2",
+    "bottlenecks.json": "fbce141b5d2a017dd7698af3996c5229bbba18c1e3df791670137e9463a1a6f1"
+  },
+  "historical_data_untouched": true,
+  "code_hashes": {
+    "python/orbit_data/acquisition_sprint.py": "8ff4d8161190cc8fa33dd36f12d1298e2a13fda54b16ae1523e40d795610a6b7",
+    "python/orbit_data/sprint_review.py": "f21d87be9fe3538d537a75ddc24eb3b7d1d5bc49b63c2c56c5a1e1e52a750a98",
+    "python/orbit_data/sprint_report.py": "d10131eb9cc71eae6242577b5bb220d8649825d1a0027577d0c0e7e90ecaf012",
+    "python/orbit_data/review_import.py": "1b60d1dffe25415f5977eafca3171c0864148ee410825cca0141c9cb7d5cdfda"
+  }
+}

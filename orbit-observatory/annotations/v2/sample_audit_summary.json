@@ -1,0 +1,28 @@
+{
+  "sample_count": 22,
+  "actors": [
+    "EU",
+    "IND",
+    "TUR",
+    "USA",
+    "ZAF"
+  ],
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "origin": "assistant diagnostic source/segmentation review; no independent judgments or stance labels",
+  "per_document_notes": {
+    "doc-eu-unga77": "Sentence boundaries restored using measured PDF line gaps; reviewed B07 multi-sentence window retained separately. EU common-position review remains.",
+    "doc-eu-unga78": "Original French retained. Repeated page numbers masked only in mapped reading view. No translation or language clearance.",
+    "doc-ind-unga77": "Page-spanning continuation checked. UN General Assembly body line retained. Visible continue s / Th ose / respon ds artefacts need visual source comparison; not silently corrected.",
+    "doc-ind-unga78": "Sentence reflow checked. Generic territorial-integrity wording remains subject to exact-target review.",
+    "doc-tur-unga77": "UNOFFICIAL TRANSLATION retained; original Turkish absent. Spacing such as settlemen t / regi on remains in source; no correction inferred.",
+    "doc-tur-unga78": "Courtesy Translation / Check against delivery retained. Turkish original absent; word spacing and delivery qualification remain.",
+    "doc-us2014": "Presidential turns retained; Yatsenyuk turns are separate and held from US scoring.",
+    "doc-us2022": "HTML paragraphs retained. Reporter turns remain held; three interrupted utterances remain explicitly flagged.",
+    "doc-zaf-unga77": "Page-boundary continuation checked with raw envelope preserved. Prepared-statement delivery qualification remains.",
+    "doc-zaf-unga78": "Repeated V7/date/location headers masked in reading view; territorial-integrity statement remains scope-review evidence."
+  },
+  "private_detail_path": ".local/annotation-v2/sample_audit.json"
+}

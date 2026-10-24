@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT targeted acquisition candidate 1.0.0",
+  "type": "object",
+  "required": ["candidate_id", "document_id", "event_id", "event_role", "actor_id", "actor_role", "event_date", "lens_id", "proposition", "start", "end", "exact_passage", "context_before", "context_after", "text_sha256", "quality_flags", "human_label", "training_approved", "leakage_group_id"],
+  "properties": {
+    "candidate_id": {"type": "string", "pattern": "^claim-sprint-[a-f0-9]{64}$"},
+    "lens_id": {"enum": ["territorial_recognition", "troop_withdrawal", "military_assistance", "sanctions", "invasion_responsibility"]},
+    "start": {"type": "integer", "minimum": 0},
+    "end": {"type": "integer", "minimum": 1},
+    "exact_passage": {"type": "string", "minLength": 65},
+    "quality_flags": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "human_label": {"const": ""},
+    "training_approved": {"const": false},
+    "event_role": {"enum": ["development_only", "evaluation_reserved"]}
+  }
+}

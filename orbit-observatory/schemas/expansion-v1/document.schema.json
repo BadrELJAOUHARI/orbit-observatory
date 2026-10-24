@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "required": [
+    "document_id",
+    "event_id",
+    "actor_id",
+    "actor_role",
+    "event_date",
+    "issuer",
+    "canonical_url",
+    "resolved_url",
+    "language",
+    "raw_path",
+    "raw_sha256",
+    "text_path",
+    "text_sha256",
+    "retrieved_at",
+    "quality_issues",
+    "event_role"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "issuer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "enum": [
+        "EU",
+        "IND",
+        "RUS",
+        "TUR",
+        "UKR",
+        "USA",
+        "ZAF"
+      ]
+    },
+    "actor_role": {
+      "enum": [
+        "focal",
+        "auxiliary_training_only"
+      ]
+    },
+    "event_role": {
+      "enum": [
+        "development_only",
+        "evaluation_reserved",
+        "auxiliary_development_only"
+      ]
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "resolved_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "language": {
+      "enum": [
+        "en",
+        "fr",
+        "ru",
+        "und"
+      ]
+    },
+    "quality_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "raw_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "text_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

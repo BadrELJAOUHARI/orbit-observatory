@@ -1,0 +1,20 @@
+{
+  "protocol_version": "scope-decision-1.0.2",
+  "decision_origin": "explicit_Badr_A_instruction",
+  "selected_option": "W1",
+  "configured_targets_changed": false,
+  "comprehensive_withdrawal_scope_required": true,
+  "equivalent_explicit_comprehensive_wording_allowed": true,
+  "absence_of_exception_alone_sufficient": false,
+  "territorial_recognition_broadened": false,
+  "W2_applied": false,
+  "supersedes_pending_decision": "codebooks/v1.0.1/status.json",
+  "prior_scope_conflict": "annotations/v1/reviews/Badr_A/review-0002.scope_conflict.json",
+  "annotation_id": "annotation-79ef4793db367f38ba5333fb96576c65dc92fc0ecb614cc9f4a6cfa599eacb20",
+  "candidate_id": "claim-revision-23300a15e6dd281d3917fffa0e6bf107a6ff83e3d4bdfa511e84d8b6614ff316",
+  "preserved_label": "support",
+  "scoring_status": "excluded_scope_hold_W1",
+  "preserved_hold_reason": "No stated territorial exception is not itself explicit comprehensive territorial scope under the frozen strict codebook. Preserve the submitted support label; do not infer recognized-border coverage or silently change the target.",
+  "scope_conflict_status": "resolved_rule_choice_evidence_still_insufficient",
+  "B09_B10_reason_class": "scope_insufficiency_not_political_or_model_ambiguity"
+}

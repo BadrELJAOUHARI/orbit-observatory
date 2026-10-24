@@ -1,0 +1,269 @@
+{
+  "counts": {
+    "reviewed_records": 113,
+    "legacy_records": 68,
+    "expanded_records": 45,
+    "conditional_authorizations": 113,
+    "resolved_targets_authorized": 89,
+    "before_current_task": {
+      "rows": 10,
+      "events": 3,
+      "groups": 3,
+      "by_lens": {
+        "territorial_recognition": {
+          "rows": 1,
+          "classes": {
+            "no_stance": 1
+          },
+          "events": 1,
+          "groups": 1
+        },
+        "troop_withdrawal": {
+          "rows": 0,
+          "classes": {},
+          "events": 0,
+          "groups": 0
+        },
+        "military_assistance": {
+          "rows": 2,
+          "classes": {
+            "support": 1,
+            "no_stance": 1
+          },
+          "events": 1,
+          "groups": 1
+        },
+        "sanctions": {
+          "rows": 3,
+          "classes": {
+            "no_stance": 3
+          },
+          "events": 2,
+          "groups": 2
+        },
+        "invasion_responsibility": {
+          "rows": 4,
+          "classes": {
+            "support": 2,
+            "no_stance": 2
+          },
+          "events": 2,
+          "groups": 2
+        }
+      }
+    },
+    "after_authorization_before_clearance": {
+      "rows": 29,
+      "events": 6,
+      "groups": 6,
+      "by_lens": {
+        "territorial_recognition": {
+          "rows": 2,
+          "classes": {
+            "no_stance": 2
+          },
+          "events": 2,
+          "groups": 2
+        },
+        "troop_withdrawal": {
+          "rows": 0,
+          "classes": {},
+          "events": 0,
+          "groups": 0
+        },
+        "military_assistance": {
+          "rows": 4,
+          "classes": {
+            "no_stance": 3,
+            "support": 1
+          },
+          "events": 3,
+          "groups": 3
+        },
+        "sanctions": {
+          "rows": 4,
+          "classes": {
+            "no_stance": 4
+          },
+          "events": 3,
+          "groups": 3
+        },
+        "invasion_responsibility": {
+          "rows": 19,
+          "classes": {
+            "no_stance": 17,
+            "support": 2
+          },
+          "events": 4,
+          "groups": 4
+        }
+      }
+    },
+    "after_clearance": {
+      "rows": 38,
+      "events": 8,
+      "groups": 8,
+      "by_lens": {
+        "territorial_recognition": {
+          "rows": 2,
+          "classes": {
+            "no_stance": 2
+          },
+          "events": 2,
+          "groups": 2
+        },
+        "troop_withdrawal": {
+          "rows": 0,
+          "classes": {},
+          "events": 0,
+          "groups": 0
+        },
+        "military_assistance": {
+          "rows": 4,
+          "classes": {
+            "no_stance": 3,
+            "support": 1
+          },
+          "events": 3,
+          "groups": 3
+        },
+        "sanctions": {
+          "rows": 9,
+          "classes": {
+            "support": 2,
+            "no_stance": 7
+          },
+          "events": 6,
+          "groups": 6
+        },
+        "invasion_responsibility": {
+          "rows": 23,
+          "classes": {
+            "support": 5,
+            "no_stance": 18
+          },
+          "events": 5,
+          "groups": 5
+        }
+      }
+    },
+    "original_label_counts": {
+      "no_stance": 77,
+      "support": 11,
+      "unresolved": 24,
+      "oppose": 1
+    },
+    "eligible_label_counts": {
+      "support": 8,
+      "no_stance": 30
+    },
+    "included_legacy": 26,
+    "primary_exclusions": {
+      "source_holds_remain": 69,
+      "excluded_supervised_target:unresolved": 5,
+      "text_quality_not_cleared": 1
+    },
+    "remaining_flags": {
+      "EU_common_position_review": 23,
+      "scope_hold_W1": 1,
+      "translation_review": 39,
+      "scope_insufficiency": 2,
+      "attribution_actor_mismatch": 2,
+      "OCR_text_requires_visual_review": 5,
+      "language_review": 10,
+      "official_press_excerpt_not_full_transcript": 1,
+      "event_date_range_15_16_June_exact_day_unresolved": 1
+    },
+    "clearance_decisions": 9,
+    "no_new_human_checks_asserted": true,
+    "public_scores_changed": false
+  },
+  "metrics": {
+    "sanctions": {
+      "validation": {
+        "claim_accuracy": 0.7777777777777778,
+        "macro_f1_represented_classes": 0.4375,
+        "event_weighted_accuracy": 0.75,
+        "event_weighted_confusion_matrix": [
+          [
+            4.5,
+            0.0
+          ],
+          [
+            1.5,
+            0.0
+          ]
+        ],
+        "class_order": [
+          "no_stance",
+          "support"
+        ],
+        "per_event_accuracy": {
+          "event-exp-usa-unga77": 1.0,
+          "event-exp-zaf-dirco-9188": 1.0,
+          "event-exp-usa-unga70": 0.5,
+          "event-eu-unga77": 0.0,
+          "event-ind-unga77": 1.0,
+          "event-zaf-unga78": 1.0
+        }
+      },
+      "majority": {
+        "method": "Most frequent class in each training fold only; lexical tie break, no held-out label use",
+        "claim_accuracy": 0.7777777777777778,
+        "macro_f1_represented_classes": 0.4375,
+        "event_weighted_accuracy": 0.75,
+        "per_event_accuracy": {
+          "event-exp-usa-unga77": 1.0,
+          "event-exp-zaf-dirco-9188": 1.0,
+          "event-exp-usa-unga70": 0.5,
+          "event-eu-unga77": 0.0,
+          "event-ind-unga77": 1.0,
+          "event-zaf-unga78": 1.0
+        }
+      }
+    },
+    "invasion_responsibility": {
+      "validation": {
+        "claim_accuracy": 0.7391304347826086,
+        "macro_f1_represented_classes": 0.425,
+        "event_weighted_accuracy": 0.5000000000000003,
+        "event_weighted_confusion_matrix": [
+          [
+            2.500000000000001,
+            0.5
+          ],
+          [
+            1.9999999999999998,
+            0.0
+          ]
+        ],
+        "class_order": [
+          "no_stance",
+          "support"
+        ],
+        "per_event_accuracy": {
+          "event-exp-usa-unga77": 0.0,
+          "event-exp-zaf-dirco-9188": 0.5,
+          "event-eu-unga77": 0.0,
+          "event-ind-unga77": 1.0,
+          "event-zaf-unga78": 1.0
+        }
+      },
+      "majority": {
+        "method": "Most frequent class in each training fold only; lexical tie break, no held-out label use",
+        "claim_accuracy": 0.782608695652174,
+        "macro_f1_represented_classes": 0.43902439024390244,
+        "event_weighted_accuracy": 0.6000000000000004,
+        "per_event_accuracy": {
+          "event-exp-usa-unga77": 0.0,
+          "event-exp-zaf-dirco-9188": 1.0,
+          "event-eu-unga77": 0.0,
+          "event-ind-unga77": 1.0,
+          "event-zaf-unga78": 1.0
+        }
+      }
+    }
+  },
+  "experimental": true,
+  "public_alignment_scores": false
+}

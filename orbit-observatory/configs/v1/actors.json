@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "config_version": "actors-v1",
+  "universe": "russia_ukraine",
+  "actors": [
+    {
+      "id": "USA",
+      "name": "United States",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "included_institutions": [
+        "White House / President",
+        "State Department / authorized diplomatic representatives"
+      ],
+      "excluded_streams": [
+        "Congress",
+        "campaigns",
+        "former officials",
+        "personal statements"
+      ],
+      "official_hosts": [
+        "obamawhitehouse.archives.gov",
+        "bidenwhitehouse.archives.gov",
+        "www.whitehouse.gov",
+        "www.state.gov",
+        "gadebate.un.org",
+        "gadebatestatements.un.org"
+      ],
+      "source_scope_version": "official-scope-v1",
+      "scope_status": "pilot_requires_review",
+      "un_stream": "UN General Debate is a separate comparison stream; do not pool with press releases."
+    },
+    {
+      "id": "EU",
+      "name": "European Union",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "included_institutions": [
+        "Adopted European Council and Council of the EU positions",
+        "Authorized representatives explicitly speaking on behalf of the EU"
+      ],
+      "excluded_streams": [
+        "member-state positions",
+        "European Parliament",
+        "Commission comments without a common-position mandate"
+      ],
+      "official_hosts": [
+        "www.consilium.europa.eu",
+        "www.eeas.europa.eu",
+        "gadebate.un.org",
+        "gadebatestatements.un.org"
+      ],
+      "source_scope_version": "official-scope-v1",
+      "scope_status": "pilot_requires_review",
+      "un_stream": "UN General Debate is a separate comparison stream; do not pool with press releases."
+    },
+    {
+      "id": "TUR",
+      "name": "Türkiye",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "included_institutions": [
+        "Presidency",
+        "Ministry of Foreign Affairs",
+        "Authorized permanent representatives"
+      ],
+      "excluded_streams": [
+        "opposition parties",
+        "parliamentary/private commentary",
+        "unattributed reporting"
+      ],
+      "official_hosts": [
+        "www.mfa.gov.tr",
+        "www.tccb.gov.tr",
+        "gadebate.un.org",
+        "gadebatestatements.un.org"
+      ],
+      "source_scope_version": "official-scope-v1",
+      "scope_status": "pilot_requires_review",
+      "un_stream": "UN General Debate is a separate comparison stream; do not pool with press releases."
+    },
+    {
+      "id": "IND",
+      "name": "India",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "included_institutions": [
+        "Prime Minister / PMO",
+        "Ministry of External Affairs",
+        "Authorized permanent representatives"
+      ],
+      "excluded_streams": [
+        "party campaigns",
+        "parliamentary/private commentary",
+        "unattributed reporting"
+      ],
+      "official_hosts": [
+        "www.mea.gov.in",
+        "www.pmindia.gov.in",
+        "gadebate.un.org",
+        "gadebatestatements.un.org"
+      ],
+      "source_scope_version": "official-scope-v1",
+      "scope_status": "pilot_requires_review",
+      "un_stream": "UN General Debate is a separate comparison stream; do not pool with press releases."
+    },
+    {
+      "id": "ZAF",
+      "name": "South Africa",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "included_institutions": [
+        "Presidency",
+        "Department of International Relations and Cooperation",
+        "Authorized permanent representatives"
+      ],
+      "excluded_streams": [
+        "party statements without government mandate",
+        "parliamentary/private commentary",
+        "unattributed reporting"
+      ],
+      "official_hosts": [
+        "dirco.gov.za",
+        "www.thepresidency.gov.za",
+        "gadebate.un.org",
+        "gadebatestatements.un.org"
+      ],
+      "source_scope_version": "official-scope-v1",
+      "scope_status": "pilot_requires_review",
+      "un_stream": "UN General Debate is a separate comparison stream; do not pool with press releases."
+    }
+  ]
+}

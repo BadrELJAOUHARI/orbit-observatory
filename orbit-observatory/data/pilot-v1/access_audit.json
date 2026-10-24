@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-10-23",
+  "user_agent": "ORBIT-Pilot/1.0 (bounded academic evidence collection)",
+  "observations": [
+    {
+      "source": "Initial official-source requests",
+      "outcome": "Cloud proxy rejected requests with Tunnel connection failed: 403 Forbidden before the host allowlist additions were saved. Later required collection requests succeeded. This was not an origin-server rejection."
+    },
+    {
+      "source": "https://www.consilium.europa.eu/robots.txt",
+      "outcome": "General User-agent: * disallows /. Specific named crawlers have separate allowances; ORBIT-Pilot is not one. No impersonation was used.",
+      "uncollected_targets": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2022/02/24/european-council-conclusions-24-february-2022/",
+        "https://www.consilium.europa.eu/en/press/press-releases/2024/12/19/european-council-conclusions-on-ukraine/"
+      ],
+      "replacement": "Official European Union UN General Debate statements, 2022 and 2023, published independently by the UN."
+    },
+    {
+      "source": "https://gadebate.un.org/en/78/european-union",
+      "outcome": "Full statement attachment is French, eu_fr.pdf. Stored with language fr; no English statement attachment was found or fabricated."
+    },
+    {
+      "source": "https://obamawhitehouse.archives.gov/copyright",
+      "outcome": "Reviewed policy: government-produced materials are not copyright protected, with exceptions including third-party works and transferred copyrights. Full artifacts remain local."
+    },
+    {
+      "source": "https://www.un.org/en/about-us/terms-of-use",
+      "related_url": "https://www.un.org/en/about-us/copyright",
+      "outcome": "Discovered in official UN footer. Policy retrieval through www.un.org failed with proxy tunnel 403, so full UN terms/copyright review remains unresolved. No redistribution clearance is asserted."
+    }
+  ],
+  "final_collection_gaps": [],
+  "remaining_gaps": [
+    "No independent annotation or retrieval-recall audit.",
+    "No complete annual or five-lens evidence coverage guarantee.",
+    "Original-language counterparts for English Turkish statement attachments were not collected.",
+    "Eight UN speeches are a separate source stream from two US executive archive transcripts.",
+    "Full UN terms/redistribution review pending."
+  ]
+}

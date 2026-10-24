@@ -1,0 +1,26 @@
+{
+  "version": "development-review-2.0.0",
+  "packet_id": "140bf765988da3d632edefd0519bc19ead0536627cf310948b47d37634cd1749",
+  "records": 68,
+  "events": [
+    "event-eu-unga77",
+    "event-ind-unga77",
+    "event-tur-unga78",
+    "event-us2014",
+    "event-zaf-unga78"
+  ],
+  "mechanically_clean": 23,
+  "quarantined": 45,
+  "previously_reviewed": 7,
+  "unreviewed_clean": 21,
+  "evaluation_records": 0,
+  "assisted": true,
+  "independent_human": false,
+  "input_sha256": "e02faa3059c1df539d916c00373665eddaa18bdf99f1fdf53eaee4b26a33d20f",
+  "event_split_sha256": "62710e3b4eccfe77dff89b16567b68e6bb109081b3ccbc7dac6b5627b500fbcb",
+  "files": {
+    "review_queue.json": "01a084e599305632ffefbe80e0423477cbb15be8df20741acbab07167c31372e",
+    "orbit-development-review.csv": "ad68c91cc8be71d1f3f2a3ed698694d0ea21cd4722ac260367e79f9a398d1055",
+    "orbit-development-review.html": "4aaedf51f8017f3d63c6e82f8c71a62a14e4f85b7a78928ac3a0a378c25c4c59"
+  }
+}

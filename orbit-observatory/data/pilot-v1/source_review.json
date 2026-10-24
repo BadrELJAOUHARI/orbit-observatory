@@ -1,0 +1,469 @@
+{
+  "audit_version": "source-review-1.0.0",
+  "generated_at": "2026-10-23T10:59:39.799937Z",
+  "review_origin": "assistant_source_quality_review_not_human_annotation",
+  "records_sha256": "13d6f4098493446493571b2c88349aead9ea438654eea409b5438287d41dc013",
+  "documents": [
+    {
+      "document_id": "doc-eu-unga77",
+      "event_id": "event-eu-unga77",
+      "actor_id": "EU",
+      "issuer": "European Union / President of the European Council Charles Michel",
+      "delivery_date": "2022-09-23",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/77/european-union",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/77/eu-en.pdf",
+      "language": "en",
+      "raw_sha256": "3ed15121500225c1279eb568c7512552fa623fcdf484f32c37d8fce9198de4dc",
+      "text_sha256": "f8e30aa4e539337308170381001f5f482ab739aca5136aa1a4b90bc888302dfd",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/77/european-union",
+        "landing_raw_sha256": "8894715f8f9d44732282915ab29376676d61b2d82e6d95f4243419f9cdb5f558",
+        "official_heading": "Statement\nEuropean Union\nHis Excellency\nCharles Michel\nPresident of the European Council\n23 September 2022",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "representation_verified_common_position_gate_pending",
+      "eu_representation": {
+        "verified": "Official UN docket identifies European Union, Charles Michel and President of the European Council, not a Belgian national delegation or a Commission-only speaker.",
+        "literal_on_behalf_formula_in_speech": false,
+        "qualification": "Delegation representation is corroborated explicitly by the UN actor heading and role. Neither normalized speech contains the literal on behalf/au nom formula. That is not proof each sentence is an adopted common position; obtain passage-specific common-position/mandate corroboration before release scoring."
+      },
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video.",
+        "Some sentence boundaries are glued by PDF layout, for example thing.In; do not silently repair this frozen text."
+      ],
+      "translation_provenance": null,
+      "findings": "Illegal border change, withdrawal, sanctions and invasion attribution appear in context. Military/weapon keywords also describe Russian action, not EU assistance. Collective-EU passage mandate remains a release gate.",
+      "lens_screen": {
+        "territorial_recognition": "potential_material_human_decision_required",
+        "troop_withdrawal": "potential_material_human_decision_required",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "potential_material_human_decision_required",
+        "invasion_responsibility": "potential_material_human_decision_required"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 15321,
+        "lines": 208,
+        "numeric_only_lines": 0,
+        "candidates": 19
+      }
+    },
+    {
+      "document_id": "doc-eu-unga78",
+      "event_id": "event-eu-unga78",
+      "actor_id": "EU",
+      "issuer": "European Union / President of the European Council Charles Michel",
+      "delivery_date": "2023-09-21",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/78/european-union",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/78/eu_fr.pdf",
+      "language": "fr",
+      "raw_sha256": "185930ca1479e17de848be5119ef743d50f78ab6af0e34c83d703497b5d08d96",
+      "text_sha256": "1297d28ae348ab08969ee98f23b27baf890f73dc11a8c9a634b9576d5c488161",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/78/european-union",
+        "landing_raw_sha256": "c7b5ddeca60bb8211fcd854ed76a82452345606927fc1e2b48e24ee06328930c",
+        "official_heading": "Statement\nEuropean Union\nHis Excellency\nCharles Michel\nPresident of the European Council\n21 September 2023",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "representation_verified_common_position_gate_pending",
+      "eu_representation": {
+        "verified": "Official UN docket identifies European Union, Charles Michel and President of the European Council, not a Belgian national delegation or a Commission-only speaker.",
+        "literal_on_behalf_formula_in_speech": false,
+        "qualification": "Delegation representation is corroborated explicitly by the UN actor heading and role. Neither normalized speech contains the literal on behalf/au nom formula. That is not proof each sentence is an adopted common position; obtain passage-specific common-position/mandate corroboration before release scoring."
+      },
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video.",
+        "Original French is the evidence; bilingual human review required. No machine translation supplied."
+      ],
+      "translation_provenance": null,
+      "findings": "French source: general integrity principles, Russia's war of conquest, Ukraine's self-defence and Security Council sanctions/veto. Self-defence is not automatically an external weapons commitment. French and common-position review required.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "potential_material_human_decision_required",
+        "sanctions": "potential_material_human_decision_required",
+        "invasion_responsibility": "potential_material_human_decision_required"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 16190,
+        "lines": 387,
+        "numeric_only_lines": 58,
+        "candidates": 13
+      }
+    },
+    {
+      "document_id": "doc-ind-unga77",
+      "event_id": "event-ind-unga77",
+      "actor_id": "IND",
+      "issuer": "India government / Subrahmanyam Jaishankar",
+      "delivery_date": "2022-09-24",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/77/india",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/77/in_en.pdf",
+      "language": "en",
+      "raw_sha256": "e5939e74b41b6220fb1222fff84f35eb7c3f1ddbf1025bd1e9ff619c1858ec54",
+      "text_sha256": "32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/77/india",
+        "landing_raw_sha256": "66c7d8fc30225ede8f84f28ccb7be6e9e5b71f70df445c3f83eb5ba9b9c40de8",
+        "official_heading": "Statement\nIndia\nHis Excellency\nSubrahmanyam Jaishankar\nMinister for External Affairs\n24 September 2022",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video."
+      ],
+      "translation_provenance": null,
+      "findings": "Ukraine, peace and general UN Charter principles do not by themselves settle the five exact targets. Sanctions passages concern UN counterterrorism; assistance includes disaster relief. PDF says CHECK AGAINST DELIVERY.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 11537,
+        "lines": 240,
+        "numeric_only_lines": 13,
+        "candidates": 10
+      }
+    },
+    {
+      "document_id": "doc-ind-unga78",
+      "event_id": "event-ind-unga78",
+      "actor_id": "IND",
+      "issuer": "India government / Subrahmanyam Jaishankar",
+      "delivery_date": "2023-09-26",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/78/india",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/78/in_en.pdf",
+      "language": "en",
+      "raw_sha256": "a914835ac953c7386e78e2be5f34c42800535f1ce2f8489e5e43d8c38e1d3bea",
+      "text_sha256": "6a04cf082f579730c19e688da53d5b9bf16698f5a297c69ad2f61afe83b5b7f2",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/78/india",
+        "landing_raw_sha256": "f99ced39539d85e86ffd33273df6a15acf3c7734f06b51f7ca7a2e874cff3555",
+        "official_heading": "Statement\nIndia\nHis Excellency\nSubrahmanyam Jaishankar\nMinister for External Affairs\n26 September 2023",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video."
+      ],
+      "translation_provenance": null,
+      "findings": "No explicit Ukraine mention in the extracted statement. Generic integrity/non-interference and Global South themes are not exact Ukraine stances. Retain the genuine document, including for no-stance and retrieval review.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 11198,
+        "lines": 154,
+        "numeric_only_lines": 0,
+        "candidates": 4
+      }
+    },
+    {
+      "document_id": "doc-tur-unga77",
+      "event_id": "event-tur-unga77",
+      "actor_id": "TUR",
+      "issuer": "Türkiye government / Recep Tayyip Erdoğan",
+      "delivery_date": "2022-09-20",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/77/turkiye",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/77/tr_en.pdf",
+      "language": "en",
+      "raw_sha256": "d902b5ccbf1dbb530ed42835b446eb2127250b6808171f2165819f2e6d55a1ff",
+      "text_sha256": "4a2d54107179679e524c06cc4b6d38ab604ebefdbe6f424cbe0b096e62afc3e3",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/77/t%C3%BCrkiye",
+        "landing_raw_sha256": "84d505fd9a1b5b0317666798353d0d4ba01e12a19d879f42888ba83aaa51e70d",
+        "official_heading": "Statement\nTürkiye\nHis Excellency\nRecep Tayyip Erdoğan\nPresident\n20 September 2022",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video.",
+        "English translation is source-provided but marked unofficial/courtesy; Turkish original and translator certification not obtained."
+      ],
+      "translation_provenance": "English attachment published by the official UN archive, explicitly marked UNOFFICIAL TRANSLATION in the PDF; translator/certification not identified; Turkish original not collected.",
+      "findings": "Ukraine's integrity/independence and diplomacy are discussed without precise border/legal-recognition commitments. Other passages concern Syria, Libya, China and Palestine. English PDF explicitly says UNOFFICIAL TRANSLATION.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 21179,
+        "lines": 368,
+        "numeric_only_lines": 12,
+        "candidates": 21
+      }
+    },
+    {
+      "document_id": "doc-tur-unga78",
+      "event_id": "event-tur-unga78",
+      "actor_id": "TUR",
+      "issuer": "Türkiye government / Recep Tayyip Erdoğan",
+      "delivery_date": "2023-09-19",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/78/turkiye",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/78/tr_en.pdf",
+      "language": "en",
+      "raw_sha256": "c179c09cd6a310c5e28ee0d914453a8b9f8c08687bb58e5fd3fee876c53353ec",
+      "text_sha256": "19b8dc6319db53f05909c895b50ad8da66a4a933b1a825a9d6dfe978affb7852",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/78/t%C3%BCrkiye",
+        "landing_raw_sha256": "68a056d9b50d70c4c0c6e2a73fa14befbc357438b870a9b2135e08a5f926720f",
+        "official_heading": "Statement\nTürkiye\nHis Excellency\nRecep Tayyip Erdoğan\nPresident\n19 September 2023",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video.",
+        "English translation is source-provided but marked unofficial/courtesy; Turkish original and translator certification not obtained."
+      ],
+      "translation_provenance": "English attachment published by the official UN archive, explicitly marked Courtesy Translation and Check against delivery; translator/certification not identified; Turkish original not collected.",
+      "findings": "Ukraine diplomacy and independence/integrity are discussed without exact border/annexation scope. Other integrity passages concern Syria, Iraq, Yemen, Azerbaijan and China. PDF says Courtesy Translation and Check against delivery.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 22854,
+        "lines": 412,
+        "numeric_only_lines": 12,
+        "candidates": 21
+      }
+    },
+    {
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "actor_id": "USA",
+      "issuer": "White House · President Barack Obama",
+      "delivery_date": "2014-03-12",
+      "publication_date": "2014-03-12",
+      "source_url": "https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat",
+      "attachment_url": "https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat",
+      "language": "en",
+      "raw_sha256": "a82d25425b1c89ee0d84b6e6ea5d67234da3d7d7f1bc4cea712d6e8b125cab6b",
+      "text_sha256": "aff1bd69f7e4061d580cd0347184554e8a5bdf1d47e74fe5eb0d48590983b8e8",
+      "source_verification": {
+        "landing_url": "https://obamawhitehouse.archives.gov/the-press-office/2014/03/12/remarks-president-obama-and-ukraine-prime-minister-yatsenyuk-after-bilat",
+        "landing_raw_sha256": "a82d25425b1c89ee0d84b6e6ea5d67234da3d7d7f1bc4cea712d6e8b125cab6b",
+        "official_heading": "President Obama; March 12, 2014; White House archive",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "Presidential transcript includes questions/other voices; document issuer is not per-passage attribution.",
+        "Foreign-speaker block starts at PRIME MINISTER YATSENYUK and must not be attributed to USA."
+      ],
+      "translation_provenance": null,
+      "findings": "Joint press availability includes a Ukrainian prime minister and questions. Obama's Crimea/referendum remarks require exact legal/territorial scope review; Yatsenyuk's withdrawal demand is not a US claim.",
+      "lens_screen": {
+        "territorial_recognition": "potential_material_human_decision_required",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "not_applicable"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 11047,
+        "lines": 29,
+        "numeric_only_lines": 0,
+        "candidates": 5
+      }
+    },
+    {
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "actor_id": "USA",
+      "issuer": "White House · President Joe Biden",
+      "delivery_date": "2022-02-24",
+      "publication_date": "2022-02-24",
+      "source_url": "https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/02/24/remarks-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/",
+      "attachment_url": "https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/02/24/remarks-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/",
+      "language": "en",
+      "raw_sha256": "a66293c4675d297c56a25d2e2341b3e6007949052f83c3157918599ba72451dc",
+      "text_sha256": "93ad239a3124d27af6827c2cc0e80eff8137772c7caaec6524b957829296386f",
+      "source_verification": {
+        "landing_url": "https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2022/02/24/remarks-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/",
+        "landing_raw_sha256": "a66293c4675d297c56a25d2e2341b3e6007949052f83c3157918599ba72451dc",
+        "official_heading": "President Biden; February 24, 2022; White House archive",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "Presidential transcript includes questions/other voices; document issuer is not per-passage attribution."
+      ],
+      "translation_provenance": null,
+      "findings": "Prepared presidential remarks plus reporter questions and answers. Defensive aid must be separated from rejection of US combat deployment; NATO deployments are not Russian withdrawal; quoted Kremlin claims are explicitly rejected.",
+      "lens_screen": {
+        "territorial_recognition": "potential_material_human_decision_required",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "potential_material_human_decision_required",
+        "sanctions": "potential_material_human_decision_required",
+        "invasion_responsibility": "potential_material_human_decision_required"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 20757,
+        "lines": 142,
+        "numeric_only_lines": 0,
+        "candidates": 64
+      }
+    },
+    {
+      "document_id": "doc-zaf-unga77",
+      "event_id": "event-zaf-unga77",
+      "actor_id": "ZAF",
+      "issuer": "South Africa government / Naledi Pandor",
+      "delivery_date": "2022-09-21",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/77/south-africa",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/77/za_en.pdf",
+      "language": "en",
+      "raw_sha256": "f2a622e1ceaf3af2747ed2b04e07af777106c1e3c2cb8bafe94500391e477cd3",
+      "text_sha256": "05def04d9e61578e4bfec360e2ecf771e1b61e937c59611060424c16cdce2de1",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/77/south-africa",
+        "landing_raw_sha256": "76e231348e34cde8bc42aa5e8b883bccc935f771800bea0be28bbeeaff178314",
+        "official_heading": "Statement\nSouth Africa\nHer Excellency\nNaledi Pandor\nMinister for International Relations and Cooperation\n21 September 2022",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video."
+      ],
+      "translation_provenance": null,
+      "findings": "War in Eastern Europe and general dialogue appear, but no explicit Ukraine mention. Other conflicts, nuclear weapons, colonialism and Western Sahara create false keyword matches.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 11879,
+        "lines": 205,
+        "numeric_only_lines": 9,
+        "candidates": 12
+      }
+    },
+    {
+      "document_id": "doc-zaf-unga78",
+      "event_id": "event-zaf-unga78",
+      "actor_id": "ZAF",
+      "issuer": "South Africa government / Cyril Ramaphosa",
+      "delivery_date": "2023-09-19",
+      "publication_date": null,
+      "source_url": "https://gadebate.un.org/en/78/south-africa",
+      "attachment_url": "https://gadebate.un.org/sites/default/files/gastatements/78/za_en.pdf",
+      "language": "en",
+      "raw_sha256": "28617bf46a8e3e118f4f3da0dd9c257967dbc5dea38c35fbaf7347cdc36dab12",
+      "text_sha256": "a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19",
+      "source_verification": {
+        "landing_url": "https://gadebate.un.org/en/78/south-africa",
+        "landing_raw_sha256": "88d189780427c82e5d3d51576029c48384bf2b09834cbc5205ab39f44a0fc362",
+        "official_heading": "Statement\nSouth Africa\nHis Excellency\nMatamela Cyril Ramaphosa\nPresident\n19 September 2023",
+        "actor_institution_stated_date_verified": true,
+        "date_limit": "Official stated event date, not an independent audiovisual delivery check."
+      },
+      "scope_status": "official_source_verified_passage_attribution_pending",
+      "eu_representation": null,
+      "extraction_problems": [
+        "PDF line wrapping fragments semantic claims; do not label without surrounding context.",
+        "Page numbers and running headers are retained in orbit-text-v1; offsets refer to that frozen text.",
+        "Published prepared statement is not independently checked against the delivered audio/video."
+      ],
+      "translation_provenance": null,
+      "findings": "African Peace Initiative and every country's integrity are discussed in Ukraine context, without precise Ukrainian border recognition. Annexation discussion concerns Israel/Palestine; sanctions concern Cuba/Zimbabwe.",
+      "lens_screen": {
+        "territorial_recognition": "no_explicit_target_found_in_assistant_screen",
+        "troop_withdrawal": "no_explicit_target_found_in_assistant_screen",
+        "military_assistance": "no_explicit_target_found_in_assistant_screen",
+        "sanctions": "no_explicit_target_found_in_assistant_screen",
+        "invasion_responsibility": "no_explicit_target_found_in_assistant_screen"
+      },
+      "human_evidence_eligibility": "not_adjudicated_for_any_lens",
+      "release_eligible": false,
+      "statistics": {
+        "characters": 11507,
+        "lines": 219,
+        "numeric_only_lines": 9,
+        "candidates": 15
+      }
+    }
+  ],
+  "limitations": [
+    "Lens screens are provisional assistant analysis, not human labels, model predictions or validated absences.",
+    "All human evidence eligibility remains unadjudicated; provenance verification does not create a stance.",
+    "EU common-position and translation qualifications remain gates, rather than assumed approvals."
+  ],
+  "storage_check": {
+    "cached_documents_verified": 10,
+    "verified_now": true,
+    "observation": "Prior-milestone raw/text files exist in this attached workspace and pass saved hashes. Fresh-machine restoration has not been tested.",
+    "private_cache": "../.local/pilot-v1",
+    "fresh_machine_restore_tested": false
+  }
+}

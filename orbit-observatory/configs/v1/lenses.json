@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0.0",
+  "config_version": "lenses-v1",
+  "status": "pilot_definitions_not_validated_codebook",
+  "date_policy": "Applicability dates delimit the study, not a claim of evidence coverage. Dates are inclusive; null until means open-ended.",
+  "lenses": [
+    {
+      "id": "territorial_recognition",
+      "name": "Territorial recognition",
+      "definition": "Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.",
+      "positive": "Ukraine has sovereignty over all its internationally recognized territory; annexation has no legal recognition.",
+      "negative": "Recognizes Russian annexation or denies Ukrainian sovereignty over that territory.",
+      "boundary": "Generic sovereignty language is insufficient; distinguish legal recognition from temporary de facto control.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "candidate_keywords": [
+        "territorial",
+        "sovereignty",
+        "annexation",
+        "borders"
+      ],
+      "no_stance_rule": "No attributable stance on this exact proposition is not a neutral score.",
+      "candidate_keywords_by_language": {
+        "en": [
+          "territorial",
+          "sovereignty",
+          "annexation",
+          "borders"
+        ],
+        "fr": [
+          "territorial",
+          "souveraineté",
+          "annexion",
+          "frontières"
+        ]
+      }
+    },
+    {
+      "id": "troop_withdrawal",
+      "name": "Russian troop withdrawal",
+      "definition": "Russian forces should withdraw from all internationally recognized Ukrainian territory.",
+      "positive": "Russian forces should withdraw from all internationally recognized Ukrainian territory.",
+      "negative": "Explicitly endorses continued Russian military control of that territory.",
+      "boundary": "Calls for a ceasefire or negotiations alone are not opposition.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "candidate_keywords": [
+        "withdraw",
+        "troops",
+        "forces",
+        "occupation"
+      ],
+      "no_stance_rule": "No attributable stance on this exact proposition is not a neutral score.",
+      "candidate_keywords_by_language": {
+        "en": [
+          "withdraw",
+          "troops",
+          "forces",
+          "occupation"
+        ],
+        "fr": [
+          "retrait",
+          "troupes",
+          "forces",
+          "occupation"
+        ]
+      }
+    },
+    {
+      "id": "military_assistance",
+      "name": "Military assistance to Ukraine",
+      "definition": "Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",
+      "positive": "Supports external military assistance to Ukraine, with type, recipient and conditions preserved.",
+      "negative": "Opposes that specified military assistance.",
+      "boundary": "Humanitarian aid is distinct; preserve restrictions on weapons, use and deployment.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "candidate_keywords": [
+        "military",
+        "weapons",
+        "defence",
+        "defense",
+        "assistance"
+      ],
+      "no_stance_rule": "No attributable stance on this exact proposition is not a neutral score.",
+      "candidate_keywords_by_language": {
+        "en": [
+          "military",
+          "weapons",
+          "defence",
+          "defense",
+          "assistance"
+        ],
+        "fr": [
+          "militaire",
+          "armes",
+          "défense",
+          "assistance"
+        ]
+      }
+    },
+    {
+      "id": "sanctions",
+      "name": "Sanctions against Russia",
+      "definition": "Supports specified restrictive measures against Russia because of its actions in Ukraine.",
+      "positive": "Supports specified restrictive measures against Russia because of its actions in Ukraine.",
+      "negative": "Opposes those specified restrictive measures.",
+      "boundary": "Separate adoption, maintenance and removal conditions; economic hardship alone is not a stance.",
+      "applicable_from": "2012-01-01",
+      "applicable_until": null,
+      "candidate_keywords": [
+        "sanction",
+        "restrictive measures"
+      ],
+      "no_stance_rule": "No attributable stance on this exact proposition is not a neutral score.",
+      "candidate_keywords_by_language": {
+        "en": [
+          "sanction",
+          "restrictive measures"
+        ],
+        "fr": [
+          "sanctions",
+          "mesures restrictives"
+        ]
+      }
+    },
+    {
+      "id": "invasion_responsibility",
+      "name": "Responsibility for the February 2022 full-scale invasion",
+      "definition": "Attributes responsibility for the February 2022 full-scale invasion to the Russian state.",
+      "positive": "Attributes responsibility for the February 2022 full-scale invasion to the Russian state.",
+      "negative": "Explicitly rejects attribution of responsibility to the Russian state.",
+      "boundary": "Not applicable before 24 February 2022; preserve causal qualifications and attribution.",
+      "applicable_from": "2022-02-24",
+      "applicable_until": null,
+      "candidate_keywords": [
+        "invasion",
+        "aggression",
+        "responsibility",
+        "conflict"
+      ],
+      "no_stance_rule": "No attributable stance on this exact proposition is not a neutral score.",
+      "candidate_keywords_by_language": {
+        "en": [
+          "invasion",
+          "aggression",
+          "responsibility",
+          "conflict"
+        ],
+        "fr": [
+          "invasion",
+          "agression",
+          "responsabilité",
+          "conflit"
+        ]
+      }
+    }
+  ]
+}

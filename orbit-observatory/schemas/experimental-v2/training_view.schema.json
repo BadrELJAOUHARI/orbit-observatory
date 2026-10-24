@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_type",
+    "schema_version",
+    "annotation_id",
+    "human_annotation",
+    "candidate_id",
+    "event_id",
+    "document_id",
+    "actor_id",
+    "actor_role",
+    "lens_id",
+    "event_date",
+    "language",
+    "proposition",
+    "passage",
+    "reading_text",
+    "text_sha256",
+    "start",
+    "end",
+    "source_url",
+    "leakage_group_id",
+    "label",
+    "origin",
+    "ai_assisted",
+    "review_status",
+    "independent_human",
+    "human_independent_check",
+    "blind_independent_annotation",
+    "training_approved",
+    "training_approval_id",
+    "training_policy_version",
+    "record_scoped_authorization_verified",
+    "source_eligibility_cleared",
+    "text_quality_cleared",
+    "scope_cleared",
+    "alignment_score",
+    "clearance_ids"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "experimental_training_example"
+    },
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "annotation_id": {
+      "type": "string"
+    },
+    "human_annotation": {
+      "type": "object"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "actor_id": {
+      "enum": [
+        "USA",
+        "EU",
+        "TUR",
+        "IND",
+        "ZAF",
+        "RUS",
+        "UKR"
+      ]
+    },
+    "actor_role": {
+      "enum": [
+        "focal",
+        "auxiliary_training_only"
+      ]
+    },
+    "lens_id": {
+      "type": "string"
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "proposition": {
+      "type": "string"
+    },
+    "passage": {
+      "type": "string"
+    },
+    "reading_text": {
+      "type": "string"
+    },
+    "text_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "leakage_group_id": {
+      "type": "string"
+    },
+    "label": {
+      "enum": [
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed"
+      ]
+    },
+    "origin": {
+      "const": "ai_assisted_reviewed"
+    },
+    "ai_assisted": {
+      "const": true
+    },
+    "review_status": {
+      "const": "reviewed_non_independent"
+    },
+    "independent_human": {
+      "const": false
+    },
+    "human_independent_check": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "blind_independent_annotation": {
+      "const": false
+    },
+    "training_approved": {
+      "const": true
+    },
+    "training_approval_id": {
+      "type": "string"
+    },
+    "training_policy_version": {
+      "const": "experimental-training-3.0.0"
+    },
+    "record_scoped_authorization_verified": {
+      "const": true
+    },
+    "source_eligibility_cleared": {
+      "const": true
+    },
+    "text_quality_cleared": {
+      "const": true
+    },
+    "scope_cleared": {
+      "const": true
+    },
+    "alignment_score": {
+      "type": "null"
+    },
+    "clearance_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

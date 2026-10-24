@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:orbit:annotation-task:v1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "queue_version",
+    "record_type",
+    "row_id",
+    "candidate_id",
+    "selection_kind",
+    "passage_id",
+    "related_candidate_ids",
+    "event_id",
+    "document_id",
+    "actor_id",
+    "event_date",
+    "lens_id",
+    "lens_proposition",
+    "source_url",
+    "attachment_url",
+    "document_issuer",
+    "language",
+    "language_review_required",
+    "text_sha256",
+    "start",
+    "end",
+    "exact_passage",
+    "context_start",
+    "context_end",
+    "context_before",
+    "context_after",
+    "offset_unit",
+    "codebook_version",
+    "translation_aid_id",
+    "label",
+    "annotator_id",
+    "review_status",
+    "review_notes",
+    "revision_of_candidate_id",
+    "original_batch_id"
+  ],
+  "properties": {
+    "queue_version": {
+      "const": "annotation-queue-1.1.0"
+    },
+    "record_type": {
+      "const": "annotation_task"
+    },
+    "row_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selection_kind": {
+      "const": "review_requested_span_revision"
+    },
+    "passage_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "related_candidate_ids": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "enum": [
+        "USA",
+        "EU",
+        "TUR",
+        "IND",
+        "ZAF"
+      ]
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "lens_id": {
+      "enum": [
+        "territorial_recognition",
+        "troop_withdrawal",
+        "military_assistance",
+        "sanctions",
+        "invasion_responsibility"
+      ]
+    },
+    "lens_proposition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "attachment_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "document_issuer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "enum": [
+        "en",
+        "fr"
+      ]
+    },
+    "language_review_required": {
+      "type": "boolean"
+    },
+    "text_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "exact_passage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context_start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "context_end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "context_before": {
+      "type": "string"
+    },
+    "context_after": {
+      "type": "string"
+    },
+    "offset_unit": {
+      "const": "unicode_code_point_half_open"
+    },
+    "codebook_version": {
+      "const": "1.0.0"
+    },
+    "translation_aid_id": {
+      "const": ""
+    },
+    "label": {
+      "enum": [
+        "",
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed",
+        "unresolved",
+        "not_applicable"
+      ]
+    },
+    "annotator_id": {
+      "type": "string"
+    },
+    "review_status": {
+      "enum": [
+        "",
+        "annotated",
+        "needs_adjudication",
+        "needs_language_review"
+      ]
+    },
+    "review_notes": {
+      "type": "string"
+    },
+    "revision_of_candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_batch_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

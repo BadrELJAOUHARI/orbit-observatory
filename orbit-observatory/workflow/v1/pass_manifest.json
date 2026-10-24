@@ -1,0 +1,9 @@
+{
+  "pass_version": "assistant-draft-pass-1.0.0",
+  "private_pass_path": ".local/workflow-v1/sealed/draft_pass.json",
+  "pass_sha256": "bc3fdb8d6bbfc2536b792eb80fbebfa64841f72d3c97ee4b408892a5ecb44a7b",
+  "prompt_sha256": "718453f069d958f37bfc90111a92db66cef6b6dab611cb7bb29c1fc203791b52",
+  "input_snapshot_sha256": "b7b2104219e58c5dd41b645104ea71ccb539001640403d26400cea1e9a4d3b78",
+  "suggestion_count": 84,
+  "reproduction": "Replay frozen private map over exact snapshot; no new model call or training. Keep this map in the permitted private backup with cached source artifacts."
+}

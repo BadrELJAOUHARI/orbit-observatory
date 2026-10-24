@@ -1,0 +1,39 @@
+{
+  "submission_id": "review-0003",
+  "annotator_id": "Badr_A",
+  "review_provenance": "AI-assisted judgments reviewed by Badr_A; non-independent annotations.",
+  "ai_assisted": true,
+  "independent_human": false,
+  "judgments": [
+    {
+      "batch_id": "B06-R1",
+      "label": "support",
+      "review_notes": "Explicitly endorses economic sanctions as necessary to stop the Kremlin's war machine."
+    },
+    {
+      "batch_id": "B07-R1",
+      "label": "support",
+      "review_notes": "Connected sentences characterize aggression against Ukraine as unprovoked and unlawful and identify the Kremlin's war machine as responsible. Preserve the multi-sentence attribution rationale."
+    },
+    {
+      "batch_id": "B08-R1",
+      "label": "no_stance",
+      "review_notes": "Supports Ukraine's right to self-defence, without specifying external military assistance."
+    },
+    {
+      "batch_id": "B09-R1",
+      "label": "unresolved",
+      "review_notes": "Explicit support for Ukraine's territorial integrity and independence, but insufficient specificity for the complete strict territorial-recognition target. Preserve this partial evidence and the unofficial-translation qualification."
+    },
+    {
+      "batch_id": "B10-R1",
+      "label": "unresolved",
+      "review_notes": "Same scope limitation as B09-R1. Preserve the courtesy-translation qualification."
+    }
+  ],
+  "withdrawal_decision": {
+    "option": "W1",
+    "comprehensive_scope_required": true,
+    "B05_R1": "Preserve prior support annotation and scope-hold reason; excluded from scoring."
+  }
+}

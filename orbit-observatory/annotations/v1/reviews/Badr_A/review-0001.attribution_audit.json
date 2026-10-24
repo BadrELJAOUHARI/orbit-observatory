@@ -1,0 +1,1390 @@
+{
+  "method": "speaker-marker-screen-v1",
+  "findings": [
+    {
+      "candidate_id": "claim-52ceb0f293e234c1c563defa522763732671939e5b7c1532a2759d4f512e0bfd",
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "target_actor_id": "USA",
+      "start": 5481,
+      "end": 5639,
+      "source_speaker_segments": [
+        {
+          "start": 5271,
+          "end": 7524,
+          "marker": "PRIME MINISTER YATSENYUK:",
+          "actor_id": "UKR"
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": "annotation-b979f31dbe66a759a937f70269cacba3e5e9334d0043362db72e65d70a3d580a"
+    },
+    {
+      "candidate_id": "claim-7a585e57be2ffaee9ba25e102e101240ae520ad3388d392e9fc96f6f4363a695",
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "target_actor_id": "USA",
+      "start": 1364,
+      "end": 1936,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 5271,
+          "marker": "PRESIDENT OBAMA:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-84159656e66ccd773079fbaf1a3b20ce700a2a44c6df1c6862cb25be2d469889",
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "target_actor_id": "USA",
+      "start": 5640,
+      "end": 5947,
+      "source_speaker_segments": [
+        {
+          "start": 5271,
+          "end": 7524,
+          "marker": "PRIME MINISTER YATSENYUK:",
+          "actor_id": "UKR"
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-b30d8ad6dfd000fa7efe559bef0630ec271a166c65e45ae6e4a0bf6e58a1765a",
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "target_actor_id": "USA",
+      "start": 7597,
+      "end": 7857,
+      "source_speaker_segments": [
+        {
+          "start": 7597,
+          "end": 11047,
+          "marker": "PRESIDENT OBAMA:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-ca890fd4f2dc140e869917f895fd1706b1bb1d1e767b5aacc57b63ba7d950e44",
+      "document_id": "doc-us2014",
+      "event_id": "event-us2014",
+      "target_actor_id": "USA",
+      "start": 3337,
+      "end": 3611,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 5271,
+          "marker": "PRESIDENT OBAMA:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-0492ec49b3b5f12ea04448a3ab01a6efa60b203ed4686b7c1956a142f6bea3d8",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 1744,
+      "end": 1812,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-0ce66efeadebf2ab3792a2558c99a185b7b6e463c00d9419235ef07a18e14156",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12096,
+      "end": 12182,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-0e2cfdf3088ac840a436b4dcd47baa94678408f5795a04627542229d924dce3d",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 194,
+      "end": 418,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-121c1b6cce8f3855b4dd89146fab3b86983590656c8d7b537dfba8f62490139d",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16979,
+      "end": 17104,
+      "source_speaker_segments": [
+        {
+          "start": 16979,
+          "end": 17105,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-133ffd82681ae292939e3408f592278e85add781f11247c74860b72c6f391666",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 9166,
+      "end": 9345,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-172268349c8566a190d708506d960152dec5f767264fbf13de4d1b68b6c21583",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 1078,
+      "end": 1343,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": "annotation-c5e567f2c5a6f94299da5693e43de68c5af832d95c1e7965892c1c7aa44d94cc"
+    },
+    {
+      "candidate_id": "claim-1f22e03ed6cc6c71567a25f7b745d5c0796674acad059d19c3ab84f7a31fa2ec",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12499,
+      "end": 12653,
+      "source_speaker_segments": [
+        {
+          "start": 12499,
+          "end": 12654,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-21b81379cb64067e0e9b1a69cc1093ac7ca7772eb7e9ba36897c09e4df50d491",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 13234,
+      "end": 13377,
+      "source_speaker_segments": [
+        {
+          "start": 13234,
+          "end": 13518,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-2607abcbcf9bfca78de5eb9137ea6c11d60c301e2083a9e906f2c9abac4ee931",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12997,
+      "end": 13233,
+      "source_speaker_segments": [
+        {
+          "start": 12997,
+          "end": 13234,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-289bf58ad3b4ee44eef72b80c2ce5495d2721ab1b0065bdf525afd98bfe85c49",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 14335,
+      "end": 14473,
+      "source_speaker_segments": [
+        {
+          "start": 13972,
+          "end": 14611,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-2bed94d8ff4f8365954ce4319a6208b510b2312bb087374f4c9a6df7663fdbf0",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 6407,
+      "end": 6529,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-2ffca507c6d88bf1f881c47037ecb8744101f67487d8aa4145a9a4247b253d68",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 9618,
+      "end": 9790,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-31a865aff77eb7a067ee09f2709d12cff24984ac9e5e52d2a3ffd5242039dc03",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 20225,
+      "end": 20361,
+      "source_speaker_segments": [
+        {
+          "start": 20225,
+          "end": 20362,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-3874791694e758f51b26efebd78b40185380d61ba67ba2b94d9b483380d825d5",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 19783,
+      "end": 20056,
+      "source_speaker_segments": [
+        {
+          "start": 19783,
+          "end": 20095,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-3f41c7f4fabe36118895ebc5d8053f59cd72d269473985b23e5d5eb7802875d5",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 17406,
+      "end": 17652,
+      "source_speaker_segments": [
+        {
+          "start": 17406,
+          "end": 17653,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-3f6b6457d51ffc0cd4ce390e8db9311197b8256d5831c9b3a51548ff59796680",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16735,
+      "end": 16820,
+      "source_speaker_segments": [
+        {
+          "start": 16735,
+          "end": 16821,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-40d63b795c0c2450d8afba44c33eb6d5a54d013174aaca877de74c5f7fdd49e3",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 8089,
+      "end": 8187,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-43154e312f8252bdadb9c2a34a6efc02b718a62522b64252ac916eac52c4d5b5",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16340,
+      "end": 16507,
+      "source_speaker_segments": [
+        {
+          "start": 16340,
+          "end": 16508,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-467f590589abc5e2783c9339c92541aabb5488fabcd557fbdaa0e3233027b03c",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 194,
+      "end": 418,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-46fa3ff97f0d4dc0bf03b0f66b374f5e7be582b44166ab75e85de86cb56a6ba6",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 7268,
+      "end": 7476,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-4ee39a5e61d8afd1d637e6dd048710b9bd1f7f8537c6bde5190a8f6a128a7447",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 11223,
+      "end": 11510,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-4fa3547161e81296774fccce971b808d32fc0a24453b33b79850d11a21124cf8",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 13518,
+      "end": 13721,
+      "source_speaker_segments": [
+        {
+          "start": 13518,
+          "end": 13972,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-5b036149527af401fbfa41e8f9de5f208936dd96deb0bf5f12475d6f1d518bd9",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 15331,
+      "end": 15523,
+      "source_speaker_segments": [
+        {
+          "start": 15084,
+          "end": 15562,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-62f81cdd6c9f366ef65a078316a1975413578429098070c45f1ce176ea941355",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16821,
+      "end": 16964,
+      "source_speaker_segments": [
+        {
+          "start": 16821,
+          "end": 16965,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-6c1a207e479fadeb84d03888885f24039e776e8cc2443979d78ba8a1d8850d21",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12654,
+      "end": 12918,
+      "source_speaker_segments": [
+        {
+          "start": 12654,
+          "end": 12997,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-71bd613fae31a02189b344e1c3f8e70b7f329438c09c26155d6c6700ed9da12d",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 10423,
+      "end": 10837,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-7d00814fc0028612884e9d21340162669ec601c4e0e6d9ebb2b668c94054d806",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 5713,
+      "end": 6047,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-82477efbb53c64381a7f8df768d87749f1f8be2391e4a60f57959b6da1c44921",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 14062,
+      "end": 14334,
+      "source_speaker_segments": [
+        {
+          "start": 13972,
+          "end": 14611,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-86c6181301029fe13b03a98d629e95cb8364c809df4eff0a4155ce60c0b81a37",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 17756,
+      "end": 17823,
+      "source_speaker_segments": [
+        {
+          "start": 17756,
+          "end": 17824,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-87608e5652c8b57446e3da3ece3ee72682be6303d9abd41d0c86dc7ebe593f18",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 9618,
+      "end": 9790,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-87bb6f18b0e486e7596a5d54802ad578e07d6d27e5aa972d86803f8bb66351e1",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 10423,
+      "end": 10837,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-886b8fbbc8d6ccfee78337e6edb24bc402eb0d9ee241d5b813f0dc1406489ba6",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16678,
+      "end": 16734,
+      "source_speaker_segments": [
+        {
+          "start": 16678,
+          "end": 16735,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-8970f31e524ad85357baf9a838d65f02fd13ff883c5f06fc7062bbcd048f1fd3",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 554,
+      "end": 751,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-8b266541b786025e3207ae287b3e8e0482f00e3dfa48aa84e35ec62a1b652480",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 2119,
+      "end": 2224,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-8f6232f53e116b76eba7744512d079d62b32c3c9530fa1b8fef8172197893233",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 1492,
+      "end": 1652,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-8f65349bbeef1743c0b5758fce1a91a8e39a515bfa6235f1e6dfb010c4ca4351",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 16588,
+      "end": 16677,
+      "source_speaker_segments": [
+        {
+          "start": 16588,
+          "end": 16678,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-8ff0d9a6bd95d5175696cd9385636b5f3a66221f74bcc8f7b2d34bfd80deee26",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 3558,
+      "end": 3663,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-92703337f661f59550843241eefe440b3effeab323dec16b489d9224c3f99832",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 4027,
+      "end": 4173,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-93b434a58013dbb509569fb568f78d4ca6ff534337e13a56bd40ba153d834cb6",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 6530,
+      "end": 6808,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-95661681f585c4fd70b6ca46c5b6c0dc8419732da74582424fe84b9d20e37ef1",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 9791,
+      "end": 9972,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-96d24a254a0a5f9559fae0d7d6dd00e72af05f0d537c2665e6703d7ed02dc364",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12654,
+      "end": 12918,
+      "source_speaker_segments": [
+        {
+          "start": 12654,
+          "end": 12997,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-9d71d78be071b1e6d242cb0be498f08884d4e8728a75b44cf887b74d33b43624",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 18206,
+      "end": 18521,
+      "source_speaker_segments": [
+        {
+          "start": 18206,
+          "end": 18527,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-a5d1c3a59d9d2b4c30a637b9fed304b5cbe9e44b502d9ebea956803649d8527b",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 6809,
+      "end": 6968,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-a78a899b846cd0b90e5e41a8019f6bc386bf3a2fcb8640910d151ad1b5dde430",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 7112,
+      "end": 7267,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-b4e990ba6d5cd8293c2bb3410797cddd64abe9d21689678209ac435481d81259",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 17842,
+      "end": 18205,
+      "source_speaker_segments": [
+        {
+          "start": 17842,
+          "end": 18206,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-bb8bd0517e8b56a3cafd96a9b487883f5e717551eb5e1f415f3c2d2e9667862a",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 4989,
+      "end": 5299,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-bd46b5537f79dff1b7f12a7f582af068536249018a054d6a014ebaceddeb1ea4",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 11679,
+      "end": 11967,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-c1a99f0515edb66f99ea047fe33b3b502070f118775ccd453b69bf4ae073151d",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 20428,
+      "end": 20532,
+      "source_speaker_segments": [
+        {
+          "start": 20428,
+          "end": 20533,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-c390cb018fa5bfdb94aad5fc44f041b49f4bec056455649291c745d87e4517f8",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 5713,
+      "end": 6047,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": "annotation-8b49f431878987a94b310720552c337efa2fd05f2ffaa67c1146b8aeb4839df1"
+    },
+    {
+      "candidate_id": "claim-c4654a8e1a53f01ae3eb1224ec6e2fe4b117973090209e10147bc49eba4e75fd",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 7268,
+      "end": 7476,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-d3fe65136f78d54b7905261b78c8dc9679765e1e68f5527839a87923893837c9",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 12499,
+      "end": 12653,
+      "source_speaker_segments": [
+        {
+          "start": 12499,
+          "end": 12654,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-d81d4003fd1bf49027e960a0078c3505af2957ad901a9ed97a525c970868b31b",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 2862,
+      "end": 3186,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-d87af6af9cbaff98774379e6391f034ac3d6ecbdb38712b31f213946e6a207d7",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 1492,
+      "end": 1652,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-d91fe07008d225859bdfaaa6daffd93292c84546c516feb3704bb1cf5bd347f6",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 20362,
+      "end": 20427,
+      "source_speaker_segments": [
+        {
+          "start": 20362,
+          "end": 20428,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-ddda5e2e1a96faca299b6b9278dd38498a16cca75a4d788aa178be62ec9e976a",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 8828,
+      "end": 9005,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-e8584404a7599015d15caa11b13b19d320e8e60963ca87ed6bf42dc11cc4e21a",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 5713,
+      "end": 6047,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": "annotation-6f1b0a9265a7d3cde80bff6bf4f459806737f551135b945bbfe7244e9bc684e2"
+    },
+    {
+      "candidate_id": "claim-ea41520fa322cd44363d20dee263683bdfac3251d9436c9ed82334f2d6bed70b",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 6809,
+      "end": 6968,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-ec77ce0e00d135e550c66c2cb39a4ebff452b1445e2e72f4858e78841325009e",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 0,
+      "end": 193,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-eead4f6945632b7e83313c8f916df32271cf3e8110df8888d2f0fd2ce950ae80",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 7477,
+      "end": 7748,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-f0eb01cb82cf31ccc0d0cf01548b9da814996d6c7ae955841aad79d11b73235f",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 17842,
+      "end": 18205,
+      "source_speaker_segments": [
+        {
+          "start": 17842,
+          "end": 18206,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-faaf60f15e03d319848505b63fd5e817003a0b96739f5981084cbef5fae213b6",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 17705,
+      "end": 17735,
+      "source_speaker_segments": [
+        {
+          "start": 17705,
+          "end": 17736,
+          "marker": "Q",
+          "actor_id": null
+        }
+      ],
+      "flag": "actor_mismatch_review_required",
+      "scoring_gate": "hold_for_attribution_review",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-face2a39c2865adb2a03313d8c7d33e4469cdd75280893cd0b06528b24f1c66b",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 2318,
+      "end": 2470,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-fc6dcc6ea05cb1f87b6d50e41eb3e7b2b0dfc26aa4e41c7c480ba8605744de76",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 19127,
+      "end": 19244,
+      "source_speaker_segments": [
+        {
+          "start": 18801,
+          "end": 19245,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    },
+    {
+      "candidate_id": "claim-ffcc8a39b1725b4377577dc8effc832d0577ab62714909d219654f7a446f9899",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "target_actor_id": "USA",
+      "start": 11968,
+      "end": 12095,
+      "source_speaker_segments": [
+        {
+          "start": 0,
+          "end": 12183,
+          "marker": "THE PRESIDENT:",
+          "actor_id": "USA"
+        }
+      ],
+      "flag": "no_marker_mismatch_detected",
+      "scoring_gate": "not_cleared_by_this_marker_screen",
+      "stance_label_assigned_by_audit": false,
+      "existing_reviewed_annotation_id": null
+    }
+  ],
+  "limitations": "Marker-based screening does not resolve quotations inside a speaker turn or unmarked speaker changes. Flags require review and assign no stance labels.",
+  "counts": {
+    "actor_mismatch_review_required": 16,
+    "no_marker_mismatch_detected": 53
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dataset_root": "../.local/experimental-baseline-v2",
+  "dataset_manifest_sha256": "1e32801f726e508029e704bd5781308c8a61a6198a79a6ba115c375844395fe9",
+  "experimental": true,
+  "public_scores_connected": false
+}

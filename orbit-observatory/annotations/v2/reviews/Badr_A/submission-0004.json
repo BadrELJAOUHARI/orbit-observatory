@@ -1,0 +1,34 @@
+{
+  "submission_id": "review-0004",
+  "annotator_id": "Badr_A",
+  "ai_assisted": true,
+  "independent_human": false,
+  "review_provenance": "Badr_A-reviewed, AI-assisted and non-independent judgments.",
+  "judgments": [
+    {
+      "batch_id": "V2-B01",
+      "label": "support",
+      "review_notes": "Explicit authorization of sanctions and export restrictions against Russia. Context connects them to Putin's decision to wage war."
+    },
+    {
+      "batch_id": "V2-B02",
+      "label": "no_stance",
+      "review_notes": "The French passage describes geopolitical competition over AI, particularly military AI. It does not address military assistance to Ukraine. Record this as assisted French review; retain the separate EU common-position eligibility flag."
+    },
+    {
+      "batch_id": "V2-B03",
+      "label": "no_stance",
+      "review_notes": "Discusses Afghanistan, without expressing a position on Russian withdrawal from Ukrainian territory. Preserve the unofficial-translation qualification."
+    },
+    {
+      "batch_id": "V2-B04",
+      "label": "no_stance",
+      "review_notes": "Describes economic consequences of the Ukraine conflict without attributing responsibility for the February 2022 invasion to Russia."
+    },
+    {
+      "batch_id": "V2-B05",
+      "label": "unresolved",
+      "review_notes": "Applies territorial-integrity principles to the Russia–Ukraine conflict, providing partial supporting evidence. The full strict territorial-recognition proposition, including annexation non-recognition, is not established. Flag scope insufficiency and exclude from directional scoring pending resolution."
+    }
+  ]
+}

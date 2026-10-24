@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "targets": [
+    {
+      "document_id": "doc-exp-usa-unga67",
+      "event_id": "event-exp-usa-unga67",
+      "actor_id": "USA",
+      "actor_role": "focal",
+      "year": 2012,
+      "session": 67,
+      "url": "https://gadebate.un.org/en/67/united-states-america",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-usa-unga68",
+      "event_id": "event-exp-usa-unga68",
+      "actor_id": "USA",
+      "actor_role": "focal",
+      "year": 2013,
+      "session": 68,
+      "url": "https://gadebate.un.org/en/68/united-states-america",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-usa-unga77",
+      "event_id": "event-exp-usa-unga77",
+      "actor_id": "USA",
+      "actor_role": "focal",
+      "year": 2022,
+      "session": 77,
+      "url": "https://gadebate.un.org/en/77/united-states-america",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-usa-unga78",
+      "event_id": "event-exp-usa-unga78",
+      "actor_id": "USA",
+      "actor_role": "focal",
+      "year": 2023,
+      "session": 78,
+      "url": "https://gadebate.un.org/en/78/united-states-america",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-eu-unga67",
+      "event_id": "event-exp-eu-unga67",
+      "actor_id": "EU",
+      "actor_role": "focal",
+      "year": 2012,
+      "session": 67,
+      "url": "https://gadebate.un.org/en/67/european-union",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-eu-unga68",
+      "event_id": "event-exp-eu-unga68",
+      "actor_id": "EU",
+      "actor_role": "focal",
+      "year": 2013,
+      "session": 68,
+      "url": "https://gadebate.un.org/en/68/european-union",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-tur-unga67",
+      "event_id": "event-exp-tur-unga67",
+      "actor_id": "TUR",
+      "actor_role": "focal",
+      "year": 2012,
+      "session": 67,
+      "url": "https://gadebate.un.org/en/67/t%C3%BCrkiye",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-tur-unga68",
+      "event_id": "event-exp-tur-unga68",
+      "actor_id": "TUR",
+      "actor_role": "focal",
+      "year": 2013,
+      "session": 68,
+      "url": "https://gadebate.un.org/en/68/t%C3%BCrkiye",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-ind-unga67",
+      "event_id": "event-exp-ind-unga67",
+      "actor_id": "IND",
+      "actor_role": "focal",
+      "year": 2012,
+      "session": 67,
+      "url": "https://gadebate.un.org/en/67/india",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-ind-unga68",
+      "event_id": "event-exp-ind-unga68",
+      "actor_id": "IND",
+      "actor_role": "focal",
+      "year": 2013,
+      "session": 68,
+      "url": "https://gadebate.un.org/en/68/india",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-zaf-unga67",
+      "event_id": "event-exp-zaf-unga67",
+      "actor_id": "ZAF",
+      "actor_role": "focal",
+      "year": 2012,
+      "session": 67,
+      "url": "https://gadebate.un.org/en/67/south-africa",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    },
+    {
+      "document_id": "doc-exp-zaf-unga68",
+      "event_id": "event-exp-zaf-unga68",
+      "actor_id": "ZAF",
+      "actor_role": "focal",
+      "year": 2013,
+      "session": 68,
+      "url": "https://gadebate.un.org/en/68/south-africa",
+      "source_type": "official_delegation_full_statement_UN_archive",
+      "fallback": false
+    }
+  ],
+  "event_roles": {
+    "event-exp-usa-unga67": "development_only",
+    "event-exp-usa-unga68": "development_only",
+    "event-exp-usa-unga77": "development_only",
+    "event-exp-usa-unga78": "evaluation_reserved",
+    "event-exp-eu-unga67": "development_only",
+    "event-exp-eu-unga68": "evaluation_reserved",
+    "event-exp-tur-unga67": "development_only",
+    "event-exp-tur-unga68": "development_only",
+    "event-exp-ind-unga67": "development_only",
+    "event-exp-ind-unga68": "development_only",
+    "event-exp-zaf-unga67": "development_only",
+    "event-exp-zaf-unga68": "development_only"
+  },
+  "reserved_before_retrieval": true
+}

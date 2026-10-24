@@ -1,0 +1,39 @@
+{
+  "submission_id": "review-0001",
+  "annotator_id": "Badr_A",
+  "review_provenance": "AI-assisted judgments reviewed by Badr. These are not independent human annotations.",
+  "ai_assisted": true,
+  "independent_human": false,
+  "judgments": [
+    {
+      "batch_id": "B01",
+      "label": "no_stance",
+      "review_notes": "The named actor is the United States, but the passage is spoken by Ukrainian Prime Minister Yatsenyuk. His statements about Ukrainian freedom, independence and sovereignty cannot establish the US position. The context confirms his identity. Flag a speaker-attribution error and exclude this passage from US stance scoring. This label does not imply that the US lacks a policy position. The passage also does not explicitly establish the full territorial-recognition proposition.",
+      "scoring_status": "excluded_actor_mismatch"
+    },
+    {
+      "batch_id": "B02",
+      "label": "support",
+      "review_notes": "Biden cites defensive assistance the United States provided to Ukraine, presenting that assistance as an endorsed US action. This supports the military-assistance proposition. His statement that US forces will not fight in Ukraine concerns direct combat participation, which is distinct from providing military assistance. These positions are compatible, so this is not mixed. Preserve the aid type and the explicit limitation excluding direct US combat participation.",
+      "scoring_status": "not_scored_pending_quality_review"
+    },
+    {
+      "batch_id": "B03",
+      "label": "no_stance",
+      "review_notes": "This is the same passage as B02, assessed against a different proposition: withdrawal of Russian forces from all internationally recognized Ukrainian territory. “Our forces” refers to US forces. Explaining where American troops will operate neither supports nor opposes Russian withdrawal. Do not infer this position from general US support for Ukraine. Keep the shared passage/event links intact across lenses.",
+      "scoring_status": "not_scored_pending_quality_review"
+    },
+    {
+      "batch_id": "B04",
+      "label": "no_stance",
+      "review_notes": "Biden rejects Russian allegations that Ukraine planned an invasion, chemical-weapons use or genocide. The passage addresses those allegations, without endorsing or opposing external military assistance. Criticism of Russia cannot be substituted for a stance on the military-assistance proposition. The surrounding context does not supply an explicit aid position.",
+      "scoring_status": "not_scored_pending_quality_review"
+    },
+    {
+      "batch_id": "B05",
+      "label": "unresolved",
+      "review_notes": "The stored evidence is an incomplete PDF line fragment. It ends at “withdraws,” while the following context supplies “from Ukrainian territory.” The surrounding text suggests support for withdrawal, but the evidence span must contain a complete, interpretable claim before final annotation. This unresolved status reflects a defective span, not necessarily ambiguous political meaning. After repair, reassess whether the complete wording supports the exact territorial scope in the proposition.",
+      "scoring_status": "excluded_defective_span"
+    }
+  ]
+}

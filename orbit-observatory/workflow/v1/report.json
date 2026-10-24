@@ -1,0 +1,38 @@
+{
+  "workflow_version": "consolidated-1.0.0",
+  "input_snapshot_sha256": "b7b2104219e58c5dd41b645104ea71ccb539001640403d26400cea1e9a4d3b78",
+  "candidates": 184,
+  "unchanged_retrieved_candidates": 179,
+  "preserved_random_controls": 5,
+  "quarantined": 94,
+  "clean": 90,
+  "clean_pending": 84,
+  "ai_suggestions": 84,
+  "ai_label_counts": {
+    "no_stance": 64,
+    "unresolved": 5,
+    "support": 15
+  },
+  "development_visible_ai_suggestions": 21,
+  "evaluation_sealed_ai_suggestions": 63,
+  "mechanically_resolved_headers": 2,
+  "quarantine_reason_counts": {
+    "EU_common_position_review": 32,
+    "language_review": 12,
+    "suspected_intraword_spacing_requires_source_comparison": 7,
+    "translation_review": 42,
+    "attribution_actor_mismatch": 16,
+    "extraction_boundary": 3
+  },
+  "existing_historical_judgments": 21,
+  "independent_judgments": 0,
+  "blind_events": 5,
+  "blind_items": 21,
+  "real_scores_computed": 0,
+  "training_executed": false,
+  "caveats": [
+    "Suggestions are frozen assistant drafts, not trained classifier outputs or human annotations.",
+    "Pilot exposure prevents confirmatory evaluation claims; selected rehearsal events are excluded from all training/tuning.",
+    "Current source coverage cannot meet annual coverage gates; public design and scores remain unchanged."
+  ]
+}

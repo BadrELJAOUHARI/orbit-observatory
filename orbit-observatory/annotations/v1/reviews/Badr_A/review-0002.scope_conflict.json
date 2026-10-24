@@ -1,0 +1,16 @@
+{
+  "conflict_id": "review-0002-B05-R1-scope",
+  "review_origin": "assistant_codebook_consistency_check",
+  "annotation_id": "annotation-79ef4793db367f38ba5333fb96576c65dc92fc0ecb614cc9f4a6cfa599eacb20",
+  "candidate_id": "claim-revision-23300a15e6dd281d3917fffa0e6bf107a6ff83e3d4bdfa511e84d8b6614ff316",
+  "submitted_label": "support",
+  "target": "Russian forces should withdraw from all internationally recognized Ukrainian territory.",
+  "status": "requires_Badr_decision",
+  "effective_scoring_gate": "blocked_scope_conflict",
+  "codebook_version": "1.0.0",
+  "explicit_all_territory": false,
+  "explicit_1991_borders": false,
+  "issue": "No stated territorial exception is not itself explicit comprehensive territorial scope under the frozen strict codebook. Preserve the submitted support label; do not infer recognized-border coverage or silently change the target.",
+  "pending_protocol_proposal": "codebooks/v1.0.1/SCOPE_CLARIFICATION.md",
+  "resolution": null
+}

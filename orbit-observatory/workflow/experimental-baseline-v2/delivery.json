@@ -1,0 +1,18 @@
+{
+  "repository": "BadrELJAOUHARI/orbit-observatory",
+  "private": true,
+  "branch": "codex-review-downloads-20261023",
+  "commit": "6581c99",
+  "archive_path": "review-downloads/orbit-first-real-baselines-2026-10-24.zip",
+  "archive_sha256": "f9ded877ccf19e9d5790c376c3720083839342a3266e602f96d3172919c23c78",
+  "downloaded_back_and_verified": true,
+  "trained_lenses": [
+    "sanctions",
+    "invasion_responsibility"
+  ],
+  "saved_pipelines": 13,
+  "pending_new_decisions": [
+    "C24-M1"
+  ],
+  "public_scores_changed": false
+}

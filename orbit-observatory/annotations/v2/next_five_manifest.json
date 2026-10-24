@@ -1,0 +1,57 @@
+{
+  "version": "annotation-v2-batch-1",
+  "items": [
+    {
+      "row_id": "V2-B01",
+      "candidate_id": "claim-v2-e70d40d45be7d388568c8699bba75e978070e70b485fedb8c426cf76fc041632",
+      "document_id": "doc-us2022",
+      "event_id": "event-us2022",
+      "start": 2119,
+      "end": 2224,
+      "lens_id": "sanctions",
+      "text_sha256": "93ad239a3124d27af6827c2cc0e80eff8137772c7caaec6524b957829296386f"
+    },
+    {
+      "row_id": "V2-B02",
+      "candidate_id": "claim-v2-0b2dade9ff2cf4e45db0ab26d81b921017b6b6dbec80b75fdcdaa064e58f85b6",
+      "document_id": "doc-eu-unga78",
+      "event_id": "event-eu-unga78",
+      "start": 1484,
+      "end": 1659,
+      "lens_id": "military_assistance",
+      "text_sha256": "1297d28ae348ab08969ee98f23b27baf890f73dc11a8c9a634b9576d5c488161"
+    },
+    {
+      "row_id": "V2-B03",
+      "candidate_id": "claim-v2-5de758bb69056918321797a8378ea154f9c53862a0291c62df7aebf77188c5e9",
+      "document_id": "doc-tur-unga77",
+      "event_id": "event-tur-unga77",
+      "start": 14285,
+      "end": 14453,
+      "lens_id": "troop_withdrawal",
+      "text_sha256": "4a2d54107179679e524c06cc4b6d38ab604ebefdbe6f424cbe0b096e62afc3e3"
+    },
+    {
+      "row_id": "V2-B04",
+      "candidate_id": "claim-v2-17dcf85dfc86bae45b007eb7f145da9e244b0f6477c8c8093436128764f2ca50",
+      "document_id": "doc-ind-unga77",
+      "event_id": "event-ind-unga77",
+      "start": 3556,
+      "end": 3664,
+      "lens_id": "invasion_responsibility",
+      "text_sha256": "32350683d70334af3c80794a4012caff1dfb9a4bca12f57f9a1cd56ade41bd1e"
+    },
+    {
+      "row_id": "V2-B05",
+      "candidate_id": "claim-v2-1eba223554be27529fed428b9f3be66b88484baa58b8b1206acc7c4526d71289",
+      "document_id": "doc-zaf-unga78",
+      "event_id": "event-zaf-unga78",
+      "start": 2540,
+      "end": 2703,
+      "lens_id": "territorial_recognition",
+      "text_sha256": "a720ee981294fe3e6dc3227f8851d1ad55cad822f3c5932cbbb15cbdf0344c19"
+    }
+  ],
+  "source_rights": "Metadata only. Passages and complete tasks remain private.",
+  "labels": "All blank; no machine suggestions."
+}

@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "id",
+    "claim_id",
+    "origin",
+    "annotator_id",
+    "codebook_version",
+    "label",
+    "review_status",
+    "created_at",
+    "rationale",
+    "supersedes",
+    "batch_id",
+    "review_notes",
+    "review_provenance",
+    "ai_assisted",
+    "independent_human",
+    "scoring_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.2.0"
+    },
+    "record_type": {
+      "const": "annotation"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin": {
+      "const": "ai_assisted_reviewed"
+    },
+    "annotator_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebook_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "label": {
+      "enum": [
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed",
+        "unresolved",
+        "not_applicable"
+      ]
+    },
+    "review_status": {
+      "const": "reviewed_non_independent"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "batch_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "review_provenance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ai_assisted": {
+      "const": true
+    },
+    "independent_human": {
+      "const": false
+    },
+    "scoring_status": {
+      "enum": [
+        "not_scored_pending_quality_review",
+        "excluded_actor_mismatch",
+        "excluded_defective_span"
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:orbit:annotation:v1.2"
+}

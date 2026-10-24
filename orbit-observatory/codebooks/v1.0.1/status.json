@@ -1,0 +1,14 @@
+{
+  "document_version": "scope-clarification-1.0.1",
+  "applies_to_codebook": "1.0.0",
+  "status": "strict_reading_clarified_broader_option_pending",
+  "configured_targets_changed": false,
+  "broader_withdrawal_option": {
+    "id": "W2",
+    "approved": false,
+    "applied": false,
+    "requires_new_codebook_version": true
+  },
+  "human_review_decision_pending": "Badr_A: W1 strict comprehensive-scope evidence or W2 explicit inference convention",
+  "territorial_recognition_broadened": false
+}

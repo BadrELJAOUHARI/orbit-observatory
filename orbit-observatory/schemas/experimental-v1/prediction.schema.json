@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "event_id",
+    "actor_id",
+    "actor_role",
+    "lens_id",
+    "text_sha256",
+    "model_id",
+    "dataset_manifest_sha256",
+    "record_type",
+    "schema_version",
+    "origin",
+    "predicted_label",
+    "probabilities",
+    "split_role",
+    "calibrated",
+    "validated_for_publication",
+    "alignment_score",
+    "review_status"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lens_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text_sha256": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataset_manifest_sha256": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_type": {
+      "const": "experimental_prediction"
+    },
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "origin": {
+      "const": "trained_baseline_experiment"
+    },
+    "predicted_label": {
+      "enum": [
+        "support",
+        "oppose",
+        "no_stance",
+        "mixed"
+      ]
+    },
+    "probabilities": {
+      "type": "object",
+      "minProperties": 2,
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "propertyNames": {
+        "enum": [
+          "support",
+          "oppose",
+          "no_stance",
+          "mixed"
+        ]
+      }
+    },
+    "split_role": {
+      "const": "development_validation_out_of_group"
+    },
+    "calibrated": {
+      "const": false
+    },
+    "validated_for_publication": {
+      "const": false
+    },
+    "alignment_score": {
+      "type": "null"
+    },
+    "review_status": {
+      "const": "machine_unreviewed"
+    }
+  }
+}

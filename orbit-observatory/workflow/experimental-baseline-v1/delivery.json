@@ -1,0 +1,11 @@
+{
+  "repository": "BadrELJAOUHARI/orbit-observatory",
+  "private": true,
+  "branch": "codex-review-downloads-20261023",
+  "commit": "d65a300",
+  "archive_path": "review-downloads/orbit-human-verified-baseline-2026-10-23.zip",
+  "archive_sha256": "19eb8375594db2ff2522ddb0abc2f204ef43f9a8446631f28a14f249a9ed53f1",
+  "downloaded_back_and_verified": true,
+  "real_models_saved": 0,
+  "new_annotation_batch_generated": false
+}
