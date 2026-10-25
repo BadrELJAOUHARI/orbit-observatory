@@ -1,5 +1,5 @@
 {
-  "status": "packaged_pending_remote_check",
+  "status": "remote_download_bytes_verified",
   "filename": "orbit-consolidated-protocol-v2-2026-10-25.zip",
   "sha256": "4d6058c96320e824c28387d1e6476a0d1d88f76d37a2759e72ce47c7b5341280",
   "bytes": 4058846,
@@ -35,5 +35,7 @@
   "tests": 134,
   "browser_checks": "Separate fields, reload/autosave, CSV/JSON restore, legacy strict/quality import, immutable rejection; synthetic only",
   "collection_restarted": false,
-  "models_trained": false
+  "models_trained": false,
+  "artifact_commit": "7bd125017b1bf3717e175ed93cb52c7466004a35",
+  "git_blob_sha": "be128fa89e3521864f26d7a51c0bb5f2e0b74914"
 }
