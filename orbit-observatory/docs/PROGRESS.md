@@ -192,3 +192,14 @@ Source-scope configurations and frozen codebooks now exist, but independent agre
 - Reused HTML/CSV/JSON autosave and protected return validation for distinct strict/component targets. Component returns append separate records, never strict labels or implicit training approval. New suggestions are AI-generated/unreviewed; no Badr_A check/approval invented. Approved dataset rechecked: 38 examples/eight events (support 8/no_stance 30), so unchanged experiments were not rerun.
 - Checks: 129 Python tests; both browser review modes passed reopen/export/import/tamper/conflict/storage checks. Current managed browser denies file://, so HTTP-local validation and a local-server fallback are documented. Thirteen artifacts rerun byte-identically; 94 prior protected files unchanged; all 502 development originals reconstruct exactly; 77 reserved receipts hash-checked only. Website/public scores preserved. See FOCAL_ACQUISITION_V2.md, RETRIEVAL_BENCHMARK_V2.md and the source-clearance ledger.
 - Next single milestone: consolidated supplemental return/adjudication and production component-protocol decision, then an approved-data readiness reassessment. No small batches.
+
+
+## Adopted component protocol and consolidated review
+
+Adopted components-v2.0.0 under the user's authorization. Explicit includes semantic equivalents; implied requires linked-context inference. Added independent integrity/annexation, direction/measure direction, extent, conditions, expression and quality responses. Strict consolidated-v1 outputs and W1 are unchanged; no labels migrated, suggestions approved, models fitted or public scores changed.
+
+One development packet contains 780 task identities: 609 strict (561 + 48) and 171 component bundles (170 territory, one withdrawal), displayed over 694 exact passages with overlap links. Zero task-identity duplicates; no evaluation material. No existing server annotations matched these IDs; browser drafts are unknown until imported. Old CSV/JSON backups and same-origin storage resume with conflict guards; generic old component responses remain history rather than new component labels.
+
+The protected return importer routes this packet to append-only component records. Record/component-scoped training export requires explicit authorization, reviewed labels and quality/split gates; missing full-target components do not disqualify another valid component. No real authorization or training export was executed. Validation: 134 Python tests plus browser checks for independent controls, autosave/reload, complete CSV roundtrip, JSON backup import, legacy response/quality preservation and immutable-field rejection.
+
+Next: bulk review through the consolidated entry point and returned complete CSV. No substantive annotation-protocol decision remains; public quantification, coverage and calibration remain separately gated. Discovery queues stay exhausted; no collection was restarted. See CONSOLIDATED_PROTOCOL_V2.md.

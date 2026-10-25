@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewed component annotation bundle v2.0.0",
+  "type": "object",
+  "required": [
+    "candidate_id",
+    "event_id",
+    "protocol",
+    "components",
+    "origin",
+    "blind_independent_annotation",
+    "training_approved"
+  ],
+  "properties": {
+    "protocol": {
+      "const": "components-v2.0.0"
+    },
+    "origin": {
+      "const": "ai_assisted_reviewed"
+    },
+    "blind_independent_annotation": {
+      "const": false
+    },
+    "training_approved": {
+      "const": false
+    },
+    "components": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "strict_label": {
+          "enum": [
+            "",
+            "support",
+            "oppose",
+            "mixed",
+            "no_stance",
+            "unresolved",
+            "not_applicable"
+          ]
+        },
+        "integrity_direction": {
+          "enum": [
+            "",
+            "support",
+            "oppose",
+            "mixed",
+            "no_stance",
+            "unresolved"
+          ]
+        },
+        "annexation_direction": {
+          "enum": [
+            "",
+            "non_recognition",
+            "recognition",
+            "mixed",
+            "no_stance",
+            "unresolved"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "",
+            "support",
+            "oppose",
+            "mixed",
+            "no_stance",
+            "unresolved"
+          ]
+        },
+        "measure_direction": {
+          "enum": [
+            "",
+            "support",
+            "oppose",
+            "mixed",
+            "no_stance",
+            "unresolved"
+          ]
+        },
+        "expression": {
+          "enum": [
+            "",
+            "explicit",
+            "contextually_implied"
+          ]
+        },
+        "extent": {
+          "enum": [
+            "",
+            "comprehensive",
+            "specified_or_limited",
+            "unspecified",
+            "unresolved"
+          ]
+        },
+        "source_quality": {
+          "enum": [
+            "",
+            "eligible",
+            "ineligible",
+            "needs_review"
+          ]
+        },
+        "attribution_quality": {
+          "enum": [
+            "",
+            "attributable",
+            "wrong_actor",
+            "needs_review"
+          ]
+        },
+        "text_quality": {
+          "enum": [
+            "",
+            "usable",
+            "defective",
+            "needs_review"
+          ]
+        },
+        "language_quality": {
+          "enum": [
+            "",
+            "usable",
+            "needs_review"
+          ]
+        },
+        "prior_response_json": {
+          "type": "string"
+        },
+        "conditions": {
+          "type": "string"
+        },
+        "scope_details": {
+          "type": "string"
+        },
+        "annexation_object": {
+          "type": "string"
+        },
+        "timing": {
+          "type": "string"
+        },
+        "measure": {
+          "type": "string"
+        },
+        "overall_vs_measure": {
+          "type": "string"
+        },
+        "basis": {
+          "type": "string"
+        },
+        "annotator_id": {
+          "type": "string"
+        },
+        "review_notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

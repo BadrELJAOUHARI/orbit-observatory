@@ -1,3 +1,7 @@
+# Adopted protocol v2 consolidated review
+
+Use **orbit-consolidated-protocol-v2-2026-10-25.zip**, Download raw, extract and open review.html. The previous 561 + 48 + 171 tasks are now one entry point. Earlier ZIPs/storage keys are unchanged; import their CSV/JSON responses rather than redoing them. See START_HERE.md and the adopted codebook.
+
 # Focal acquisition supplement — 25 October 2026
 
 Download **orbit-focal-supplement-2026-10-25.zip**, extract and open index.html. It contains distinct strict-target and experimental component HTML/CSV/JSON review files; the old 561/113 packets remain unchanged. Sign in and use GitHub **Download raw**. This avoids unavailable workspace artifact links.

@@ -1,0 +1,8 @@
+{
+  "current": "components-v2.0.0",
+  "definition": "codebooks/components-v2.0.0/protocol.json",
+  "legacy_strict": "consolidated-v1",
+  "withdrawal_legacy": "W1",
+  "label_migration": "none",
+  "public_scores_changed": false
+}

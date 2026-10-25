@@ -1,0 +1,39 @@
+{
+  "status": "packaged_pending_remote_check",
+  "filename": "orbit-consolidated-protocol-v2-2026-10-25.zip",
+  "sha256": "4d6058c96320e824c28387d1e6476a0d1d88f76d37a2759e72ce47c7b5341280",
+  "bytes": 4058846,
+  "counts": {
+    "protocol": "components-v2.0.0",
+    "packet_id": "6ce7b6a7e8744d49f6ecc0a3b0b0a6c85f8362b638db3b4b95751847f0d5b4ac",
+    "tasks": 780,
+    "strict_tasks": 609,
+    "component_tasks": 171,
+    "unique_passages": 694,
+    "events": 348,
+    "groups": 327,
+    "existing_reviewed": 0,
+    "server_saved_responses": 0,
+    "evaluation_tasks": 0,
+    "primary_output_inventory": {
+      "legacy_full_target": 609,
+      "new_integrity_direction": 170,
+      "new_annexation_recognition": 170,
+      "new_withdrawal_direction": 1
+    },
+    "browser_drafts": "Unknown until imported; never assumed absent",
+    "files": {
+      "rows.json": "f39fd57f6e956530b0cfe64e1c30ad590bc900210556f830efff5902c56a752c",
+      "source_refs.json": "453e7c91190af23af4edcc6a59c410f23c8fbc9c70cbb1adec935ecf89786217",
+      "csv_baseline.json": "0deb68e950eb4f2f7e9fc5f2067eb53b2ed2deab54b61ccda5f14585a858b1fe",
+      "legacy_packets.json": "7349e34f00f9611436e9ee298e3e27a0a98eb9d8e16fae3a2cdb8484acab94d6",
+      "review.csv": "954e6198824d5f8b783f3f952856fe06dad192a3a31ba25127b93fef82075ab4",
+      "review.html": "fb4e1d3966a33b52d08ce13fcd55a8a8d760bbe471c67dfbb1a0e2947e87f2e5",
+      "progress-backup.json": "5479e483b5de38eae27bd7804e2b016cc2563c7ae55b459901870ba9199a47d5"
+    }
+  },
+  "tests": 134,
+  "browser_checks": "Separate fields, reload/autosave, CSV/JSON restore, legacy strict/quality import, immutable rejection; synthetic only",
+  "collection_restarted": false,
+  "models_trained": false
+}

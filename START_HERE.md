@@ -1,7 +1,5 @@
-# ORBIT current checkpoint
+# ORBIT consolidated review
 
-[Supplemental development review ZIP](review-downloads/orbit-focal-supplement-2026-10-25.zip) — use Download raw, extract, open index.html. Two distinct targets: strict and experimental components. Earlier packets/reviews remain frozen.
+[Download the adopted protocol v2 consolidated review](review-downloads/orbit-consolidated-protocol-v2-2026-10-25.zip) using Download raw. Extract and open review.html. Import your old progress backups here; earlier packets remain unchanged.
 
-[Acquisition report](orbit-observatory/docs/FOCAL_ACQUISITION_V2.md) · [Implementation plan](orbit-observatory/docs/IMPLEMENTATION_PLAN.md) · [Protocol proposal](orbit-observatory/docs/COMPONENT_PROTOCOL_PROPOSAL_V1.md).
-
-[Private source delta](review-downloads/orbit-focal-source-delta-2026-10-25.zip) requires the previous 24 October source checkpoint. No website/public-score change.
+780 tasks: 609 legacy/full targets, 171 independent component bundles; 694 shared passages. [Protocol and instructions](orbit-observatory/docs/CONSOLIDATED_PROTOCOL_V2.md). No collection restart, label migration, training approval or public score change.

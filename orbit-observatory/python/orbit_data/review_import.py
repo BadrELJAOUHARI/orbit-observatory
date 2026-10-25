@@ -105,6 +105,11 @@ def import_return(path,review_id,blind=False,approval_json=None):
     if not re.fullmatch(r'[A-Za-z0-9_-]+',review_id):raise ValueError('Unsafe review ID')
     output=ROOT.parent/'.local/workflow-v1'
     with path.open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
+    consolidated=ROOT.parent/'.local/consolidated-protocol-v2/rows.json'
+    if consolidated.exists() and (any(r.get('protocol_version')=='components-v2.0.0' for r in rows) or {r.get('candidate_id') for r in rows}=={r['candidate_id'] for r in json.loads(consolidated.read_text())}):
+        if blind or approval_json:raise ValueError('Component return cannot assert blind independence or grant training approval')
+        from .protocol_v2 import import_return as component_return
+        return component_return(path)
     baseline_path,baseline=select_baseline(rows,blind)
     if baseline_path.parent.name=='development-components-focal-v2':
         if blind or approval_json:raise ValueError('Experimental component review cannot grant blind status or strict-target training approval')

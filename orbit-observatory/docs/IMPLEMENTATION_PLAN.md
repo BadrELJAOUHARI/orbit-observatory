@@ -172,3 +172,14 @@ Completed the bounded acquisition/recovery increment: 923 attempted URLs, 579 st
 Completion checks: 129 Python tests, protected IDs/source offsets/original-response reconstruction, idempotent no-download rerun, both practical review modes and frozen manifests. Cached originals and a private incremental source checkpoint support continuation; current productive queue is exhausted, two failed archive requests remain deferred.
 
 Next single milestone: one consolidated return and component-protocol adjudication. Annotation completion requires reviewed, attributable, source-cleared component/strict judgments with preserved assistance/checking history; component review cannot silently migrate strict labels. Training completion requires explicit approval, resolved full targets or an approved new component experiment, genuine class coverage across disjoint event/copy groups and frozen hashes. New AI suggestions are excluded; the 38-example/eight-event baseline freeze is unchanged. Evaluation still requires untouched human judgments, independence/adjudication and calibration; no public alignment migration follows from this acquisition.
+
+
+## Adopted component protocol and consolidated review
+
+Adopted components-v2.0.0 under the user's authorization. Explicit includes semantic equivalents; implied requires linked-context inference. Added independent integrity/annexation, direction/measure direction, extent, conditions, expression and quality responses. Strict consolidated-v1 outputs and W1 are unchanged; no labels migrated, suggestions approved, models fitted or public scores changed.
+
+One development packet contains 780 task identities: 609 strict (561 + 48) and 171 component bundles (170 territory, one withdrawal), displayed over 694 exact passages with overlap links. Zero task-identity duplicates; no evaluation material. No existing server annotations matched these IDs; browser drafts are unknown until imported. Old CSV/JSON backups and same-origin storage resume with conflict guards; generic old component responses remain history rather than new component labels.
+
+The protected return importer routes this packet to append-only component records. Record/component-scoped training export requires explicit authorization, reviewed labels and quality/split gates; missing full-target components do not disqualify another valid component. No real authorization or training export was executed. Validation: 134 Python tests plus browser checks for independent controls, autosave/reload, complete CSV roundtrip, JSON backup import, legacy response/quality preservation and immutable-field rejection.
+
+Next: bulk review through the consolidated entry point and returned complete CSV. No substantive annotation-protocol decision remains; public quantification, coverage and calibration remain separately gated. Discovery queues stay exhausted; no collection was restarted. See CONSOLIDATED_PROTOCOL_V2.md.
