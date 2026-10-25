@@ -1,0 +1,20 @@
+{
+  "version": "experimental-components-proposal-1.0.0",
+  "status": "proposal_for_protocol; experimental_AI_suggestions_authorized_for_new_development_evidence_only",
+  "strict_codebook": "consolidated-v1",
+  "strict_target_migration": "none",
+  "withdrawal_rule": "W1_unchanged",
+  "direction": ["support", "oppose", "mixed", "no_stance", "unresolved"],
+  "expression": ["explicit", "contextually_implied"],
+  "scope": ["comprehensive", "specified_or_limited", "unspecified"],
+  "territory": ["sovereignty_integrity_direction", "territorial_extent", "annexation_position", "annexation_object", "separatist_entity_recognition_distinct_from_incorporation"],
+  "withdrawal": ["withdrawal_direction", "territorial_extent", "timing", "conditions"],
+  "military_assistance": ["overall_direction", "measure_specific_direction", "assistance_type", "recipient", "timing", "permitted_use", "conditions"],
+  "sanctions": ["overall_direction", "measure_specific_direction", "target", "Ukraine_conflict_basis", "adoption_or_implementation", "lifting_conditions"],
+  "invasion_responsibility": ["initiation_attribution_direction", "responsible_actor", "initiation_vs_background_or_incidents", "qualifications"],
+  "mandatory_trace": ["exact_passage", "context", "source_text_sha256", "start", "end", "issuer", "speaker", "event_id", "leakage_group_id", "expression_basis", "conditions_in_text"],
+  "quality": "Assess source, attribution, language and extraction independently of directional/scope ambiguity. Technical holds cannot be cleared by a component suggestion.",
+  "inference": "Exact wording is unnecessary when complete local context establishes the actor's own commitment. Reputation, external political assumptions and silence are not evidence.",
+  "mixed": "Contradictory commitments on the same component, time and scope; conditions or a particular measure restriction alone are not mixed.",
+  "quantification": "No numeric stance strength or specificity-as-strength. No stance, missing and unresolved remain non-directional/missing; no public scoring migration."
+}

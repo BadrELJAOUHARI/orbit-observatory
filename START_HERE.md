@@ -1,11 +1,7 @@
-# ORBIT downloads
+# ORBIT current checkpoint
 
-Latest acquisition, 24 October 2026:
+[Supplemental development review ZIP](review-downloads/orbit-focal-supplement-2026-10-25.zip) — use Download raw, extract, open index.html. Two distinct targets: strict and experimental components. Earlier packets/reviews remain frozen.
 
-- [Consolidated development review ZIP](review-downloads/orbit-acquisition-development-review-2026-10-24.zip)
-- [Coverage, access limits and exact resume command](review-downloads/ACQUISITION_SPRINT.md)
-- [Updated implementation plan](review-downloads/IMPLEMENTATION_PLAN.md)
-- [Private source checkpoint ZIP](review-downloads/orbit-acquisition-source-checkpoint-2026-10-24.zip) — technical backup, includes reserved sources; not a development review export.
-- [SHA-256 checksums](review-downloads/ACQUISITION_SHA256SUMS.txt)
+[Acquisition report](orbit-observatory/docs/FOCAL_ACQUISITION_V2.md) · [Implementation plan](orbit-observatory/docs/IMPLEMENTATION_PLAN.md) · [Protocol proposal](orbit-observatory/docs/COMPONENT_PROTOCOL_PROPOSAL_V1.md).
 
-Open a ZIP link and use **Download raw file**, then unzip locally. The repository is private; sign in as its owner. Prior downloads remain in review-downloads/.
+[Private source delta](review-downloads/orbit-focal-source-delta-2026-10-25.zip) requires the previous 24 October source checkpoint. No website/public-score change.

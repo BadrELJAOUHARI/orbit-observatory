@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Experimental ORBIT component evidence proposal 1.0.0",
+  "type": "object",
+  "required": ["candidate_id", "derived_from_candidate_id", "event_id", "event_role", "component_protocol", "strict_target_eligible", "technical_quality_flags", "target_scope_flags", "experimental_components", "training_approved", "human_label", "source_text_path", "text_sha256", "start", "end"],
+  "properties": {
+    "event_role": {"const": "development_only"},
+    "component_protocol": {"const": "experimental-components-proposal-1.0.0"},
+    "strict_target_eligible": {"const": false},
+    "training_approved": {"const": false},
+    "human_label": {"const": ""},
+    "technical_quality_flags": {"type": "array", "maxItems": 0},
+    "target_scope_flags": {"type": "array", "minItems": 1, "items": {"enum": ["partial_territorial_scope", "W1_scope_not_established", "W1_legal_territorial_extent_review", "W1_territorial_exception_or_preinvasion_line"]}},
+    "experimental_components": {
+      "type": "object",
+      "required": ["direction", "expression", "scope", "annexation", "conditions", "basis", "basis_start", "basis_end"],
+      "properties": {
+        "direction": {"enum": ["support", "oppose", "mixed", "no_stance", "unresolved"]},
+        "expression": {"enum": ["explicit", "contextually_implied"]},
+        "scope": {"enum": ["comprehensive", "specified_or_limited", "unspecified"]},
+        "conditions": {"type": "string"},
+        "basis": {"type": "string", "minLength": 1},
+        "basis_start": {"type": "integer", "minimum": 0},
+        "basis_end": {"type": "integer", "minimum": 1}
+      }
+    }
+  }
+}

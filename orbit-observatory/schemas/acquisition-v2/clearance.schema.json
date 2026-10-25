@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT documentary held-evidence clearance 2.0.0",
+  "type": "object",
+  "required": ["id", "original_candidate_id", "original_holds", "clearances", "remaining_holds", "stance_judgment_changed", "annotation_transferred", "independent_human_check_asserted", "training_approved"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^clearance-focus2-"},
+    "original_holds": {"type": "array", "items": {"type": "string"}},
+    "remaining_holds": {"type": "array", "items": {"type": "string"}},
+    "stance_judgment_changed": {"const": false},
+    "annotation_transferred": {"const": false},
+    "independent_human_check_asserted": {"const": false},
+    "training_approved": {"const": false},
+    "clearances": {"type": "array", "items": {"type": "object", "required": ["previous_hold", "criterion", "source_url", "source_text_sha256", "proof_start", "proof_end", "proof_text", "method"], "properties": {"source_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "proof_start": {"type": "integer", "minimum": 0}, "proof_end": {"type": "integer", "minimum": 1}}}}
+  }
+}

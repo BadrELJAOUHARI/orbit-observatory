@@ -85,7 +85,7 @@ def select_baseline(rows,blind=False):
     """Recognize the new development-only packet while accepting old returns."""
     output=ROOT.parent/'.local/workflow-v1'
     if not blind:
-        for name in ('development-review-sprint-v1','development-review-expanded-v2-20261023','development-review-v2'):
+        for name in ('development-components-focal-v2','development-review-focal-v2','development-review-sprint-v1','development-review-expanded-v2-20261023','development-review-v2'):
             development=ROOT.parent/'.local'/name
             if not (development/'manifest.json').exists():continue
             manifest=json.loads((development/'manifest.json').read_text())
@@ -106,6 +106,10 @@ def import_return(path,review_id,blind=False,approval_json=None):
     output=ROOT.parent/'.local/workflow-v1'
     with path.open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
     baseline_path,baseline=select_baseline(rows,blind)
+    if baseline_path.parent.name=='development-components-focal-v2':
+        if blind or approval_json:raise ValueError('Experimental component review cannot grant blind status or strict-target training approval')
+        from .component_review import import_component_return
+        return import_component_return(path,review_id)
     audit=audit_return(rows,baseline,blind)
     if audit['fatal_conflicts']:raise ValueError(json.dumps(audit,ensure_ascii=False))
     reviewed=validate_return(rows,baseline,blind)
@@ -113,18 +117,21 @@ def import_return(path,review_id,blind=False,approval_json=None):
     if approval and blind:raise ValueError('Assisted training approval cannot create blind annotations')
     records,*_=load_corpus();index={r['id']:r for r in records}
     expansion_claims={};sprint_claims={}
-    sprint=ROOT.parent/'.local/development-review-sprint-v1'
-    if (sprint/'manifest.json').exists():
+    for packet_name in ('development-review-sprint-v1','development-review-focal-v2'):
+        sprint=ROOT.parent/'.local'/packet_name
+        if not (sprint/'manifest.json').exists():continue
         manifest=json.loads((sprint/'manifest.json').read_text())
         refs_path=sprint/'source_refs.json'
         if digest(refs_path.read_bytes())!=manifest['files']['source_refs.json']:raise ValueError('Sprint references changed')
-        sprint_claims=json.loads(refs_path.read_text())
-        for identifier,ref in sprint_claims.items():
+        new_refs=json.loads(refs_path.read_text())
+        if set(new_refs)&set(sprint_claims):raise ValueError('Conflicting candidate IDs across frozen review packets')
+        for identifier,ref in new_refs.items():
+            if ref['event_role']!='development_only' or ref['quality_flags'] or ref['candidate_id']!=identifier:
+                raise ValueError('Sprint source/partition gate failed: '+identifier)
             text=__import__('pathlib').Path(ref['source_text_path']).read_text()
-            if (ref['event_role']!='development_only' or ref['quality_flags'] or ref['candidate_id']!=identifier
-                or digest(text.encode())!=ref['text_sha256'] or text[ref['start']:ref['end']]!=ref['exact_passage']):
+            if (digest(text.encode())!=ref['text_sha256'] or text[ref['start']:ref['end']]!=ref['exact_passage']):
                 raise ValueError('Sprint source/evidence gate failed: '+identifier)
-        index.update(sprint_claims)
+        sprint_claims.update(new_refs);index.update(new_refs)
     expansion=ROOT.parent/'.local/expansion-v6'
     if (expansion/'candidates.json').exists():
         from .expansion import validate_expansion,event_roles

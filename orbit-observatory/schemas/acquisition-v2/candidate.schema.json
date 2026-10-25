@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT supplemental candidate 2.0.0",
+  "type": "object",
+  "required": ["candidate_id", "document_id", "event_id", "event_role", "actor_id", "actor_role", "event_date", "lens_id", "text_sha256", "start", "end", "exact_passage", "quality_flags", "human_label", "training_approved", "source_text_path", "acquisition_kind", "leakage_group_id"],
+  "properties": {
+    "actor_id": {"enum": ["USA", "EU", "TUR", "IND", "ZAF"]},
+    "actor_role": {"const": "focal"},
+    "event_role": {"const": "development_only"},
+    "acquisition_kind": {"enum": ["newly_collected", "recovered_held"]},
+    "lens_id": {"enum": ["territorial_recognition", "troop_withdrawal", "military_assistance", "sanctions", "invasion_responsibility"]},
+    "start": {"type": "integer", "minimum": 0},
+    "end": {"type": "integer", "minimum": 1},
+    "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "human_label": {"const": ""},
+    "training_approved": {"const": false},
+    "quality_flags": {"type": "array", "uniqueItems": true}
+  }
+}

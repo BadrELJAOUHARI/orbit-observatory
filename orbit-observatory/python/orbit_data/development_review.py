@@ -23,13 +23,13 @@ def development_rows(rows,split):
     return selected
 
 
-def render(path,rows,packet):
+def render(path,rows,packet,component_mode=False):
     import html
     esc=lambda v:html.escape(str(v),quote=True)
     payload=json.dumps(dict(packet_id=packet,version=VERSION,response_fields=RESPONSE_FIELDS,rows=rows),ensure_ascii=False).replace('<','\\u003c').replace('&','\\u0026')
     css='''body{font:16px/1.5 system-ui;max-width:1100px;margin:1.5rem auto;padding:0 1rem;background:#f4f6f8;color:#17202a}article{background:#fff;border:1px solid #c8cfd7;border-radius:8px;padding:1rem;margin:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.5 system-ui}label{display:block;margin:.5rem 0}select,input,textarea,button{font:inherit;padding:.4rem}textarea{width:95%;min-height:5rem}button{margin:.3rem}.controls{position:sticky;top:0;background:#f4f6f8;border-bottom:1px solid #bcc6d0;padding:.5rem;z-index:2}.filters{display:flex;flex-wrap:wrap;gap:1rem}.draft{background:#fff3cb;padding:.7rem}.flag{color:#823d0a}small{overflow-wrap:anywhere}.ok{color:#185b24}.error{color:#a11919}article[hidden]{display:none}.muted{color:#536171}summary{cursor:pointer}'''
     parts=[f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ORBIT development review</title><style>{css}</style>',
-        '<h1>ORBIT development review</h1><p>Development events only. Your review remains AI-assisted and non-independent. Prior judgments and unreviewed AI suggestions stay separate from your responses.</p>',
+        ('<h1>ORBIT experimental component review</h1><p><b>This packet reviews component direction, not the full strict proposition.</b> Scope and annexation dimensions remain separate. The existing strict labels and W1 are unchanged. No component response is automatically a supervised strict-target label or political score.</p>' if component_mode else '<h1>ORBIT development review</h1>')+'<p>Development events only. Your review remains AI-assisted and non-independent. Prior judgments and unreviewed AI suggestions stay separate from your responses.</p>',
         '<p>Read the exact proposition and source passage with context. Source eligibility, attribution, scope and text quality have separate response fields. Quarantine is not a stance label.</p>',
         '<div class="controls"><div class="filters"><label>Review status <select id="status-filter"><option value="unreviewed">Unreviewed</option><option value="all">All review states</option><option value="reviewed">Reviewed</option></select></label>',
         '<label>Evidence quality <select id="quality-filter"><option value="clean">Mechanically clean</option><option value="all">All qualities</option><option value="quarantined">Quarantined</option></select></label>',
@@ -44,13 +44,20 @@ def render(path,rows,packet):
         parts.append(f'<article data-index="{i}" id="{esc(row["row_id"])}"><h2>{esc(row["row_id"])} · {esc(row["actor_id"])} · {esc(row["event_date"])}</h2><p><b>Proposition:</b> {esc(row["lens_proposition"])}</p>')
         parts.append(f'<p>Selection: {esc(row["selection_kind"])} · Event: {esc(row["event_id"])} · <b>{"Quarantined" if row["quarantine"]=="true" else "Mechanically clean"}</b></p><p class="flag">{esc(row["quality_flags"])}</p>')
         parts.append(f'<small>Candidate {esc(row["candidate_id"])} · offsets [{row["start"]}, {row["end"]}) · language {esc(row["language"])} · <a href="{esc(row["source_url"])}" target="_blank" rel="noopener">Official source</a></small><p>{esc(row["source_qualification"])}</p>')
+        if row.get('speaker'):
+            parts.append(f'<p><b>Issuer:</b> {esc(row.get("document_issuer", ""))}<br><b>Speaker or issuing-party basis:</b> {esc(row["speaker"])}</p>')
+        if row.get('attribution_evidence'):
+            parts.append(f'<details><summary>Verified joint issuing parties (one shared event)</summary><pre>{esc(row["attribution_evidence"])}</pre><p>Named focal issuing parties: {esc(row.get("shared_endorsing_actor_ids", ""))}. These are shared endorsements, not additional independent events.</p></details>')
+        if row.get('component_proposition'):
+            parts.append(f'<div class="draft"><b>Experimental component:</b> {esc(row["component_proposition"])}<p>Expression: {esc(row.get("component_expression", ""))} · Scope: {esc(row.get("component_scope", ""))} · Annexation: {esc(row.get("component_annexation", "not_applicable"))}</p><p><b>Exact textual basis:</b> {esc(row.get("component_basis", ""))}</p><p><b>Conditions / qualifications:</b> {esc(row.get("component_conditions", "none explicitly identified"))}</p><p>Strict-target status: {esc(row.get("strict_target_status", "unchanged"))}. Component fields are AI-generated, unreviewed suggestions.</p></div>')
         parts.append(f'<details><summary>Context before</summary><pre>{esc(row["context_before"])}</pre></details><h3>Exact stored passage</h3><pre>{esc(row["exact_passage"])}</pre><details><summary>Aligned reading aid</summary><pre>{esc(row["reading_text"])}</pre></details><details><summary>Context after</summary><pre>{esc(row["context_after"])}</pre></details>')
         if row['existing_annotation_id']:
             parts.append(f'<div class="previous"><b>Previous judgment: {esc(row["existing_label"])}</b><p>{esc(row["existing_provenance"])}</p><p>{esc(row["existing_review_notes"])}</p></div>')
         if row['ai_suggested_label']:
             parts.append(f'<div class="draft"><b>AI-generated, unreviewed suggestion: {esc(row["ai_suggested_label"])}</b><p>{esc(row["ai_rationale"])}</p><small>{esc(row["ai_review_flags"])}</small></div>')
         choices=''.join(f'<option value="{v}">{v or "Leave blank"}</option>' for v in ('','support','oppose','no_stance','mixed','unresolved','not_applicable'))
-        parts.append(f'<label>Your label <select data-field="human_label">{choices}</select></label><label>Annotator ID <input data-field="human_annotator_id"></label><label>Reasoning / review notes <textarea data-field="human_review_notes"></textarea></label>')
+        label_title='Your component-direction label' if component_mode else 'Your strict-target label'
+        parts.append(f'<label>{label_title} <select data-field="human_label">{choices}</select></label><label>Annotator ID <input data-field="human_annotator_id"></label><label>Reasoning / review notes <textarea data-field="human_review_notes"></textarea></label>')
         parts.append('<details><summary>Separate source, text, attribution and scope responses</summary>')
         for field,values in QUALITY_RESPONSE_OPTIONS.items():
             choices=''.join(f'<option value="{v}">{v or "Leave blank"}</option>' for v in ('',)+values)

@@ -1,0 +1,16 @@
+{
+  "status": "packaged_pending_remote_verification",
+  "repository": "BadrELJAOUHARI/orbit-observatory",
+  "private": true,
+  "branch": "codex-review-downloads-20261023",
+  "files": {
+    "orbit-focal-supplement-2026-10-25.zip": {
+      "bytes": 2399057,
+      "sha256": "683467c893ca70df6c07c966c24024aa298129a36a7aa5f373ebf0f133d2a527"
+    },
+    "orbit-focal-source-delta-2026-10-25.zip": {
+      "bytes": 19621792,
+      "sha256": "4466c645bb4a764f0d433620ada9db12c1e646eb5351a5f69343e4c4ad36844b"
+    }
+  }
+}

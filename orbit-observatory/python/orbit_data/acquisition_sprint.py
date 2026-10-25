@@ -25,7 +25,13 @@ LOCKS=defaultdict(threading.Lock)
 def military_recipient_is_ukraine(passage):
  """Recipient relation, not co-occurrence of Ukraine and somebody's weapons."""
  p=re.sub(r'\s+',' ',passage)
- return bool(re.search(r'(?:security|military|defen[cs]e)\s+(?:aid|assistance|support|equipment)\s+(?:to|for|in support of)\s+(?:the\s+)?Ukrain|(?:weapons|arms|military equipment).{0,50}\b(?:to|for) (?:the )?Ukrain|(?:provid|suppl|send|deliver|financ|equip|arm).{0,45}Ukrain.{0,80}(?:weapons|military|security assistance)|train.{0,40}Ukrainian (?:armed forces|military)',p,re.I))
+ if re.search(r'\bequip(?:ping|ped|s)?\s+Ukraine\s+to\s+defend\s+itself',p,re.I):return True
+ if re.search(r'military\s*,[^.!?]{0,100}\b(?:support|assistance)\s+(?:to|for)\s+Ukraine',p,re.I):return True
+ if re.search(r'(?:security|military|defen[cs]e)\s+(?:aid|assistance|support|equipment)\s+(?:to|for|in support of)\s+(?:the\s+)?Ukrain|train(?:ing|ed)?\s+(?:the\s+)?Ukrainian (?:armed forces|military)',p,re.I):return True
+ # "armed groups" and "equipment" are nouns, not provision verbs. A bare
+ # weapons reference (e.g. nuclear threats in Ukraine) does not establish aid.
+ action=r'\b(?:provid(?:e|es|ed|ing)|suppl(?:y|ies|ied|ying)|send(?:s|ing)?|sent|deliver(?:s|ed|ing)?|transfer(?:s|red|ring)?|financ(?:e|es|ed|ing)|equip(?:s|ped|ping)?|arm(?:s|ed|ing)?(?!\s+(?:groups|forces|formations)))\b'
+ return bool(re.search(action+r'[^.!?]{0,70}Ukrain[^.!?]{0,90}(?:weapons|military|security assistance)|'+action+r'[^.!?]{0,80}(?:weapons|arms|military equipment)[^.!?]{0,60}\b(?:to|for)\s+(?:the\s+)?Ukrain',p,re.I))
 
 def parse_html(body,root=None):
  p=PageText(root);p.feed(body);return normalize(''.join(p.parts))

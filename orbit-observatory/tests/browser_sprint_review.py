@@ -1,5 +1,5 @@
 """Synthetic UI responses only; never imported as canonical annotations."""
-import csv,json,tempfile,threading
+import csv,json,tempfile,threading,os
 from pathlib import Path
 from functools import partial
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 from orbit_data.review_import import select_baseline,validate_return
 
 from orbit_data.validation import ROOT
-root=ROOT.parent/'.local/development-review-sprint-v1'
+root=ROOT.parent/'.local'/os.environ.get('ORBIT_REVIEW_PACKET','development-review-sprint-v1')
 rows=json.loads((root/'review_queue.json').read_text())
 manifest=json.loads((root/'manifest.json').read_text())
 class Handler(SimpleHTTPRequestHandler):

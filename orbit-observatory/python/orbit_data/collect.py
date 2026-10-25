@@ -45,12 +45,13 @@ class AllowedRedirect(urllib.request.HTTPRedirectHandler):
 
 
 class Downloader:
-    def __init__(self, output, hosts, retry_failures=False, refresh=False, interval=1.0):
+    def __init__(self, output, hosts, retry_failures=False, refresh=False, interval=1.0, accept_header="text/html,application/pdf,text/plain"):
         self.output = output
         self.hosts = hosts
         self.retry_failures = retry_failures
         self.refresh = refresh
         self.interval = interval
+        self.accept_header = accept_header
         self.last_request = {}
         self.opener = urllib.request.build_opener(AllowedRedirect(hosts))
 
@@ -74,7 +75,7 @@ class Downloader:
             time.sleep(wait)
         self.last_request[parts.hostname] = time.monotonic()
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/pdf,text/plain"})
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": self.accept_header})
             with self.opener.open(req, timeout=25) as response:
                 raw = response.read(20_000_001)
                 if len(raw) > 20_000_000:

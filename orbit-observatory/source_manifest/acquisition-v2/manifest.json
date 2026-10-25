@@ -1,0 +1,722 @@
+{
+  "version": "focal-acquisition-2.1.0",
+  "source_event_cutoff": "2026-10-24",
+  "completed": "2026-10-25",
+  "prior_checkpoint": "acquisition-sprint-v1",
+  "approved_codebook": "consolidated-v1",
+  "W1": "unchanged",
+  "component_protocol": "experimental-components-proposal-1.0.0",
+  "selection": "targeted_training_acquisition_not_actor_period_estimation",
+  "counts": {
+    "version": "focal-acquisition-report-2.1.0",
+    "collection_cutoff": "2026-10-24",
+    "final_validation_date": "2026-10-25",
+    "batches": 64,
+    "queries_attempted": 245,
+    "source_urls_attempted": 923,
+    "source_url_outcomes": {
+      "failed_or_rejected": 344,
+      "collected": 579
+    },
+    "stored_documents": 579,
+    "development_documents": 502,
+    "reserved_documents": 77,
+    "strict": {
+      "new_documents": 579,
+      "new_document_events": 575,
+      "clean_pairs": 48,
+      "newly_collected_clean_pairs": 7,
+      "recovered_clean_pairs": 41,
+      "clean_passages": 46,
+      "supplement_events": 25,
+      "supplement_groups": 25,
+      "genuinely_new_clean_events": 4,
+      "new_reserved_documents": 77,
+      "held_pairs": 301,
+      "rejected": 74,
+      "duplicates": 12,
+      "by_actor": {
+        "IND": {
+          "pairs": 0,
+          "new_pairs": 0,
+          "recovered_pairs": 0,
+          "events": 0
+        },
+        "TUR": {
+          "pairs": 2,
+          "new_pairs": 1,
+          "recovered_pairs": 1,
+          "events": 2
+        },
+        "ZAF": {
+          "pairs": 0,
+          "new_pairs": 0,
+          "recovered_pairs": 0,
+          "events": 0
+        },
+        "EU": {
+          "pairs": 32,
+          "new_pairs": 6,
+          "recovered_pairs": 26,
+          "events": 14
+        },
+        "USA": {
+          "pairs": 14,
+          "new_pairs": 0,
+          "recovered_pairs": 14,
+          "events": 9
+        }
+      },
+      "by_lens": {
+        "sanctions": 17,
+        "invasion_responsibility": 25,
+        "military_assistance": 1,
+        "troop_withdrawal": 4,
+        "territorial_recognition": 1
+      },
+      "suggested_classes": {
+        "unresolved": 11,
+        "support": 37
+      },
+      "new_approved_labels": 0,
+      "existing_eligible_examples": 38,
+      "existing_eligible_events": 8,
+      "suggestion_method": "focal-admission-review-2.1.0"
+    },
+    "components": {
+      "version": "experimental-components-proposal-1.0.0",
+      "records": 171,
+      "events": 117,
+      "groups": 114,
+      "new_pairs": 78,
+      "recovered_pairs": 93,
+      "by_actor": {
+        "IND": 31,
+        "TUR": 37,
+        "ZAF": 7,
+        "EU": 43,
+        "USA": 53
+      },
+      "by_lens": {
+        "territorial_recognition": 170,
+        "troop_withdrawal": 1
+      },
+      "suggested_component_directions": {
+        "support": 135,
+        "unresolved": 36
+      },
+      "strict_target_eligible": 0,
+      "new_approved": 0
+    },
+    "combined": {
+      "pairs": 219,
+      "passages": 210,
+      "events": 124,
+      "groups": 121,
+      "newly_collected_pairs": 85,
+      "newly_collected_events": 63,
+      "newly_collected_groups": 61,
+      "new_event_families": 59,
+      "genuinely_new_groups": 57
+    },
+    "held_dispositions": {
+      "technical_source_or_attribution_hold": 126,
+      "component_evidence_full_target_scope_held": 171,
+      "policy_component_or_own_direction_not_established": 4
+    },
+    "remaining_overlapping_holds": {
+      "partial_territorial_scope": 50,
+      "question_or_unverified_speaker_not_actor_position": 21,
+      "EU_common_position_review": 29,
+      "described_third_party_assistance_no_own_direction": 2,
+      "subnational_or_nonexecutive_institutional_scope": 4,
+      "legal_implementation_only": 6,
+      "translation_review": 2,
+      "joint_signatory_attribution_review": 23,
+      "reported_speaker_review": 4,
+      "W1_legal_territorial_extent_review": 1,
+      "quoted_speaker_review": 22,
+      "speaker_turn_unresolved": 1,
+      "PDF_cover_or_sentence_review": 7,
+      "speaker_role_review": 3,
+      "reported_expert_finding_not_direct_issuer_stance": 1,
+      "Ukraine_sanctions_basis_not_local": 12,
+      "inline_word_boundary_extraction": 1
+    },
+    "old_held_audited": 691,
+    "clearance_actions": 131,
+    "clearance_ledger_records": 134,
+    "controls": 12,
+    "approved_dataset": {
+      "examples": 38,
+      "events": 8,
+      "classes": {
+        "support": 8,
+        "no_stance": 30
+      }
+    },
+    "new_approved_labels": 0,
+    "models_rerun": false,
+    "pending_urls": 0,
+    "pending_queries": 0,
+    "deferred_queries": 2,
+    "main_bottleneck": "Exact-target scope/policy relevance and attribution; title-only discovery was improved by MEA full-text search. Remaining access gaps are host-specific.",
+    "resume_command": "PYTHONPATH=python python -m orbit_data.focal_collection --batches 50 --batch-size 20 --queries-per-batch 8 --finalize",
+    "source_outcome_stages": {
+      "institutional_source_clearance": 13,
+      "stored_date_verified_pending_passage_admission": 579,
+      "conflict_filter": 185,
+      "discovery_missing_document": 10,
+      "text_or_document_identity": 2,
+      "document_identity_date_or_period": 28,
+      "network_access": 106
+    }
+  },
+  "artifacts": {
+    "state.json": "1cd20ca53ea23a9b3e3f66222981c9472e52deafa1086965ae5c5abbb96c5731",
+    "source_event_manifest.json": "dbf6bfb719a5d9ffcda02c1c850b9a918e2fb338e5c2f70f3b3b664b5f85f283",
+    "development_source_event_manifest.json": "d86cccbccff7cd8ac82112c9b53dfc272a567b6fb37130358bc87217789a8ac6",
+    "split_assignments.json": "923256913cccaea61354afa1380e429d76a86fa1d4706a46097f5f88ddc1a587",
+    "group_links.json": "6948d6eb06ca02c7c56a6f497603af5f4ef63af72ecbf7d563bb057d9fd85b64",
+    "clean.json": "d246834b670d7f48bea929f136df63032996db27c8fcab005270d1e14bc4d41b",
+    "held.json": "9f67eec345218a164b984533d1c5fdda260e5fed5ff9390a3283924b7d62b97d",
+    "rejected.json": "b59f8e4a7a590ca63476008359b5b58ed0f24ad556ca8573071224a2fda84f5c",
+    "duplicates.json": "9d613f88576116210d660362a0eb0b3b4e5cdda2ca65c1ab6c7aa1b755d0e828",
+    "held_clearance_ledger.json": "7d140242cad0a573a6652c5608f34211e6ebd4f0428cb1e7a5995fbf1d48b7bb",
+    "hold_audit.json": "ae3341a1498b22896abde708f5c8950b62a95f239582a9ed5988d0b0e4d99ef1",
+    "actor_lens_before_after.json": "e2156413a84537cc98998ad687cf51376670c28d4852caedf33136f1ba3ad66b",
+    "acquisition_report.json": "8b5d5bcdebb74441dd501385e88adc0fc0fd4b42f2de5d03ff05e02942a666e6",
+    "component_yield.json": "bd3e2d8f2fbebab3f9a3e68385014ff8ea490f701703fa80ce49e31f5782c6c1",
+    "remaining_source_holds.json": "90bf2decab5d9f03e0f20e20a1fe3a789dac6e8109dfef5355c9ed1164362ec6",
+    "retrieval_controls.json": "cc9d4879a2d21b327e57f19791cac94e38df95de470bee1540ca5a9d6408f85d",
+    "verification.json": "95977c93978b7778c1a96a101f2aaf078edb2df3eb92bebdadd98814dd9ef554",
+    "idempotence.json": "d7e2c40d2be1cc36b07fd096228bfe9b4cd4499968b983e0780ff46fefa1d489",
+    "component_reclassification_ledger.json": "a6875665c4053a2a0266fefca4fd834759bc89daa3e3f9337c35f471a036731c"
+  },
+  "code_hashes": {
+    "python/orbit_data/__init__.py": "4a16537c2763f1692558dce1e758f585579deb8393fbff5082849c489750d5cc",
+    "python/orbit_data/annotations.py": "04ff1d37b8cd0abfee174f7d88a9803dbc907e652a370b465ac19f78c60fe94c",
+    "python/orbit_data/collect.py": "d49242d20b438968cfd61899794b0981c1521c1ee31dfeb471f3efa5f6672a66",
+    "python/orbit_data/source_review.py": "47a2e68b900781e6cdcccabcf6cc9aba5f3f49c8b4d30c05640516b91f243509",
+    "python/orbit_data/text.py": "abefb736afcbac722c51832ce9c7dd51e5107ebdea228f8a66440d42fa5074ba",
+    "python/orbit_data/validate.py": "14d89a0440c0a7b11241c3f5ae7d6656f5998b42e48e423509ccd69831db01bd",
+    "python/orbit_data/validation.py": "4f6d3bacbfa94eacd665747108fd748d8abc62bac8ec92ab155f2765f1658ca7",
+    "python/orbit_data/experimental_dataset.py": "b4315697dfa80f114e061fca24e26e27e38fe089516f5bb2fc05c7ed481e8a59",
+    "python/orbit_data/workflow.py": "0cf74e1d0d0c0036a3137d960d24588c93fc3adfcca607c4cea850257cccb85c",
+    "python/orbit_data/aggregation.py": "07202f41166091b15c8053964cce6959b8fda52a328cd7770d265fa547bc3ec7",
+    "python/orbit_data/training.py": "2b212afa1727fafd4ee56c4fc1ec4d90366f31e190271d6c6a0eefa81a3ecd4d",
+    "python/orbit_data/development_review.py": "68a938b809e283ffcf094dc0c1eb139f596def09776e11695f9d9181b8bf902d",
+    "python/orbit_data/resegment.py": "7e0673a33e45d9a2cd4392f9b87921d462464be2ca361c3d3b0e57d1bb120dae",
+    "python/orbit_data/corpus_readiness.py": "8a56c7222452ebef4285076a1934fcf4347513b5fc43d6b336c2378f03fe6222",
+    "python/orbit_data/firecrawl_compare.py": "26dd04fec9b9b90be411f8bd8361a0901adffef3cd51f106bbda78839b85dc4a",
+    "python/orbit_data/expansion.py": "0b3e2f08fd3e25a4cc508e12c2a7bcd8024c248a2bf5767514f8518904768b05",
+    "python/orbit_data/followup.py": "7a447dd71226ce782b415cf5c4523421e9ed6dd1b6bdf8287d6dc3eef42ec0ec",
+    "python/orbit_data/experimental_baseline.py": "1b41f3e04c3e2e0e4a43f574747c0373674ecae3bfdf029da4bacf2e87dcde9e",
+    "python/orbit_data/focal_collection.py": "f8bfafd373ef94254e6554dddcc294bbbdfcfa7410b9eba332b7417dfb52edad",
+    "python/orbit_data/focal_recovery.py": "ea7e43a14d263c6a9ca0303044283199652d08ea9b9fd2ea566817be2057965d",
+    "python/orbit_data/review_import.py": "026fc897293c19f27cf8d0b079dba4a89b3c7f885122c09729a8fe79186d8b89",
+    "python/orbit_data/expansion_collect.py": "8a3bd187453d6c3be735e35f81cd903fba50c1d6d9de0c0494f96a4595934796",
+    "python/orbit_data/verify_focal.py": "b69d0ff656d2ae367abf75811f471b639e97d306e177e074efb35c6883ef3691",
+    "python/orbit_data/focal_report.py": "a4e006b1c090b2910579fa168a7cbd7e190df068328ff5785df7fcacd3ea6c01",
+    "python/orbit_data/targeted_collect.py": "281478c312930ecfba0d4823c812e5fb1c16d7b9fd7e917794f69cd2df1318d3",
+    "python/orbit_data/reviewed.py": "eb80cb705bfd916441b3520561fec48347af5c9043c34d9c9f1fed6cc3fc3d7c",
+    "python/orbit_data/segmentation.py": "fa16a1f98e90c87eb624a783d15f8c8ef0b0cb33f06b9761938a119721fd19f3",
+    "python/orbit_data/baseline_experiment.py": "7e9dd4d8b6aa1122de3f694e1e5b1a6e006d0fe37f96b294f4fae174d7f6cb6f",
+    "python/orbit_data/sprint_review.py": "f21d87be9fe3538d537a75ddc24eb3b7d1d5bc49b63c2c56c5a1e1e52a750a98",
+    "python/orbit_data/acquisition_sprint.py": "baf384403ef036aff56b21feefbb66e76bb0cd3b493a73ef3aba3e6181a4dfde",
+    "python/orbit_data/policy_search.py": "603d166b03aed46bf6ad382af20c91d90fe0358a92f85636345e4fc48dd839cc",
+    "python/orbit_data/sprint_report.py": "d10131eb9cc71eae6242577b5bb220d8649825d1a0027577d0c0e7e90ecaf012",
+    "python/orbit_data/authorized_dataset.py": "71923b141d5134cd48cabbfad7a634773e23fd59bd1e7d200ba8eebe80bd9dc4",
+    "python/orbit_data/backend.py": "4376a0295b4116d486d063418cd4db416faac53608424b9427b3f1dfdfbf200b",
+    "python/orbit_data/review4.py": "b8464480c775137fee8e76fa788face3e39fd24e4ffb8326d7ce4924dfa79cc0",
+    "python/orbit_data/focal_review.py": "6d5b3f5d9e063dd6a1efa5a516588ba2a6fbf2c93c983a52259fde3c3ac51de4",
+    "python/orbit_data/review3.py": "1493212383d7771a45685bf9b22dfe4dc86bf11ecdfd16427a03f72de094bb1f",
+    "python/orbit_data/sprint_india.py": "e444ed0c7f684053d897fcdf4e83261a50bfdf2b87f353bbe5952d8846cf20a0",
+    "python/orbit_data/component_review.py": "1f17035609a43cbf6385afb7db3008ce0112b14bf242d08ebe8a83ddb39189f2",
+    "python/orbit_data/focal_retrieval.py": "7a71046f19b9a0bf1b6cf81d70d28016160dd33e31c986a3ee0aed90cf6e6243",
+    "python/orbit_data/ui/development_review.js": "d536875043c370dbddcca60a6959984780aefecf255753f1f6aeb560c02fb734"
+  },
+  "query_definitions": {
+    "https://www.mfa.gov.tr/press-information.en.mfa": {
+      "actor_id": "TUR",
+      "url": "https://www.mfa.gov.tr/press-information.en.mfa",
+      "kind": "mfa_categories"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "Ukraine"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=2&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=2&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "Ukraine"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=3&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Ukraine&SortBy=desc&page=3&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "Ukraine"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Crimea&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=Crimea&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "Crimea"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=sanctions&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=sanctions&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "sanctions"
+    },
+    "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=military+assistance&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/FetchPublicationListingData?publicationId=0&KeywordName=military+assistance&SortBy=desc&page=1&PageSize=100&DateRange=&IsInternalMEA=false&PLngId=1",
+      "kind": "mea_listing",
+      "term": "military assistance"
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#fe7eea0047c6a75ba26aa656e446a759b72e0aca2f57db83d1e12ead45ee8ec9": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#fe7eea0047c6a75ba26aa656e446a759b72e0aca2f57db83d1e12ead45ee8ec9",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 1,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#5a177322055430375d2b8fa69ce08f38cf083a51c9b836a411f31b254c15e601": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#5a177322055430375d2b8fa69ce08f38cf083a51c9b836a411f31b254c15e601",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 2,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#f06118bf762592d717b7910f35487baf1de95273d70026ae636c008d493fc922": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#f06118bf762592d717b7910f35487baf1de95273d70026ae636c008d493fc922",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 3,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#af3291344cab33d974fb00f748ec845c3390400af34a5e2e7c8aa6d547c20fc4": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#af3291344cab33d974fb00f748ec845c3390400af34a5e2e7c8aa6d547c20fc4",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 4,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#ceee98d6f965090fa7c1293e9fafb9e174457119a1d454b4eb0b098c8ad07986": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#ceee98d6f965090fa7c1293e9fafb9e174457119a1d454b4eb0b098c8ad07986",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 5,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#138af5be784def77164d0234152520537061ec9ac70223f7811524e3ed042bb8": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#138af5be784def77164d0234152520537061ec9ac70223f7811524e3ed042bb8",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 6,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#88c664b426a8645520f272f23bcdd8b50e671e3145cbe6a81744eb8481825c25": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#88c664b426a8645520f272f23bcdd8b50e671e3145cbe6a81744eb8481825c25",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 7,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#acf19edca3302b3cdce04e51d4e10a85a213bd020a2aee8081fc2ce1a59751ac": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#acf19edca3302b3cdce04e51d4e10a85a213bd020a2aee8081fc2ce1a59751ac",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 8,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#64e705fa5b703a0e0dfc875bb39621b3fa3d9168b103a5b1ada58b94d295174e": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#64e705fa5b703a0e0dfc875bb39621b3fa3d9168b103a5b1ada58b94d295174e",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 9,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#5a48cbaf2266c81294aa21dd82cf4ceef65bb24ec85766864973d80022e63fcc": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#5a48cbaf2266c81294aa21dd82cf4ceef65bb24ec85766864973d80022e63fcc",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Crimea",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 1,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#9dcee45941df478e2c7f6f66d51b131e67c8c0c0a530c3e1520c9dcc5c6548e5": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#9dcee45941df478e2c7f6f66d51b131e67c8c0c0a530c3e1520c9dcc5c6548e5",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Crimea",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 2,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#86328f1860baf900bc0c0a8e735844b03ce4e1e5d92caf63c1f3cec74d8b8b87": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#86328f1860baf900bc0c0a8e735844b03ce4e1e5d92caf63c1f3cec74d8b8b87",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine sanctions",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 1,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#da07d5e9ce87cbde988076e0f7a1b94a94872c0b5c91863e265704a643ea819d": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#da07d5e9ce87cbde988076e0f7a1b94a94872c0b5c91863e265704a643ea819d",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine sanctions",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 2,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#b2bab1b1a7fdf2153a5a818cd900599e7450e13d48f54b324333e495863dc6a1": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#b2bab1b1a7fdf2153a5a818cd900599e7450e13d48f54b324333e495863dc6a1",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine weapons",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 1,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#56272d777e7df10399594cb2407df23598f9109b4427dfdb61dc6975d7c6cc55": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#56272d777e7df10399594cb2407df23598f9109b4427dfdb61dc6975d7c6cc55",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine weapons",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 2,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#1286e798aee341cde871a4976312fd0b000b2d85ee57fce5cf613b44988ab642": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#1286e798aee341cde871a4976312fd0b000b2d85ee57fce5cf613b44988ab642",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine withdrawal",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 1,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#8dcc1f96b693385f8d64cdd98b21789662eebc4f190f4a1223278b7587026844": {
+      "actor_id": "IND",
+      "url": "https://www.mea.gov.in/FrontEnd/AdvanceSearchDetails#8dcc1f96b693385f8d64cdd98b21789662eebc4f190f4a1223278b7587026844",
+      "kind": "mea_fulltext",
+      "model": {
+        "searchType": 1,
+        "searchText": "Ukraine withdrawal",
+        "sections": [],
+        "tags": [],
+        "fromDate": "2014-01-01",
+        "toDate": "2026-10-24",
+        "isExactSearch": false,
+        "isPdfSearch": false,
+        "page": 2,
+        "pageSize": 100,
+        "sortBy": "Relevance",
+        "searchBy": "title+content",
+        "resultFields": []
+      }
+    },
+    "https://www.gov.za/search?search_query=Ukraine&page=0": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Ukraine&page=0",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Ukraine&page=1": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Ukraine&page=1",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Ukraine&page=2": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Ukraine&page=2",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Crimea&page=0": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Crimea&page=0",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Crimea&page=1": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Crimea&page=1",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Crimea&page=2": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Crimea&page=2",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Russia+sanctions&page=0": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Russia+sanctions&page=0",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Russia+sanctions&page=1": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Russia+sanctions&page=1",
+      "kind": "govza_search"
+    },
+    "https://www.gov.za/search?search_query=Russia+sanctions&page=2": {
+      "actor_id": "ZAF",
+      "url": "https://www.gov.za/search?search_query=Russia+sanctions&page=2",
+      "kind": "govza_search"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Russia&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=Ukraine&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=1&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=2&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    },
+    "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent": {
+      "actor_id": "ZAF",
+      "url": "https://dirco.gov.za/wp-json/wp/v2/posts?search=sanctions&per_page=10&page=3&_fields=id%2Cdate_gmt%2Clink%2Ctitle%2Ccontent",
+      "kind": "wp"
+    }
+  },
+  "source_restrictions": {
+    "www.iletisim.gov.tr": {
+      "policy_url": "https://www.iletisim.gov.tr/robots.txt",
+      "directives": [
+        "ai-input=no",
+        "ai-train=no"
+      ],
+      "disposition": "Do not acquire policy pages, generate suggestions or use for training; require permitted issuer copy or rights clarification"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "private_repo_confirmed": true,
+  "review": {
+    "name": "orbit-acquisition-development-review-2026-10-24.zip",
+    "bytes": 2409389,
+    "sha256": "d7921266a00dba49782d4dd210d6c8945b3d399ab21d83f74e50c1013087aa54"
+  },
+  "checkpoint": {
+    "name": "orbit-acquisition-source-checkpoint-2026-10-24.zip",
+    "bytes": 87360414,
+    "sha256": "597d7df79035ed57e134f8b70f0787734af16f30e6b82cac9b8741d46466a723"
+  },
+  "counts": {
+    "documents_retrieved": 858,
+    "new_source_documents": 855,
+    "new_distinct_texts": 855,
+    "attempted_source_urls": 1398,
+    "queries": 40,
+    "pending": 0,
+    "batches": 54,
+    "clean_pairs": 561,
+    "clean_passages": 521,
+    "clean_events": 255,
+    "clean_independent_groups": 238,
+    "clean_documents": 255,
+    "held_pairs": 691,
+    "new_evaluation_pairs": 694,
+    "rejected_pairs": 51,
+    "duplicate_diagnostics": 15,
+    "clean_by_actor": {
+      "USA": {
+        "pairs": 141,
+        "events": 55,
+        "groups": 47,
+        "lenses": {
+          "invasion_responsibility": 50,
+          "military_assistance": 3,
+          "sanctions": 88
+        }
+      },
+      "EU": {
+        "pairs": 47,
+        "events": 14,
+        "groups": 14,
+        "lenses": {
+          "invasion_responsibility": 29,
+          "military_assistance": 9,
+          "sanctions": 6,
+          "territorial_recognition": 1,
+          "troop_withdrawal": 2
+        }
+      },
+      "TUR": {
+        "pairs": 0,
+        "events": 0,
+        "groups": 0,
+        "lenses": {}
+      },
+      "IND": {
+        "pairs": 0,
+        "events": 0,
+        "groups": 0,
+        "lenses": {}
+      },
+      "ZAF": {
+        "pairs": 1,
+        "events": 1,
+        "groups": 1,
+        "lenses": {
+          "sanctions": 1
+        }
+      },
+      "GBR": {
+        "pairs": 372,
+        "events": 185,
+        "groups": 176,
+        "lenses": {
+          "invasion_responsibility": 258,
+          "military_assistance": 53,
+          "sanctions": 47,
+          "territorial_recognition": 3,
+          "troop_withdrawal": 11
+        }
+      }
+    },
+    "clean_by_year": {
+      "2014": 17,
+      "2015": 19,
+      "2016": 7,
+      "2017": 6,
+      "2018": 17,
+      "2019": 14,
+      "2020": 3,
+      "2021": 7,
+      "2022": 192,
+      "2023": 111,
+      "2024": 81,
+      "2025": 53,
+      "2026": 34
+    },
+    "suggested_classes": {
+      "support": 457,
+      "unresolved": 104
+    },
+    "approved_new_labels": 0,
+    "existing_eligible_examples": 38,
+    "existing_eligible_events": 8,
+    "hold_reasons": {
+      "incomplete_sentence_boundary": 77,
+      "Ukraine_sanctions_basis_not_local": 42,
+      "W1_legal_territorial_extent_review": 34,
+      "sanctions_target_or_conflict_basis_review": 5,
+      "PDF_cover_or_sentence_review": 10,
+      "previously_collected_source_not_new": 32,
+      "joint_signatory_attribution_review": 138,
+      "partial_territorial_scope": 376,
+      "quoted_speaker_review": 105,
+      "inline_word_boundary_extraction": 2,
+      "legal_implementation_only": 31,
+      "W1_scope_not_established": 17,
+      "speaker_role_review": 6,
+      "reported_foreign_position_attribution_review": 2,
+      "EU_common_position_review": 1,
+      "translation_review": 1
+    },
+    "selection": "targeted_training_acquisition_not_position_estimation",
+    "suggestion_method": "sprint-admission-suggestions-1.0.0"
+  },
+  "delivery_commit": "d6f597b3c358fee01bdf265d9a797366f2c84e9b",
+  "branch": "codex-review-downloads-20261023",
+  "remote_verified": true,
+  "verification_method": "Authenticated GitHub blob API download; SHA-256 equals both local ZIP files; development ZIP CRC verified",
+  "public_scores_unchanged": true
+}

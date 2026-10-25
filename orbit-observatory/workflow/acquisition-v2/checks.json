@@ -1,0 +1,30 @@
+{
+  "python_tests": 129,
+  "browser_modes": [
+    "strict",
+    "experimental_components"
+  ],
+  "passed": [
+    "filters",
+    "autosave_reload_and_restart",
+    "CSV_and_JSON_roundtrip",
+    "immutable_fields",
+    "conflicts",
+    "storage_denial_fallback",
+    "idempotent_component_return"
+  ],
+  "file_protocol_check": "Blocked by managed-browser administrator policy; not bypassed; loopback HTTP fallback tested",
+  "synthetic_responses": "Only /tmp; never canonical research annotations",
+  "protected_files_unchanged": 94,
+  "source_reconstruction": {
+    "reconstructed_mea": 365,
+    "reconstructed_mfa": 65,
+    "reserved_receipt_hash_only": 77,
+    "reconstructed_wp": 23,
+    "reconstructed_commission": 31,
+    "reconstructed_govza": 17,
+    "reconstructed_council": 1
+  },
+  "idempotent_artifacts": 13,
+  "models_rerun": false
+}
