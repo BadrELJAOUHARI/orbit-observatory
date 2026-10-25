@@ -1,16 +1,26 @@
 {
-  "status": "packaged_pending_remote_verification",
+  "status": "remote_download_bytes_verified",
   "repository": "BadrELJAOUHARI/orbit-observatory",
   "private": true,
   "branch": "codex-review-downloads-20261023",
   "files": {
     "orbit-focal-supplement-2026-10-25.zip": {
       "bytes": 2399057,
-      "sha256": "683467c893ca70df6c07c966c24024aa298129a36a7aa5f373ebf0f133d2a527"
+      "sha256": "683467c893ca70df6c07c966c24024aa298129a36a7aa5f373ebf0f133d2a527",
+      "remote_git_blob_sha": "a008b7d056bf4cef57fd033829d38e7fa65d1f62",
+      "downloaded_bytes_verified": true,
+      "zip_integrity_passed": true,
+      "download_commit": "b27cdcd3a8652f7767a3c8adaf8ff36fdebd1ac9"
     },
     "orbit-focal-source-delta-2026-10-25.zip": {
       "bytes": 19621792,
-      "sha256": "4466c645bb4a764f0d433620ada9db12c1e646eb5351a5f69343e4c4ad36844b"
+      "sha256": "4466c645bb4a764f0d433620ada9db12c1e646eb5351a5f69343e4c4ad36844b",
+      "remote_git_blob_sha": "028f6115167de9f5a52434ff8747e3d5b82092b8",
+      "downloaded_bytes_verified": true,
+      "zip_integrity_passed": true,
+      "download_commit": "b27cdcd3a8652f7767a3c8adaf8ff36fdebd1ac9"
     }
-  }
+  },
+  "artifact_commit": "b27cdcd3a8652f7767a3c8adaf8ff36fdebd1ac9",
+  "method": "Authenticated GitHub contents metadata then git/blobs base64 download, SHA256/length/ZIP integrity comparison; no credentials persisted"
 }
